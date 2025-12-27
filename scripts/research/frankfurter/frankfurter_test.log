@@ -1,0 +1,76 @@
+2025-12-27 21:05:13,234 - INFO - ============================================================
+2025-12-27 21:05:16,761 - ERROR - Ошибка запроса https://api.frankfurter.app/2024-01-02?from=EUR&to=AED: 404 Client Error: Not Found for url: https://api.frankfurter.app/2024-01-02?from=EUR&to=AED
+2025-12-27 21:05:20,255 - ERROR - Ошибка запроса https://api.frankfurter.app/2024-01-02?from=EUR&to=ARS: 404 Client Error: Not Found for url: https://api.frankfurter.app/2024-01-02?from=EUR&to=ARS
+2025-12-27 21:07:32,802 - INFO - ============================================================
+2025-12-27 21:07:36,146 - ERROR - Ошибка запроса https://api.frankfurter.app/2024-01-02?from=EUR&to=AED: 404 Client Error: Not Found for url: https://api.frankfurter.app/2024-01-02?from=EUR&to=AED
+2025-12-27 21:07:39,544 - ERROR - Ошибка запроса https://api.frankfurter.app/2024-01-02?from=EUR&to=ARS: 404 Client Error: Not Found for url: https://api.frankfurter.app/2024-01-02?from=EUR&to=ARS
+2025-12-27 21:07:55,855 - ERROR - Ошибка запроса https://api.frankfurter.app/2024-01-02?from=EUR&to=CLP: 404 Client Error: Not Found for url: https://api.frankfurter.app/2024-01-02?from=EUR&to=CLP
+2025-12-27 21:08:09,881 - ERROR - Ошибка запроса https://api.frankfurter.app/2024-01-02?from=EUR&to=COP: 404 Client Error: Not Found for url: https://api.frankfurter.app/2024-01-02?from=EUR&to=COP
+2025-12-27 21:08:14,268 - ERROR - Ошибка запроса https://api.frankfurter.app/2024-01-02?from=EUR&to=EGP: 404 Client Error: Not Found for url: https://api.frankfurter.app/2024-01-02?from=EUR&to=EGP
+2025-12-27 21:08:44,204 - ERROR - Ошибка запроса https://api.frankfurter.app/2024-01-02?from=EUR&to=KWD: 404 Client Error: Not Found for url: https://api.frankfurter.app/2024-01-02?from=EUR&to=KWD
+2025-12-27 21:08:57,614 - ERROR - Ошибка запроса https://api.frankfurter.app/2024-01-02?from=EUR&to=KZT: HTTPSConnectionPool(host='api.frankfurter.app', port=443): Read timed out. (read timeout=10)
+2025-12-27 21:09:12,977 - ERROR - Ошибка запроса https://api.frankfurter.app/2024-01-02?from=EUR&to=PEN: HTTPSConnectionPool(host='api.frankfurter.app', port=443): Read timed out.
+2025-12-27 21:09:17,024 - ERROR - Ошибка запроса https://api.frankfurter.app/2024-01-02?from=EUR&to=PKR: 404 Client Error: Not Found for url: https://api.frankfurter.app/2024-01-02?from=EUR&to=PKR
+2025-12-27 21:09:30,873 - ERROR - Ошибка запроса https://api.frankfurter.app/2024-01-02?from=EUR&to=QAR: HTTPSConnectionPool(host='api.frankfurter.app', port=443): Read timed out. (read timeout=10)
+2025-12-27 21:09:34,995 - ERROR - Ошибка запроса https://api.frankfurter.app/2024-01-02?from=EUR&to=RUB: 404 Client Error: Not Found for url: https://api.frankfurter.app/2024-01-02?from=EUR&to=RUB
+2025-12-27 21:09:38,457 - ERROR - Ошибка запроса https://api.frankfurter.app/2024-01-02?from=EUR&to=SAR: 404 Client Error: Not Found for url: https://api.frankfurter.app/2024-01-02?from=EUR&to=SAR
+2025-12-27 21:09:54,902 - ERROR - Ошибка запроса https://api.frankfurter.app/2024-01-02?from=EUR&to=TWD: 404 Client Error: Not Found for url: https://api.frankfurter.app/2024-01-02?from=EUR&to=TWD
+2025-12-27 21:10:08,479 - ERROR - Ошибка запроса https://api.frankfurter.app/2024-01-02?from=EUR&to=UAH: 404 Client Error: Not Found for url: https://api.frankfurter.app/2024-01-02?from=EUR&to=UAH
+2025-12-27 21:10:12,652 - ERROR - Ошибка запроса https://api.frankfurter.app/2024-01-02?from=EUR&to=VND: 404 Client Error: Not Found for url: https://api.frankfurter.app/2024-01-02?from=EUR&to=VND
+2025-12-27 21:10:28,699 - ERROR - Ошибка запроса https://api.frankfurter.app/1999-01-01?from=EUR&to=USD: 404 Client Error: Not Found for url: https://api.frankfurter.app/1999-01-01?from=EUR&to=USD
+2025-12-27 21:10:53,067 - ERROR - Traceback (most recent call last):
+  File "C:\Users\prog\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\prog\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\prog\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Users\prog\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\prog\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\prog\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\prog\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1274, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\prog\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1130, in read
+    return self._sslobj.read(len, buffer)
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\prog\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "C:\Users\prog\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "C:\Users\prog\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\prog\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\packages\six.py", line 770, in reraise
+    raise value
+  File "C:\Users\prog\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\prog\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 468, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\prog\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py", line 357, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.frankfurter.app', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\prog\YandexDisk\prog\abscur3\scripts\research\frankfurter\test_coverage.py", line 450, in run_all_tests
+    self.test_api_performance()
+  File "C:\Users\prog\YandexDisk\prog\abscur3\scripts\research\frankfurter\test_coverage.py", line 289, in test_api_performance
+    response = self.session.get(url, timeout=10)
+  File "C:\Users\prog\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\prog\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\prog\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\prog\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.frankfurter.app', port=443): Read timed out. (read timeout=10)
+
