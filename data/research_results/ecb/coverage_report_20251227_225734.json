@@ -1,0 +1,310 @@
+{
+  "test_date": "2025-12-27T22:57:34.957176",
+  "project_currencies_count": 44,
+  "tested_currencies_count": 44,
+  "results": {
+    "AED": {
+      "available": false,
+      "message": "Валюта не найдена в данных ECB",
+      "name": "Дирхам ОАЭ"
+    },
+    "ARS": {
+      "available": false,
+      "message": "Валюта не найдена в данных ECB",
+      "name": "Аргентинское песо"
+    },
+    "AUD": {
+      "available": true,
+      "message": "Данные доступны (курс: 1.7587)",
+      "name": "Австралийский доллар"
+    },
+    "BRL": {
+      "available": true,
+      "message": "Данные доступны (курс: 6.5076)",
+      "name": "Бразильский реал"
+    },
+    "CAD": {
+      "available": true,
+      "message": "Данные доступны (курс: 1.6128)",
+      "name": "Канадский доллар"
+    },
+    "CHF": {
+      "available": true,
+      "message": "Данные доступны (курс: 0.9284)",
+      "name": "Швейцарский франк"
+    },
+    "CLP": {
+      "available": false,
+      "message": "Валюта не найдена в данных ECB",
+      "name": "Чилийское песо"
+    },
+    "CNY": {
+      "available": true,
+      "message": "Данные доступны (курс: 8.2679)",
+      "name": "Китайский юань"
+    },
+    "COP": {
+      "available": false,
+      "message": "Валюта не найдена в данных ECB",
+      "name": "Колумбийское песо"
+    },
+    "CZK": {
+      "available": true,
+      "message": "Данные доступны (курс: 24.271)",
+      "name": "Чешская крона"
+    },
+    "DKK": {
+      "available": true,
+      "message": "Данные доступны (курс: 7.4694)",
+      "name": "Датекая крона"
+    },
+    "EGP": {
+      "available": false,
+      "message": "Валюта не найдена в данных ECB",
+      "name": "Египетский фунт"
+    },
+    "GBP": {
+      "available": true,
+      "message": "Данные доступны (курс: 0.87290)",
+      "name": "Фунт стерлингов"
+    },
+    "HKD": {
+      "available": true,
+      "message": "Данные доступны (курс: 9.1655)",
+      "name": "Гонконгский доллар"
+    },
+    "HUF": {
+      "available": true,
+      "message": "Данные доступны (курс: 389.53)",
+      "name": "Венгерский форинт"
+    },
+    "IDR": {
+      "available": true,
+      "message": "Данные доступны (курс: 19740.28)",
+      "name": "Индонезийская рупия"
+    },
+    "ILS": {
+      "available": true,
+      "message": "Данные доступны (курс: 3.7514)",
+      "name": "Новый израильский шекель"
+    },
+    "INR": {
+      "available": true,
+      "message": "Данные доступны (курс: 105.7755)",
+      "name": "Индийская рупия"
+    },
+    "ISK": {
+      "available": true,
+      "message": "Данные доступны (курс: 148.00)",
+      "name": "Исландская крона"
+    },
+    "JPY": {
+      "available": true,
+      "message": "Данные доступны (курс: 183.83)",
+      "name": "Японская иена"
+    },
+    "KRW": {
+      "available": true,
+      "message": "Данные доступны (курс: 1707.04)",
+      "name": "Южнокорейская вона"
+    },
+    "KWD": {
+      "available": false,
+      "message": "Валюта не найдена в данных ECB",
+      "name": "Кувейтский динар"
+    },
+    "KZT": {
+      "available": false,
+      "message": "Валюта не найдена в данных ECB",
+      "name": "Казахстанский тенге"
+    },
+    "MXN": {
+      "available": true,
+      "message": "Данные доступны (курс: 21.1015)",
+      "name": "Мексиканское песо"
+    },
+    "MYR": {
+      "available": true,
+      "message": "Данные доступны (курс: 4.7678)",
+      "name": "Малайзийский ринггит"
+    },
+    "NOK": {
+      "available": true,
+      "message": "Данные доступны (курс: 11.8040)",
+      "name": "Норвежская крона"
+    },
+    "NZD": {
+      "available": true,
+      "message": "Данные доступны (курс: 2.0197)",
+      "name": "Новозеландский доллар"
+    },
+    "PEN": {
+      "available": false,
+      "message": "Валюта не найдена в данных ECB",
+      "name": "Перуанский новый соль"
+    },
+    "PHP": {
+      "available": true,
+      "message": "Данные доступны (курс: 69.269)",
+      "name": "Филиппинское песо"
+    },
+    "PKR": {
+      "available": false,
+      "message": "Валюта не найдена в данных ECB",
+      "name": "Пакистанская рупия"
+    },
+    "PLN": {
+      "available": true,
+      "message": "Данные доступны (курс: 4.2135)",
+      "name": "Польский злотый"
+    },
+    "QAR": {
+      "available": false,
+      "message": "Валюта не найдена в данных ECB",
+      "name": "Катарский риал"
+    },
+    "RON": {
+      "available": true,
+      "message": "Данные доступны (курс: 5.0899)",
+      "name": "Румынский лей"
+    },
+    "RUB": {
+      "available": false,
+      "message": "Валюта не найдена в данных ECB",
+      "name": "Российский рубль"
+    },
+    "SAR": {
+      "available": false,
+      "message": "Валюта не найдена в данных ECB",
+      "name": "Саудовский риял"
+    },
+    "SEK": {
+      "available": true,
+      "message": "Данные доступны (курс: 10.8055)",
+      "name": "Шведская крона"
+    },
+    "SGD": {
+      "available": true,
+      "message": "Данные доступны (курс: 1.5135)",
+      "name": "Сингапурский доллар"
+    },
+    "THB": {
+      "available": true,
+      "message": "Данные доступны (курс: 36.593)",
+      "name": "Таиландский бат"
+    },
+    "TRY": {
+      "available": true,
+      "message": "Данные доступны (курс: 50.5072)",
+      "name": "Турецкая лира"
+    },
+    "TWD": {
+      "available": false,
+      "message": "Валюта не найдена в данных ECB",
+      "name": "Новый тайваньский доллар"
+    },
+    "UAH": {
+      "available": false,
+      "message": "Валюта не найдена в данных ECB",
+      "name": "Украинская гривна"
+    },
+    "USD": {
+      "available": true,
+      "message": "Данные доступны (курс: 1.1787)",
+      "name": "Доллар США"
+    },
+    "VND": {
+      "available": false,
+      "message": "Валюта не найдена в данных ECB",
+      "name": "Вьетнамский донг"
+    },
+    "ZAR": {
+      "available": true,
+      "message": "Данные доступны (курс: 19.6091)",
+      "name": "Южноафриканский рэнд"
+    }
+  },
+  "analysis": {
+    "total_tested": 44,
+    "available_count": 29,
+    "unavailable_count": 15,
+    "coverage_percentage": 65.9,
+    "available_currencies": [
+      "AUD",
+      "BRL",
+      "CAD",
+      "CHF",
+      "CNY",
+      "CZK",
+      "DKK",
+      "GBP",
+      "HKD",
+      "HUF",
+      "IDR",
+      "ILS",
+      "INR",
+      "ISK",
+      "JPY",
+      "KRW",
+      "MXN",
+      "MYR",
+      "NOK",
+      "NZD",
+      "PHP",
+      "PLN",
+      "RON",
+      "SEK",
+      "SGD",
+      "THB",
+      "TRY",
+      "USD",
+      "ZAR"
+    ],
+    "unavailable_currencies": [
+      "AED",
+      "ARS",
+      "CLP",
+      "COP",
+      "EGP",
+      "KWD",
+      "KZT",
+      "PEN",
+      "PKR",
+      "QAR",
+      "RUB",
+      "SAR",
+      "TWD",
+      "UAH",
+      "VND"
+    ],
+    "special_currencies": {
+      "tested": [
+        "RUB",
+        "AED",
+        "KWD",
+        "SAR",
+        "QAR",
+        "UAH",
+        "KZT",
+        "ARS",
+        "CLP",
+        "COP",
+        "PEN"
+      ],
+      "available": [],
+      "unavailable": [
+        "RUB",
+        "AED",
+        "KWD",
+        "SAR",
+        "QAR",
+        "UAH",
+        "KZT",
+        "ARS",
+        "CLP",
+        "COP",
+        "PEN"
+      ]
+    }
+  }
+}

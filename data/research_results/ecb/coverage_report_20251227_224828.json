@@ -1,0 +1,309 @@
+{
+  "test_date": "2025-12-27T22:48:28.483491",
+  "project_currencies_count": 44,
+  "tested_currencies_count": 44,
+  "results": {
+    "AED": {
+      "available": false,
+      "message": "Ресурс не найден (404)",
+      "name": "Дирхам ОАЭ"
+    },
+    "ARS": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Аргентинское песо"
+    },
+    "AUD": {
+      "available": false,
+      "message": "Таймаут запроса",
+      "name": "Австралийский доллар"
+    },
+    "BRL": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Бразильский реал"
+    },
+    "CAD": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Канадский доллар"
+    },
+    "CHF": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Швейцарский франк"
+    },
+    "CLP": {
+      "available": false,
+      "message": "Ресурс не найден (404)",
+      "name": "Чилийское песо"
+    },
+    "CNY": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Китайский юань"
+    },
+    "COP": {
+      "available": false,
+      "message": "Ресурс не найден (404)",
+      "name": "Колумбийское песо"
+    },
+    "CZK": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Чешская крона"
+    },
+    "DKK": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Датекая крона"
+    },
+    "EGP": {
+      "available": false,
+      "message": "Ресурс не найден (404)",
+      "name": "Египетский фунт"
+    },
+    "GBP": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Фунт стерлингов"
+    },
+    "HKD": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Гонконгский доллар"
+    },
+    "HUF": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Венгерский форинт"
+    },
+    "IDR": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Индонезийская рупия"
+    },
+    "ILS": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Новый израильский шекель"
+    },
+    "INR": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Индийская рупия"
+    },
+    "ISK": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Исландская крона"
+    },
+    "JPY": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Японская иена"
+    },
+    "KRW": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Южнокорейская вона"
+    },
+    "KWD": {
+      "available": false,
+      "message": "Ресурс не найден (404)",
+      "name": "Кувейтский динар"
+    },
+    "KZT": {
+      "available": false,
+      "message": "Ресурс не найден (404)",
+      "name": "Казахстанский тенге"
+    },
+    "MXN": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Мексиканское песо"
+    },
+    "MYR": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Малайзийский ринггит"
+    },
+    "NOK": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Норвежская крона"
+    },
+    "NZD": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Новозеландский доллар"
+    },
+    "PEN": {
+      "available": false,
+      "message": "Ресурс не найден (404)",
+      "name": "Перуанский новый соль"
+    },
+    "PHP": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Филиппинское песо"
+    },
+    "PKR": {
+      "available": false,
+      "message": "Ресурс не найден (404)",
+      "name": "Пакистанская рупия"
+    },
+    "PLN": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Польский злотый"
+    },
+    "QAR": {
+      "available": false,
+      "message": "Ресурс не найден (404)",
+      "name": "Катарский риал"
+    },
+    "RON": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Румынский лей"
+    },
+    "RUB": {
+      "available": false,
+      "message": "Курс EUR/RUB приостановлен ECB с 01.03.2022",
+      "name": "Российский рубль"
+    },
+    "SAR": {
+      "available": false,
+      "message": "Ресурс не найден (404)",
+      "name": "Саудовский риял"
+    },
+    "SEK": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Шведская крона"
+    },
+    "SGD": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Сингапурский доллар"
+    },
+    "THB": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Таиландский бат"
+    },
+    "TRY": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Турецкая лира"
+    },
+    "TWD": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Новый тайваньский доллар"
+    },
+    "UAH": {
+      "available": false,
+      "message": "Ресурс не найден (404)",
+      "name": "Украинская гривна"
+    },
+    "USD": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Доллар США"
+    },
+    "VND": {
+      "available": false,
+      "message": "Ресурс не найден (404)",
+      "name": "Вьетнамский донг"
+    },
+    "ZAR": {
+      "available": false,
+      "message": "Данные не найдены",
+      "name": "Южноафриканский рэнд"
+    }
+  },
+  "analysis": {
+    "total_tested": 44,
+    "available_count": 0,
+    "unavailable_count": 44,
+    "coverage_percentage": 0.0,
+    "available_currencies": [],
+    "unavailable_currencies": [
+      "AED",
+      "ARS",
+      "AUD",
+      "BRL",
+      "CAD",
+      "CHF",
+      "CLP",
+      "CNY",
+      "COP",
+      "CZK",
+      "DKK",
+      "EGP",
+      "GBP",
+      "HKD",
+      "HUF",
+      "IDR",
+      "ILS",
+      "INR",
+      "ISK",
+      "JPY",
+      "KRW",
+      "KWD",
+      "KZT",
+      "MXN",
+      "MYR",
+      "NOK",
+      "NZD",
+      "PEN",
+      "PHP",
+      "PKR",
+      "PLN",
+      "QAR",
+      "RON",
+      "RUB",
+      "SAR",
+      "SEK",
+      "SGD",
+      "THB",
+      "TRY",
+      "TWD",
+      "UAH",
+      "USD",
+      "VND",
+      "ZAR"
+    ],
+    "special_currencies": {
+      "tested": [
+        "RUB",
+        "AED",
+        "KWD",
+        "SAR",
+        "QAR",
+        "UAH",
+        "KZT",
+        "ARS",
+        "CLP",
+        "COP",
+        "PEN"
+      ],
+      "available": [],
+      "unavailable": [
+        "RUB",
+        "AED",
+        "KWD",
+        "SAR",
+        "QAR",
+        "UAH",
+        "KZT",
+        "ARS",
+        "CLP",
+        "COP",
+        "PEN"
+      ]
+    }
+  }
+}

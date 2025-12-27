@@ -1,0 +1,212 @@
+{
+  "test_date": "2025-12-27T23:17:45.528556",
+  "source_xml": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.xml",
+  "currencies_tested": [
+    "AUD",
+    "BRL",
+    "CAD",
+    "CHF",
+    "CNY",
+    "CZK",
+    "DKK",
+    "GBP",
+    "HKD",
+    "HUF",
+    "IDR",
+    "ILS",
+    "INR",
+    "ISK",
+    "JPY",
+    "KRW",
+    "MXN",
+    "MYR",
+    "NOK",
+    "NZD",
+    "PHP",
+    "PLN",
+    "RON",
+    "SEK",
+    "SGD",
+    "THB",
+    "TRY",
+    "USD",
+    "ZAR"
+  ],
+  "history_depth": {
+    "AUD": {
+      "earliest_date": "1999-01-04",
+      "latest_date": "2025-12-24",
+      "total_days": 6910,
+      "approx_years": 27.0
+    },
+    "BRL": {
+      "earliest_date": "2008-01-02",
+      "latest_date": "2025-12-24",
+      "total_days": 4606,
+      "approx_years": 18.0
+    },
+    "CAD": {
+      "earliest_date": "1999-01-04",
+      "latest_date": "2025-12-24",
+      "total_days": 6910,
+      "approx_years": 27.0
+    },
+    "CHF": {
+      "earliest_date": "1999-01-04",
+      "latest_date": "2025-12-24",
+      "total_days": 6910,
+      "approx_years": 27.0
+    },
+    "CNY": {
+      "earliest_date": "2005-04-01",
+      "latest_date": "2025-12-24",
+      "total_days": 5311,
+      "approx_years": 20.7
+    },
+    "CZK": {
+      "earliest_date": "1999-01-04",
+      "latest_date": "2025-12-24",
+      "total_days": 6910,
+      "approx_years": 27.0
+    },
+    "DKK": {
+      "earliest_date": "1999-01-04",
+      "latest_date": "2025-12-24",
+      "total_days": 6910,
+      "approx_years": 27.0
+    },
+    "GBP": {
+      "earliest_date": "1999-01-04",
+      "latest_date": "2025-12-24",
+      "total_days": 6910,
+      "approx_years": 27.0
+    },
+    "HKD": {
+      "earliest_date": "1999-01-04",
+      "latest_date": "2025-12-24",
+      "total_days": 6910,
+      "approx_years": 27.0
+    },
+    "HUF": {
+      "earliest_date": "1999-01-04",
+      "latest_date": "2025-12-24",
+      "total_days": 6910,
+      "approx_years": 27.0
+    },
+    "IDR": {
+      "earliest_date": "2005-04-01",
+      "latest_date": "2025-12-24",
+      "total_days": 5311,
+      "approx_years": 20.7
+    },
+    "ILS": {
+      "earliest_date": "2011-01-03",
+      "latest_date": "2025-12-24",
+      "total_days": 3836,
+      "approx_years": 15.0
+    },
+    "INR": {
+      "earliest_date": "2009-01-02",
+      "latest_date": "2025-12-24",
+      "total_days": 4350,
+      "approx_years": 17.0
+    },
+    "ISK": {
+      "earliest_date": "1999-01-04",
+      "latest_date": "2025-12-24",
+      "total_days": 4569,
+      "approx_years": 27.0
+    },
+    "JPY": {
+      "earliest_date": "1999-01-04",
+      "latest_date": "2025-12-24",
+      "total_days": 6910,
+      "approx_years": 27.0
+    },
+    "KRW": {
+      "earliest_date": "1999-01-04",
+      "latest_date": "2025-12-24",
+      "total_days": 6910,
+      "approx_years": 27.0
+    },
+    "MXN": {
+      "earliest_date": "2008-01-02",
+      "latest_date": "2025-12-24",
+      "total_days": 4606,
+      "approx_years": 18.0
+    },
+    "MYR": {
+      "earliest_date": "2005-04-01",
+      "latest_date": "2025-12-24",
+      "total_days": 5311,
+      "approx_years": 20.7
+    },
+    "NOK": {
+      "earliest_date": "1999-01-04",
+      "latest_date": "2025-12-24",
+      "total_days": 6910,
+      "approx_years": 27.0
+    },
+    "NZD": {
+      "earliest_date": "1999-01-04",
+      "latest_date": "2025-12-24",
+      "total_days": 6910,
+      "approx_years": 27.0
+    },
+    "PHP": {
+      "earliest_date": "2005-04-01",
+      "latest_date": "2025-12-24",
+      "total_days": 5311,
+      "approx_years": 20.7
+    },
+    "PLN": {
+      "earliest_date": "1999-01-04",
+      "latest_date": "2025-12-24",
+      "total_days": 6910,
+      "approx_years": 27.0
+    },
+    "RON": {
+      "earliest_date": "2005-07-01",
+      "latest_date": "2025-12-24",
+      "total_days": 5246,
+      "approx_years": 20.5
+    },
+    "SEK": {
+      "earliest_date": "1999-01-04",
+      "latest_date": "2025-12-24",
+      "total_days": 6910,
+      "approx_years": 27.0
+    },
+    "SGD": {
+      "earliest_date": "1999-01-04",
+      "latest_date": "2025-12-24",
+      "total_days": 6910,
+      "approx_years": 27.0
+    },
+    "THB": {
+      "earliest_date": "2005-04-01",
+      "latest_date": "2025-12-24",
+      "total_days": 5311,
+      "approx_years": 20.7
+    },
+    "TRY": {
+      "earliest_date": "2005-01-03",
+      "latest_date": "2025-12-24",
+      "total_days": 5373,
+      "approx_years": 21.0
+    },
+    "USD": {
+      "earliest_date": "1999-01-04",
+      "latest_date": "2025-12-24",
+      "total_days": 6910,
+      "approx_years": 27.0
+    },
+    "ZAR": {
+      "earliest_date": "1999-01-04",
+      "latest_date": "2025-12-24",
+      "total_days": 6910,
+      "approx_years": 27.0
+    }
+  },
+  "coverage_source_report": "coverage_report_20251227_225734.json"
+}
