@@ -1,0 +1,209 @@
+{
+  "timestamp": "2025-12-28T13:51:58.159343",
+  "api_used": "ExchangeRate-API",
+  "plan": "Free",
+  "available_base_currencies": [
+    "USD",
+    "EUR",
+    "GBP",
+    "JPY",
+    "AUD",
+    "CAD",
+    "CHF",
+    "CNY",
+    "NZD"
+  ],
+  "pairs_analysis": {
+    "total": 85,
+    "directly_available": {
+      "count": 85,
+      "pairs": [
+        "AUDHKD",
+        "AUDJPY",
+        "AUDSEK",
+        "AUDUSD",
+        "CADJPY",
+        "CADSEK",
+        "CHFAUD",
+        "CHFHKD",
+        "CHFJPY",
+        "EURAUD",
+        "EURCAD",
+        "EURCHF",
+        "EURCNY",
+        "EURCZK",
+        "EURGBP",
+        "EURHKD",
+        "EURILS",
+        "EURJPY",
+        "EURNOK",
+        "EURNZD",
+        "EURRUB",
+        "EURSEK",
+        "EURSGD",
+        "EURUSD",
+        "EURZAR",
+        "GBPAUD",
+        "GBPCAD",
+        "GBPCHF",
+        "GBPHKD",
+        "GBPJPY",
+        "GBPNOK",
+        "GBPRUB",
+        "GBPSEK",
+        "GBPSGD",
+        "GBPUSD",
+        "HKDSEK",
+        "HKDSGD",
+        "JPYHKD",
+        "JPYSEK",
+        "NZDSEK",
+        "NZDUSD",
+        "SGDAUD",
+        "SGDCHF",
+        "SGDJPY",
+        "USDAED",
+        "USDARS",
+        "USDBRL",
+        "USDCAD",
+        "USDCHF",
+        "USDCLP",
+        "USDCNY",
+        "USDCOP",
+        "USDCZK",
+        "USDDKK",
+        "USDEGP",
+        "USDGBP",
+        "USDHKD",
+        "USDHUF",
+        "USDIDR",
+        "USDILS",
+        "USDINR",
+        "USDISK",
+        "USDJPY",
+        "USDKRW",
+        "USDKWD",
+        "USDKZT",
+        "USDMXN",
+        "USDMYR",
+        "USDNOK",
+        "USDPEN",
+        "USDPHP",
+        "USDPKR",
+        "USDPLN",
+        "USDQAR",
+        "USDRON",
+        "USDRUB",
+        "USDSAR",
+        "USDSEK",
+        "USDSGD",
+        "USDTHB",
+        "USDTRY",
+        "USDTWD",
+        "USDUAH",
+        "USDVND",
+        "USDZAR"
+      ]
+    },
+    "calculated": {
+      "count": 0,
+      "pairs": []
+    },
+    "unavailable": {
+      "count": 0,
+      "pairs": []
+    }
+  },
+  "coverage_by_base": {
+    "USD": {
+      "total_rates": 166,
+      "sample_rates": {
+        "USD": 1,
+        "AED": 3.6725,
+        "AFN": 65.8864,
+        "ALL": 81.8372,
+        "AMD": 381.3576
+      }
+    },
+    "EUR": {
+      "total_rates": 166,
+      "sample_rates": {
+        "EUR": 1,
+        "AED": 4.3234,
+        "AFN": 77.5545,
+        "ALL": 96.4033,
+        "AMD": 449.0834
+      }
+    },
+    "GBP": {
+      "total_rates": 166,
+      "sample_rates": {
+        "GBP": 1,
+        "AED": 4.9573,
+        "AFN": 89.0084,
+        "ALL": 110.6411,
+        "AMD": 514.6913
+      }
+    },
+    "JPY": {
+      "total_rates": 166,
+      "sample_rates": {
+        "JPY": 1,
+        "AED": 0.02347,
+        "AFN": 0.4226,
+        "ALL": 0.5253,
+        "AMD": 2.4409
+      }
+    },
+    "AUD": {
+      "total_rates": 166,
+      "sample_rates": {
+        "AUD": 1,
+        "AED": 2.4643,
+        "AFN": 44.1588,
+        "ALL": 54.8909,
+        "AMD": 255.6795
+      }
+    },
+    "CAD": {
+      "total_rates": 166,
+      "sample_rates": {
+        "CAD": 1,
+        "AED": 2.6865,
+        "AFN": 48.1453,
+        "ALL": 59.8465,
+        "AMD": 278.7464
+      }
+    },
+    "CHF": {
+      "total_rates": 166,
+      "sample_rates": {
+        "CHF": 1,
+        "AED": 4.652,
+        "AFN": 83.6085,
+        "ALL": 103.9287,
+        "AMD": 483.2849
+      }
+    },
+    "CNY": {
+      "total_rates": 166,
+      "sample_rates": {
+        "CNY": 1,
+        "AED": 0.5229,
+        "AFN": 9.3816,
+        "ALL": 11.6528,
+        "AMD": 54.3017
+      }
+    },
+    "NZD": {
+      "total_rates": 166,
+      "sample_rates": {
+        "NZD": 1,
+        "AED": 2.1413,
+        "AFN": 38.4553,
+        "ALL": 47.8014,
+        "AMD": 222.1524
+      }
+    }
+  }
+}

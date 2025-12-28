@@ -1,0 +1,848 @@
+{
+  "timestamp": "2025-12-28 14:15:21",
+  "api_tested": "ExchangeRate-API (Free Plan)",
+  "total_currencies_supported": 166,
+  "available_base_currencies_count": 166,
+  "available_base_currencies_list": [
+    "AED",
+    "AFN",
+    "ALL",
+    "AMD",
+    "ANG",
+    "AOA",
+    "ARS",
+    "AUD",
+    "AWG",
+    "AZN",
+    "BAM",
+    "BBD",
+    "BDT",
+    "BGN",
+    "BHD",
+    "BIF",
+    "BMD",
+    "BND",
+    "BOB",
+    "BRL",
+    "BSD",
+    "BTN",
+    "BWP",
+    "BYN",
+    "BZD",
+    "CAD",
+    "CDF",
+    "CHF",
+    "CLF",
+    "CLP",
+    "CNH",
+    "CNY",
+    "COP",
+    "CRC",
+    "CUP",
+    "CVE",
+    "CZK",
+    "DJF",
+    "DKK",
+    "DOP",
+    "DZD",
+    "EGP",
+    "ERN",
+    "ETB",
+    "EUR",
+    "FJD",
+    "FKP",
+    "FOK",
+    "GBP",
+    "GEL",
+    "GGP",
+    "GHS",
+    "GIP",
+    "GMD",
+    "GNF",
+    "GTQ",
+    "GYD",
+    "HKD",
+    "HNL",
+    "HRK",
+    "HTG",
+    "HUF",
+    "IDR",
+    "ILS",
+    "IMP",
+    "INR",
+    "IQD",
+    "IRR",
+    "ISK",
+    "JEP",
+    "JMD",
+    "JOD",
+    "JPY",
+    "KES",
+    "KGS",
+    "KHR",
+    "KID",
+    "KMF",
+    "KRW",
+    "KWD",
+    "KYD",
+    "KZT",
+    "LAK",
+    "LBP",
+    "LKR",
+    "LRD",
+    "LSL",
+    "LYD",
+    "MAD",
+    "MDL",
+    "MGA",
+    "MKD",
+    "MMK",
+    "MNT",
+    "MOP",
+    "MRU",
+    "MUR",
+    "MVR",
+    "MWK",
+    "MXN",
+    "MYR",
+    "MZN",
+    "NAD",
+    "NGN",
+    "NIO",
+    "NOK",
+    "NPR",
+    "NZD",
+    "OMR",
+    "PAB",
+    "PEN",
+    "PGK",
+    "PHP",
+    "PKR",
+    "PLN",
+    "PYG",
+    "QAR",
+    "RON",
+    "RSD",
+    "RUB",
+    "RWF",
+    "SAR",
+    "SBD",
+    "SCR",
+    "SDG",
+    "SEK",
+    "SGD",
+    "SHP",
+    "SLE",
+    "SLL",
+    "SOS",
+    "SRD",
+    "SSP",
+    "STN",
+    "SYP",
+    "SZL",
+    "THB",
+    "TJS",
+    "TMT",
+    "TND",
+    "TOP",
+    "TRY",
+    "TTD",
+    "TVD",
+    "TWD",
+    "TZS",
+    "UAH",
+    "UGX",
+    "USD",
+    "UYU",
+    "UZS",
+    "VES",
+    "VND",
+    "VUV",
+    "WST",
+    "XAF",
+    "XCD",
+    "XCG",
+    "XDR",
+    "XOF",
+    "XPF",
+    "YER",
+    "ZAR",
+    "ZMW",
+    "ZWG",
+    "ZWL"
+  ],
+  "unavailable_as_base_count": 0,
+  "unavailable_as_base_list": [],
+  "base_coverage_ranking": [
+    {
+      "base": "AED",
+      "targets_available": 166
+    },
+    {
+      "base": "AFN",
+      "targets_available": 166
+    },
+    {
+      "base": "ALL",
+      "targets_available": 166
+    },
+    {
+      "base": "AMD",
+      "targets_available": 166
+    },
+    {
+      "base": "ANG",
+      "targets_available": 166
+    },
+    {
+      "base": "AOA",
+      "targets_available": 166
+    },
+    {
+      "base": "ARS",
+      "targets_available": 166
+    },
+    {
+      "base": "AUD",
+      "targets_available": 166
+    },
+    {
+      "base": "AWG",
+      "targets_available": 166
+    },
+    {
+      "base": "AZN",
+      "targets_available": 166
+    },
+    {
+      "base": "BAM",
+      "targets_available": 166
+    },
+    {
+      "base": "BBD",
+      "targets_available": 166
+    },
+    {
+      "base": "BDT",
+      "targets_available": 166
+    },
+    {
+      "base": "BGN",
+      "targets_available": 166
+    },
+    {
+      "base": "BHD",
+      "targets_available": 166
+    },
+    {
+      "base": "BIF",
+      "targets_available": 166
+    },
+    {
+      "base": "BMD",
+      "targets_available": 166
+    },
+    {
+      "base": "BND",
+      "targets_available": 166
+    },
+    {
+      "base": "BOB",
+      "targets_available": 166
+    },
+    {
+      "base": "BRL",
+      "targets_available": 166
+    },
+    {
+      "base": "BSD",
+      "targets_available": 166
+    },
+    {
+      "base": "BTN",
+      "targets_available": 166
+    },
+    {
+      "base": "BWP",
+      "targets_available": 166
+    },
+    {
+      "base": "BYN",
+      "targets_available": 166
+    },
+    {
+      "base": "BZD",
+      "targets_available": 166
+    },
+    {
+      "base": "CAD",
+      "targets_available": 166
+    },
+    {
+      "base": "CDF",
+      "targets_available": 166
+    },
+    {
+      "base": "CHF",
+      "targets_available": 166
+    },
+    {
+      "base": "CLF",
+      "targets_available": 166
+    },
+    {
+      "base": "CLP",
+      "targets_available": 166
+    },
+    {
+      "base": "CNH",
+      "targets_available": 166
+    },
+    {
+      "base": "CNY",
+      "targets_available": 166
+    },
+    {
+      "base": "COP",
+      "targets_available": 166
+    },
+    {
+      "base": "CRC",
+      "targets_available": 166
+    },
+    {
+      "base": "CUP",
+      "targets_available": 166
+    },
+    {
+      "base": "CVE",
+      "targets_available": 166
+    },
+    {
+      "base": "CZK",
+      "targets_available": 166
+    },
+    {
+      "base": "DJF",
+      "targets_available": 166
+    },
+    {
+      "base": "DKK",
+      "targets_available": 166
+    },
+    {
+      "base": "DOP",
+      "targets_available": 166
+    },
+    {
+      "base": "DZD",
+      "targets_available": 166
+    },
+    {
+      "base": "EGP",
+      "targets_available": 166
+    },
+    {
+      "base": "ERN",
+      "targets_available": 166
+    },
+    {
+      "base": "ETB",
+      "targets_available": 166
+    },
+    {
+      "base": "EUR",
+      "targets_available": 166
+    },
+    {
+      "base": "FJD",
+      "targets_available": 166
+    },
+    {
+      "base": "FKP",
+      "targets_available": 166
+    },
+    {
+      "base": "FOK",
+      "targets_available": 166
+    },
+    {
+      "base": "GBP",
+      "targets_available": 166
+    },
+    {
+      "base": "GEL",
+      "targets_available": 166
+    },
+    {
+      "base": "GGP",
+      "targets_available": 166
+    },
+    {
+      "base": "GHS",
+      "targets_available": 166
+    },
+    {
+      "base": "GIP",
+      "targets_available": 166
+    },
+    {
+      "base": "GMD",
+      "targets_available": 166
+    },
+    {
+      "base": "GNF",
+      "targets_available": 166
+    },
+    {
+      "base": "GTQ",
+      "targets_available": 166
+    },
+    {
+      "base": "GYD",
+      "targets_available": 166
+    },
+    {
+      "base": "HKD",
+      "targets_available": 166
+    },
+    {
+      "base": "HNL",
+      "targets_available": 166
+    },
+    {
+      "base": "HRK",
+      "targets_available": 166
+    },
+    {
+      "base": "HTG",
+      "targets_available": 166
+    },
+    {
+      "base": "HUF",
+      "targets_available": 166
+    },
+    {
+      "base": "IDR",
+      "targets_available": 166
+    },
+    {
+      "base": "ILS",
+      "targets_available": 166
+    },
+    {
+      "base": "IMP",
+      "targets_available": 166
+    },
+    {
+      "base": "INR",
+      "targets_available": 166
+    },
+    {
+      "base": "IQD",
+      "targets_available": 166
+    },
+    {
+      "base": "IRR",
+      "targets_available": 166
+    },
+    {
+      "base": "ISK",
+      "targets_available": 166
+    },
+    {
+      "base": "JEP",
+      "targets_available": 166
+    },
+    {
+      "base": "JMD",
+      "targets_available": 166
+    },
+    {
+      "base": "JOD",
+      "targets_available": 166
+    },
+    {
+      "base": "JPY",
+      "targets_available": 166
+    },
+    {
+      "base": "KES",
+      "targets_available": 166
+    },
+    {
+      "base": "KGS",
+      "targets_available": 166
+    },
+    {
+      "base": "KHR",
+      "targets_available": 166
+    },
+    {
+      "base": "KID",
+      "targets_available": 166
+    },
+    {
+      "base": "KMF",
+      "targets_available": 166
+    },
+    {
+      "base": "KRW",
+      "targets_available": 166
+    },
+    {
+      "base": "KWD",
+      "targets_available": 166
+    },
+    {
+      "base": "KYD",
+      "targets_available": 166
+    },
+    {
+      "base": "KZT",
+      "targets_available": 166
+    },
+    {
+      "base": "LAK",
+      "targets_available": 166
+    },
+    {
+      "base": "LBP",
+      "targets_available": 166
+    },
+    {
+      "base": "LKR",
+      "targets_available": 166
+    },
+    {
+      "base": "LRD",
+      "targets_available": 166
+    },
+    {
+      "base": "LSL",
+      "targets_available": 166
+    },
+    {
+      "base": "LYD",
+      "targets_available": 166
+    },
+    {
+      "base": "MAD",
+      "targets_available": 166
+    },
+    {
+      "base": "MDL",
+      "targets_available": 166
+    },
+    {
+      "base": "MGA",
+      "targets_available": 166
+    },
+    {
+      "base": "MKD",
+      "targets_available": 166
+    },
+    {
+      "base": "MMK",
+      "targets_available": 166
+    },
+    {
+      "base": "MNT",
+      "targets_available": 166
+    },
+    {
+      "base": "MOP",
+      "targets_available": 166
+    },
+    {
+      "base": "MRU",
+      "targets_available": 166
+    },
+    {
+      "base": "MUR",
+      "targets_available": 166
+    },
+    {
+      "base": "MVR",
+      "targets_available": 166
+    },
+    {
+      "base": "MWK",
+      "targets_available": 166
+    },
+    {
+      "base": "MXN",
+      "targets_available": 166
+    },
+    {
+      "base": "MYR",
+      "targets_available": 166
+    },
+    {
+      "base": "MZN",
+      "targets_available": 166
+    },
+    {
+      "base": "NAD",
+      "targets_available": 166
+    },
+    {
+      "base": "NGN",
+      "targets_available": 166
+    },
+    {
+      "base": "NIO",
+      "targets_available": 166
+    },
+    {
+      "base": "NOK",
+      "targets_available": 166
+    },
+    {
+      "base": "NPR",
+      "targets_available": 166
+    },
+    {
+      "base": "NZD",
+      "targets_available": 166
+    },
+    {
+      "base": "OMR",
+      "targets_available": 166
+    },
+    {
+      "base": "PAB",
+      "targets_available": 166
+    },
+    {
+      "base": "PEN",
+      "targets_available": 166
+    },
+    {
+      "base": "PGK",
+      "targets_available": 166
+    },
+    {
+      "base": "PHP",
+      "targets_available": 166
+    },
+    {
+      "base": "PKR",
+      "targets_available": 166
+    },
+    {
+      "base": "PLN",
+      "targets_available": 166
+    },
+    {
+      "base": "PYG",
+      "targets_available": 166
+    },
+    {
+      "base": "QAR",
+      "targets_available": 166
+    },
+    {
+      "base": "RON",
+      "targets_available": 166
+    },
+    {
+      "base": "RSD",
+      "targets_available": 166
+    },
+    {
+      "base": "RUB",
+      "targets_available": 166
+    },
+    {
+      "base": "RWF",
+      "targets_available": 166
+    },
+    {
+      "base": "SAR",
+      "targets_available": 166
+    },
+    {
+      "base": "SBD",
+      "targets_available": 166
+    },
+    {
+      "base": "SCR",
+      "targets_available": 166
+    },
+    {
+      "base": "SDG",
+      "targets_available": 166
+    },
+    {
+      "base": "SEK",
+      "targets_available": 166
+    },
+    {
+      "base": "SGD",
+      "targets_available": 166
+    },
+    {
+      "base": "SHP",
+      "targets_available": 166
+    },
+    {
+      "base": "SLE",
+      "targets_available": 166
+    },
+    {
+      "base": "SLL",
+      "targets_available": 166
+    },
+    {
+      "base": "SOS",
+      "targets_available": 166
+    },
+    {
+      "base": "SRD",
+      "targets_available": 166
+    },
+    {
+      "base": "SSP",
+      "targets_available": 166
+    },
+    {
+      "base": "STN",
+      "targets_available": 166
+    },
+    {
+      "base": "SYP",
+      "targets_available": 166
+    },
+    {
+      "base": "SZL",
+      "targets_available": 166
+    },
+    {
+      "base": "THB",
+      "targets_available": 166
+    },
+    {
+      "base": "TJS",
+      "targets_available": 166
+    },
+    {
+      "base": "TMT",
+      "targets_available": 166
+    },
+    {
+      "base": "TND",
+      "targets_available": 166
+    },
+    {
+      "base": "TOP",
+      "targets_available": 166
+    },
+    {
+      "base": "TRY",
+      "targets_available": 166
+    },
+    {
+      "base": "TTD",
+      "targets_available": 166
+    },
+    {
+      "base": "TVD",
+      "targets_available": 166
+    },
+    {
+      "base": "TWD",
+      "targets_available": 166
+    },
+    {
+      "base": "TZS",
+      "targets_available": 166
+    },
+    {
+      "base": "UAH",
+      "targets_available": 166
+    },
+    {
+      "base": "UGX",
+      "targets_available": 166
+    },
+    {
+      "base": "USD",
+      "targets_available": 166
+    },
+    {
+      "base": "UYU",
+      "targets_available": 166
+    },
+    {
+      "base": "UZS",
+      "targets_available": 166
+    },
+    {
+      "base": "VES",
+      "targets_available": 166
+    },
+    {
+      "base": "VND",
+      "targets_available": 166
+    },
+    {
+      "base": "VUV",
+      "targets_available": 166
+    },
+    {
+      "base": "WST",
+      "targets_available": 166
+    },
+    {
+      "base": "XAF",
+      "targets_available": 166
+    },
+    {
+      "base": "XCD",
+      "targets_available": 166
+    },
+    {
+      "base": "XCG",
+      "targets_available": 166
+    },
+    {
+      "base": "XDR",
+      "targets_available": 166
+    },
+    {
+      "base": "XOF",
+      "targets_available": 166
+    },
+    {
+      "base": "XPF",
+      "targets_available": 166
+    },
+    {
+      "base": "YER",
+      "targets_available": 166
+    },
+    {
+      "base": "ZAR",
+      "targets_available": 166
+    },
+    {
+      "base": "ZMW",
+      "targets_available": 166
+    },
+    {
+      "base": "ZWG",
+      "targets_available": 166
+    },
+    {
+      "base": "ZWL",
+      "targets_available": 166
+    }
+  ],
+  "analysis": {
+    "daily_requests_for_full_matrix": 166,
+    "monthly_requests_estimate_30d": 4980,
+    "free_plan_monthly_limit": 1500,
+    "fits_free_plan": false
+  }
+}
