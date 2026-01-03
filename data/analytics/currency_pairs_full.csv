@@ -1,0 +1,141 @@
+﻿symbol,base,quote,group,base_name,quote_name
+AFN/USD,AFN,USD,Minor,Afghanistan Afghani,US Dollar
+AUD/CAD,AUD,CAD,Minor,Australian Dollar,Canadian Dollar
+AUD/CHF,AUD,CHF,Minor,Australian Dollar,Swiss Franc
+AUD/EUR,AUD,EUR,Minor,Australian Dollar,Euro
+AUD/GBP,AUD,GBP,Minor,Australian Dollar,British Pound
+AUD/JPY,AUD,JPY,Minor,Australian Dollar,Japanese Yen
+AUD/NZD,AUD,NZD,Minor,Australian Dollar,New Zealand Dollar
+AUD/USD,AUD,USD,Major,Australian Dollar,US Dollar
+AZN/RUB,AZN,RUB,Minor,Azerbaijani Manat,Russian Ruble
+BGN/RUB,BGN,RUB,Minor,Bulgarian Lev,Russian Ruble
+BHD/INR,BHD,INR,Minor,Baharain Dinar,Indian Rupee
+BMD/USD,BMD,USD,Major,Bermudian Dollar,US Dollar
+BYN/USD,BYN,USD,Minor,Belarusian Ruble,US Dollar
+CAD/AUD,CAD,AUD,Minor,Canadian Dollar,Australian Dollar
+CAD/CHF,CAD,CHF,Minor,Canadian Dollar,Swiss Franc
+CAD/COP,CAD,COP,Minor,Canadian Dollar,Colombian Peso
+CAD/EUR,CAD,EUR,Minor,Canadian Dollar,Euro
+CAD/GBP,CAD,GBP,Minor,Canadian Dollar,British Pound
+CAD/JPY,CAD,JPY,Minor,Canadian Dollar,Japanese Yen
+CAD/NZD,CAD,NZD,Minor,Canadian Dollar,New Zealand Dollar
+CAD/USD,CAD,USD,Major,Canadian Dollar,US Dollar
+CHF/AUD,CHF,AUD,Minor,Swiss Franc,Australian Dollar
+CHF/CAD,CHF,CAD,Minor,Swiss Franc,Canadian Dollar
+CHF/EUR,CHF,EUR,Minor,Swiss Franc,Euro
+CHF/GBP,CHF,GBP,Minor,Swiss Franc,British Pound
+CHF/JPY,CHF,JPY,Minor,Swiss Franc,Japanese Yen
+CHF/NZD,CHF,NZD,Minor,Swiss Franc,New Zealand Dollar
+CHF/USD,CHF,USD,Major,Swiss Franc,US Dollar
+CNY/CNH,CNY,CNH,Minor,Chinese Yuan,Chinese Yuan (Offshore)
+CNY/MNT,CNY,MNT,Minor,Chinese Yuan,Mongolian Tugrik
+CZK/PLN,CZK,PLN,Minor,Czech Koruna,Polish Zloty
+CZK/USD,CZK,USD,Minor,Czech Koruna,US Dollar
+EUR/AMD,EUR,AMD,Minor,Euro,Armenian Dram
+EUR/AOA,EUR,AOA,Minor,Euro,Angolan kwanza
+EUR/AUD,EUR,AUD,Minor,Euro,Australian Dollar
+EUR/CAD,EUR,CAD,Minor,Euro,Canadian Dollar
+EUR/CHF,EUR,CHF,Minor,Euro,Swiss Franc
+EUR/GBP,EUR,GBP,Minor,Euro,British Pound
+EUR/GEL,EUR,GEL,Minor,Euro,Georgian lari
+EUR/JPY,EUR,JPY,Minor,Euro,Japanese Yen
+EUR/NZD,EUR,NZD,Minor,Euro,New Zealand Dollar
+EUR/TJS,EUR,TJS,Minor,Euro,Tajikistani somoni
+EUR/USD,EUR,USD,Major,Euro,US Dollar
+FKP/USD,FKP,USD,Major,Falkland Islands Pound,US Dollar
+GBP/AUD,GBP,AUD,Minor,British Pound,Australian Dollar
+GBP/CAD,GBP,CAD,Minor,British Pound,Canadian Dollar
+GBP/CHF,GBP,CHF,Minor,British Pound,Swiss Franc
+GBP/EUR,GBP,EUR,Minor,British Pound,Euro
+GBP/JPY,GBP,JPY,Minor,British Pound,Japanese Yen
+GBP/NPR,GBP,NPR,Minor,British Pound,Nepalese Rupee
+GBP/NZD,GBP,NZD,Minor,British Pound,New Zealand Dollar
+GBP/USD,GBP,USD,Major,British Pound,US Dollar
+GEL/RUB,GEL,RUB,Minor,Georgian lari,Russian Ruble
+GIP/USD,GIP,USD,Major,Gibraltar Pound,US Dollar
+HUF/EUR,HUF,EUR,Minor,Hungarian Forint,Euro
+HUF/USD,HUF,USD,Minor,Hungarian Forint,US Dollar
+IDR/AUD,IDR,AUD,Minor,Indonesian Rupiah,Australian Dollar
+IDR/CHF,IDR,CHF,Minor,Indonesian Rupiah,Swiss Franc
+IDR/EUR,IDR,EUR,Minor,Indonesian Rupiah,Euro
+IDR/GBP,IDR,GBP,Minor,Indonesian Rupiah,British Pound
+IDR/USD,IDR,USD,Minor,Indonesian Rupiah,US Dollar
+ILS/BGN,ILS,BGN,Minor,Israeli Shekel,Bulgarian Lev
+ILS/COP,ILS,COP,Minor,Israeli Shekel,Colombian Peso
+ILS/PEN,ILS,PEN,Minor,Israeli Shekel,Peru Sol
+ILS/UAH,ILS,UAH,Minor,Israeli Shekel,Ukrainian Hryvnia
+ILS/UYU,ILS,UYU,Minor,Israeli Shekel,Uruguayan Peso
+INR/BRL,INR,BRL,Minor,Indian Rupee,Brazil Real
+IQD/USD,IQD,USD,Minor,Iraqi Dinar,US Dollar
+IRR/USD,IRR,USD,Minor,Iranian Rial,US Dollar
+JOD/EUR,JOD,EUR,Minor,Jordan Dinar,Euro
+JOD/GBP,JOD,GBP,Minor,Jordan Dinar,British Pound
+JOD/USD,JOD,USD,Minor,Jordan Dinar,US Dollar
+JPY/AUD,JPY,AUD,Minor,Japanese Yen,Australian Dollar
+JPY/CAD,JPY,CAD,Minor,Japanese Yen,Canadian Dollar
+JPY/CHF,JPY,CHF,Minor,Japanese Yen,Swiss Franc
+JPY/EUR,JPY,EUR,Minor,Japanese Yen,Euro
+JPY/GBP,JPY,GBP,Minor,Japanese Yen,British Pound
+JPY/NZD,JPY,NZD,Minor,Japanese Yen,New Zealand Dollar
+JPY/TRY,JPY,TRY,Minor,Japanese Yen,Turkish Lira
+JPY/USD,JPY,USD,Major,Japanese Yen,US Dollar
+KGS/RUB,KGS,RUB,Minor,Kyrgyzstan som,Russian Ruble
+KWD/EUR,KWD,EUR,Minor,Kuwaiti Dinar,Euro
+KWD/MYR,KWD,MYR,Minor,Kuwaiti Dinar,Malaysian Ringgit
+KWD/SGD,KWD,SGD,Minor,Kuwaiti Dinar,Singapore Dollar
+KWD/USD,KWD,USD,Minor,Kuwaiti Dinar,US Dollar
+MDL/RUB,MDL,RUB,Minor,Moldovan Leu,Russian Ruble
+MYR/USD,MYR,USD,Minor,Malaysian Ringgit,US Dollar
+NZD/AUD,NZD,AUD,Minor,New Zealand Dollar,Australian Dollar
+NZD/CAD,NZD,CAD,Minor,New Zealand Dollar,Canadian Dollar
+NZD/CHF,NZD,CHF,Minor,New Zealand Dollar,Swiss Franc
+NZD/EUR,NZD,EUR,Minor,New Zealand Dollar,Euro
+NZD/GBP,NZD,GBP,Minor,New Zealand Dollar,British Pound
+NZD/JPY,NZD,JPY,Minor,New Zealand Dollar,Japanese Yen
+NZD/USD,NZD,USD,Major,New Zealand Dollar,US Dollar
+PHP/USD,PHP,USD,Minor,Philippine Peso,US Dollar
+PLN/UAH,PLN,UAH,Minor,Polish Zloty,Ukrainian Hryvnia
+RUB/AMD,RUB,AMD,Minor,Russian Ruble,Armenian Dram
+RUB/BRL,RUB,BRL,Minor,Russian Ruble,Brazil Real
+RUB/VND,RUB,VND,Minor,Russian Ruble,Vietnamese Dong
+SDR/RUB,SDR,RUB,Minor,Special Drawing Rights,Russian Ruble
+SDR/TRY,SDR,TRY,Minor,Special Drawing Rights,Turkish Lira
+SGD/KWD,SGD,KWD,Minor,Singapore Dollar,Kuwaiti Dinar
+SHP/USD,SHP,USD,Major,Saint Helena Pound,US Dollar
+SYP/USD,SYP,USD,Minor,Syrian Pound,US Dollar
+THB/GBP,THB,GBP,Minor,Thai Baht,British Pound
+THB/USD,THB,USD,Minor,Thai Baht,US Dollar
+TJS/RUB,TJS,RUB,Minor,Tajikistani somoni,Russian Ruble
+TRY/UAH,TRY,UAH,Minor,Turkish Lira,Ukrainian Hryvnia
+UAH/KZT,UAH,KZT,Minor,Ukrainian Hryvnia,Kazakh Tenge
+UAH/PLN,UAH,PLN,Minor,Ukrainian Hryvnia,Polish Zloty
+UAH/USD,UAH,USD,Minor,Ukrainian Hryvnia,US Dollar
+USD/AFN,USD,AFN,Minor,US Dollar,Afghanistan Afghani
+USD/AOA,USD,AOA,Minor,US Dollar,Angolan kwanza
+USD/AUD,USD,AUD,Major,US Dollar,Australian Dollar
+USD/AWG,USD,AWG,Major,US Dollar,Aruban Florin
+USD/BTN,USD,BTN,Major,US Dollar,Bhutanese Ngultrum
+USD/CAD,USD,CAD,Major,US Dollar,Canadian Dollar
+USD/CDF,USD,CDF,Major,US Dollar,Congolese Franc
+USD/CHF,USD,CHF,Major,US Dollar,Swiss Franc
+USD/CVE,USD,CVE,Major,US Dollar,Cape Verdean Escudo
+USD/EUR,USD,EUR,Major,US Dollar,Euro
+USD/GBP,USD,GBP,Major,US Dollar,British Pound
+USD/GYD,USD,GYD,Major,US Dollar,Guyanese Dollar
+USD/JPY,USD,JPY,Major,US Dollar,Japanese Yen
+USD/LRD,USD,LRD,Major,US Dollar,Liberian Dollar
+USD/MNT,USD,MNT,Minor,US Dollar,Mongolian Tugrik
+USD/MRU,USD,MRU,Major,US Dollar,Mauritanian Ouguiya
+USD/NZD,USD,NZD,Major,US Dollar,New Zealand Dollar
+USD/RUB,USD,RUB,Minor,US Dollar,Russian Ruble
+USD/SBD,USD,SBD,Major,US Dollar,Solomon Islands Dollar
+USD/SLE,USD,SLE,Major,US Dollar,Sierra Leonean Leone
+USD/SRD,USD,SRD,Major,US Dollar,Surinamese Dollar
+USD/STN,USD,STN,Major,US Dollar,São Tomé and Príncipe Dobra
+USD/TJS,USD,TJS,Minor,US Dollar,Tajikistani somoni
+USD/TMT,USD,TMT,Minor,US Dollar,Turkmenistan manat
+USD/TOP,USD,TOP,Major,US Dollar,Tongan Pa'anga
+USD/VES,USD,VES,Major,US Dollar,Venezuelan Bolívar Soberano
+USD/WST,USD,WST,Major,US Dollar,Samoan Tala
+VND/USD,VND,USD,Minor,Vietnamese Dong,US Dollar
+XDR/USD,XDR,USD,Major,Special Drawing Rights,US Dollar

@@ -1,0 +1,10 @@
+{
+  "total_pairs": 140,
+  "total_currencies": 68,
+  "major_pairs": 33,
+  "minor_pairs": 107,
+  "graph_density": 0.04784899034240562,
+  "average_degree": 3.2058823529411766,
+  "connected_components": 1,
+  "generated_at": "2026-01-03 21:04:54"
+}
