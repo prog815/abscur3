@@ -1,5 +1,7 @@
 ﻿symbol,base,quote,group,base_name,quote_name
+AED/USD,AED,USD,Exotic,UAE Dirham,US Dollar
 AFN/USD,AFN,USD,Minor,Afghanistan Afghani,US Dollar
+ARS/USD,ARS,USD,Exotic,Argentinian Peso,US Dollar
 AUD/CAD,AUD,CAD,Minor,Australian Dollar,Canadian Dollar
 AUD/CHF,AUD,CHF,Minor,Australian Dollar,Swiss Franc
 AUD/EUR,AUD,EUR,Minor,Australian Dollar,Euro
@@ -11,6 +13,8 @@ AZN/RUB,AZN,RUB,Minor,Azerbaijani Manat,Russian Ruble
 BGN/RUB,BGN,RUB,Minor,Bulgarian Lev,Russian Ruble
 BHD/INR,BHD,INR,Minor,Baharain Dinar,Indian Rupee
 BMD/USD,BMD,USD,Major,Bermudian Dollar,US Dollar
+BOB/USD,BOB,USD,Exotic,Bolivian Boliviano,US Dollar
+BRL/USD,BRL,USD,Exotic,Brazil Real,US Dollar
 BYN/USD,BYN,USD,Minor,Belarusian Ruble,US Dollar
 CAD/AUD,CAD,AUD,Minor,Canadian Dollar,Australian Dollar
 CAD/CHF,CAD,CHF,Minor,Canadian Dollar,Swiss Franc
@@ -27,21 +31,29 @@ CHF/GBP,CHF,GBP,Minor,Swiss Franc,British Pound
 CHF/JPY,CHF,JPY,Minor,Swiss Franc,Japanese Yen
 CHF/NZD,CHF,NZD,Minor,Swiss Franc,New Zealand Dollar
 CHF/USD,CHF,USD,Major,Swiss Franc,US Dollar
+CLP/USD,CLP,USD,Exotic,Chilean Peso,US Dollar
 CNY/CNH,CNY,CNH,Minor,Chinese Yuan,Chinese Yuan (Offshore)
 CNY/MNT,CNY,MNT,Minor,Chinese Yuan,Mongolian Tugrik
+CNY/USD,CNY,USD,Exotic,Chinese Yuan,US Dollar
+COP/USD,COP,USD,Exotic,Colombian Peso,US Dollar
 CZK/PLN,CZK,PLN,Minor,Czech Koruna,Polish Zloty
 CZK/USD,CZK,USD,Minor,Czech Koruna,US Dollar
+DKK/USD,DKK,USD,Exotic,Danish Krone,US Dollar
+EGP/USD,EGP,USD,Exotic,Egyptian Pound,US Dollar
 EUR/AMD,EUR,AMD,Minor,Euro,Armenian Dram
 EUR/AOA,EUR,AOA,Minor,Euro,Angolan kwanza
 EUR/AUD,EUR,AUD,Minor,Euro,Australian Dollar
+EUR/AZN,EUR,AZN,Exotic,Euro,Azerbaijani Manat
 EUR/CAD,EUR,CAD,Minor,Euro,Canadian Dollar
 EUR/CHF,EUR,CHF,Minor,Euro,Swiss Franc
 EUR/GBP,EUR,GBP,Minor,Euro,British Pound
 EUR/GEL,EUR,GEL,Minor,Euro,Georgian lari
 EUR/JPY,EUR,JPY,Minor,Euro,Japanese Yen
+EUR/MZN,EUR,MZN,Exotic,Euro,Mozambican Metical
 EUR/NZD,EUR,NZD,Minor,Euro,New Zealand Dollar
 EUR/TJS,EUR,TJS,Minor,Euro,Tajikistani somoni
 EUR/USD,EUR,USD,Major,Euro,US Dollar
+FJD/USD,FJD,USD,Exotic,Fiji Dollar,US Dollar
 FKP/USD,FKP,USD,Major,Falkland Islands Pound,US Dollar
 GBP/AUD,GBP,AUD,Minor,British Pound,Australian Dollar
 GBP/CAD,GBP,CAD,Minor,British Pound,Canadian Dollar
@@ -52,7 +64,9 @@ GBP/NPR,GBP,NPR,Minor,British Pound,Nepalese Rupee
 GBP/NZD,GBP,NZD,Minor,British Pound,New Zealand Dollar
 GBP/USD,GBP,USD,Major,British Pound,US Dollar
 GEL/RUB,GEL,RUB,Minor,Georgian lari,Russian Ruble
+GHS/USD,GHS,USD,Exotic,Ghanaian Cedi,US Dollar
 GIP/USD,GIP,USD,Major,Gibraltar Pound,US Dollar
+HKD/USD,HKD,USD,Exotic,Hong Kong Dollar,US Dollar
 HUF/EUR,HUF,EUR,Minor,Hungarian Forint,Euro
 HUF/USD,HUF,USD,Minor,Hungarian Forint,US Dollar
 IDR/AUD,IDR,AUD,Minor,Indonesian Rupiah,Australian Dollar
@@ -64,8 +78,10 @@ ILS/BGN,ILS,BGN,Minor,Israeli Shekel,Bulgarian Lev
 ILS/COP,ILS,COP,Minor,Israeli Shekel,Colombian Peso
 ILS/PEN,ILS,PEN,Minor,Israeli Shekel,Peru Sol
 ILS/UAH,ILS,UAH,Minor,Israeli Shekel,Ukrainian Hryvnia
+ILS/USD,ILS,USD,Exotic,Israeli Shekel,US Dollar
 ILS/UYU,ILS,UYU,Minor,Israeli Shekel,Uruguayan Peso
 INR/BRL,INR,BRL,Minor,Indian Rupee,Brazil Real
+INR/USD,INR,USD,Exotic,Indian Rupee,US Dollar
 IQD/USD,IQD,USD,Minor,Iraqi Dinar,US Dollar
 IRR/USD,IRR,USD,Minor,Iranian Rial,US Dollar
 JOD/EUR,JOD,EUR,Minor,Jordan Dinar,Euro
@@ -80,12 +96,17 @@ JPY/NZD,JPY,NZD,Minor,Japanese Yen,New Zealand Dollar
 JPY/TRY,JPY,TRY,Minor,Japanese Yen,Turkish Lira
 JPY/USD,JPY,USD,Major,Japanese Yen,US Dollar
 KGS/RUB,KGS,RUB,Minor,Kyrgyzstan som,Russian Ruble
+KRW/USD,KRW,USD,Exotic,Korean Won,US Dollar
 KWD/EUR,KWD,EUR,Minor,Kuwaiti Dinar,Euro
 KWD/MYR,KWD,MYR,Minor,Kuwaiti Dinar,Malaysian Ringgit
 KWD/SGD,KWD,SGD,Minor,Kuwaiti Dinar,Singapore Dollar
 KWD/USD,KWD,USD,Minor,Kuwaiti Dinar,US Dollar
+KYD/USD,KYD,USD,Exotic,Cayman Islands Dollar,US Dollar
 MDL/RUB,MDL,RUB,Minor,Moldovan Leu,Russian Ruble
+MXN/USD,MXN,USD,Exotic,Mexican Peso,US Dollar
 MYR/USD,MYR,USD,Minor,Malaysian Ringgit,US Dollar
+NIO/USD,NIO,USD,Exotic,Nicaraguan Cordoba,US Dollar
+NOK/USD,NOK,USD,Exotic,Norwegian Krone,US Dollar
 NZD/AUD,NZD,AUD,Minor,New Zealand Dollar,Australian Dollar
 NZD/CAD,NZD,CAD,Minor,New Zealand Dollar,Canadian Dollar
 NZD/CHF,NZD,CHF,Minor,New Zealand Dollar,Swiss Franc
@@ -93,49 +114,175 @@ NZD/EUR,NZD,EUR,Minor,New Zealand Dollar,Euro
 NZD/GBP,NZD,GBP,Minor,New Zealand Dollar,British Pound
 NZD/JPY,NZD,JPY,Minor,New Zealand Dollar,Japanese Yen
 NZD/USD,NZD,USD,Major,New Zealand Dollar,US Dollar
+PEN/USD,PEN,USD,Exotic,Peru Sol,US Dollar
 PHP/USD,PHP,USD,Minor,Philippine Peso,US Dollar
 PLN/UAH,PLN,UAH,Minor,Polish Zloty,Ukrainian Hryvnia
+PLN/USD,PLN,USD,Exotic,Polish Zloty,US Dollar
+PYG/USD,PYG,USD,Exotic,Paraguayan Guarani,US Dollar
 RUB/AMD,RUB,AMD,Minor,Russian Ruble,Armenian Dram
 RUB/BRL,RUB,BRL,Minor,Russian Ruble,Brazil Real
+RUB/USD,RUB,USD,Exotic,Russian Ruble,US Dollar
 RUB/VND,RUB,VND,Minor,Russian Ruble,Vietnamese Dong
+SAR/USD,SAR,USD,Exotic,Saudi Riyal,US Dollar
 SDR/RUB,SDR,RUB,Minor,Special Drawing Rights,Russian Ruble
 SDR/TRY,SDR,TRY,Minor,Special Drawing Rights,Turkish Lira
 SGD/KWD,SGD,KWD,Minor,Singapore Dollar,Kuwaiti Dinar
+SGD/USD,SGD,USD,Exotic,Singapore Dollar,US Dollar
 SHP/USD,SHP,USD,Major,Saint Helena Pound,US Dollar
 SYP/USD,SYP,USD,Minor,Syrian Pound,US Dollar
 THB/GBP,THB,GBP,Minor,Thai Baht,British Pound
 THB/USD,THB,USD,Minor,Thai Baht,US Dollar
 TJS/RUB,TJS,RUB,Minor,Tajikistani somoni,Russian Ruble
 TRY/UAH,TRY,UAH,Minor,Turkish Lira,Ukrainian Hryvnia
+TRY/USD,TRY,USD,Exotic,Turkish Lira,US Dollar
+TWD/USD,TWD,USD,Exotic,Taiwan Dollar,US Dollar
 UAH/KZT,UAH,KZT,Minor,Ukrainian Hryvnia,Kazakh Tenge
 UAH/PLN,UAH,PLN,Minor,Ukrainian Hryvnia,Polish Zloty
 UAH/USD,UAH,USD,Minor,Ukrainian Hryvnia,US Dollar
+USD/AED,USD,AED,Exotic,US Dollar,UAE Dirham
 USD/AFN,USD,AFN,Minor,US Dollar,Afghanistan Afghani
+USD/ALL,USD,ALL,Exotic,US Dollar,Albanian Lek
+USD/AMD,USD,AMD,Exotic,US Dollar,Armenian Dram
 USD/AOA,USD,AOA,Minor,US Dollar,Angolan kwanza
+USD/ARS,USD,ARS,Exotic,US Dollar,Argentinian Peso
 USD/AUD,USD,AUD,Major,US Dollar,Australian Dollar
 USD/AWG,USD,AWG,Major,US Dollar,Aruban Florin
+USD/AZN,USD,AZN,Exotic,US Dollar,Azerbaijani Manat
+USD/BAM,USD,BAM,Exotic,US Dollar,Bosnian and Herzegovina Convertible Mark
+USD/BBD,USD,BBD,Exotic,US Dollar,Barbadian Dollar
+USD/BDT,USD,BDT,Exotic,US Dollar,Bangladeshi Taka
+USD/BGN,USD,BGN,Exotic,US Dollar,Bulgarian Lev
+USD/BHD,USD,BHD,Exotic,US Dollar,Baharain Dinar
+USD/BIF,USD,BIF,Exotic,US Dollar,Burundian Franc
+USD/BND,USD,BND,Exotic,US Dollar,Brunei Dollar
+USD/BOB,USD,BOB,Exotic,US Dollar,Bolivian Boliviano
+USD/BRL,USD,BRL,Exotic,US Dollar,Brazil Real
+USD/BSD,USD,BSD,Exotic,US Dollar,Bahamas Dollar
 USD/BTN,USD,BTN,Major,US Dollar,Bhutanese Ngultrum
+USD/BWP,USD,BWP,Exotic,US Dollar,Botswana Pula
+USD/BZD,USD,BZD,Exotic,US Dollar,Belize Dollar
 USD/CAD,USD,CAD,Major,US Dollar,Canadian Dollar
 USD/CDF,USD,CDF,Major,US Dollar,Congolese Franc
 USD/CHF,USD,CHF,Major,US Dollar,Swiss Franc
+USD/CLP,USD,CLP,Exotic,US Dollar,Chilean Peso
+USD/CNH,USD,CNH,Exotic,US Dollar,Chinese Yuan (Offshore)
+USD/CNY,USD,CNY,Exotic,US Dollar,Chinese Yuan
+USD/COP,USD,COP,Exotic,US Dollar,Colombian Peso
+USD/CRC,USD,CRC,Exotic,US Dollar,Costa Rican Colon
+USD/CUP,USD,CUP,Exotic,US Dollar,Cuban Peso
 USD/CVE,USD,CVE,Major,US Dollar,Cape Verdean Escudo
+USD/CZK,USD,CZK,Exotic,US Dollar,Czech Koruna
+USD/DJF,USD,DJF,Exotic,US Dollar,Djiboutian Franc
+USD/DKK,USD,DKK,Exotic,US Dollar,Danish Krone
+USD/DOP,USD,DOP,Exotic,US Dollar,Dominican Peso
+USD/DZD,USD,DZD,Exotic,US Dollar,Algerian Dinar
+USD/EGP,USD,EGP,Exotic,US Dollar,Egyptian Pound
+USD/ETB,USD,ETB,Exotic,US Dollar,Ethiopian Birr
 USD/EUR,USD,EUR,Major,US Dollar,Euro
+USD/FJD,USD,FJD,Exotic,US Dollar,Fiji Dollar
 USD/GBP,USD,GBP,Major,US Dollar,British Pound
+USD/GEL,USD,GEL,Exotic,US Dollar,Georgian lari
+USD/GHS,USD,GHS,Exotic,US Dollar,Ghanaian Cedi
+USD/GMD,USD,GMD,Exotic,US Dollar,Gambian Dalasi
+USD/GNF,USD,GNF,Exotic,US Dollar,Guinean Franc
+USD/GTQ,USD,GTQ,Exotic,US Dollar,Guatemalan Quetzal
 USD/GYD,USD,GYD,Major,US Dollar,Guyanese Dollar
+USD/HKD,USD,HKD,Exotic,US Dollar,Hong Kong Dollar
+USD/HNL,USD,HNL,Exotic,US Dollar,Honduran Lempira
+USD/HTG,USD,HTG,Exotic,US Dollar,Haitian Gourde
+USD/HUF,USD,HUF,Exotic,US Dollar,Hungarian Forint
+USD/IDR,USD,IDR,Exotic,US Dollar,Indonesian Rupiah
+USD/ILS,USD,ILS,Exotic,US Dollar,Israeli Shekel
+USD/INR,USD,INR,Exotic,US Dollar,Indian Rupee
+USD/IQD,USD,IQD,Exotic,US Dollar,Iraqi Dinar
+USD/IRR,USD,IRR,Exotic,US Dollar,Iranian Rial
+USD/ISK,USD,ISK,Exotic,US Dollar,Icelandic Krona
+USD/JMD,USD,JMD,Exotic,US Dollar,Jamaican Dollar
+USD/JOD,USD,JOD,Exotic,US Dollar,Jordan Dinar
 USD/JPY,USD,JPY,Major,US Dollar,Japanese Yen
+USD/KES,USD,KES,Exotic,US Dollar,Kenyan Shilling
+USD/KHR,USD,KHR,Exotic,US Dollar,Cambodian Riel
+USD/KMF,USD,KMF,Exotic,US Dollar,Comorian Franc
+USD/KRW,USD,KRW,Exotic,US Dollar,Korean Won
+USD/KWD,USD,KWD,Exotic,US Dollar,Kuwaiti Dinar
+USD/KZT,USD,KZT,Exotic,US Dollar,Kazakh Tenge
+USD/LAK,USD,LAK,Exotic,US Dollar,Lao Kip
+USD/LBP,USD,LBP,Exotic,US Dollar,Lebanese Pound
+USD/LKR,USD,LKR,Exotic,US Dollar,Sri Lankan Rupee
 USD/LRD,USD,LRD,Major,US Dollar,Liberian Dollar
+USD/LSL,USD,LSL,Exotic,US Dollar,Lesotho loti
+USD/LYD,USD,LYD,Exotic,US Dollar,Libyan Dinar
+USD/MAD,USD,MAD,Exotic,US Dollar,Moroccan Dirham
+USD/MDL,USD,MDL,Exotic,US Dollar,Moldovan Leu
+USD/MGA,USD,MGA,Exotic,US Dollar,Malagasy Ariary
+USD/MKD,USD,MKD,Exotic,US Dollar,Macedonian Denar
+USD/MMK,USD,MMK,Exotic,US Dollar,Myanmar kyat
 USD/MNT,USD,MNT,Minor,US Dollar,Mongolian Tugrik
+USD/MOP,USD,MOP,Exotic,US Dollar,Macanese Pataca
 USD/MRU,USD,MRU,Major,US Dollar,Mauritanian Ouguiya
+USD/MUR,USD,MUR,Exotic,US Dollar,Mauritian Rupee
+USD/MVR,USD,MVR,Exotic,US Dollar,Maldivian Rufiyaa
+USD/MWK,USD,MWK,Exotic,US Dollar,Malawian Kwacha
+USD/MXN,USD,MXN,Exotic,US Dollar,Mexican Peso
+USD/MYR,USD,MYR,Exotic,US Dollar,Malaysian Ringgit
+USD/MZN,USD,MZN,Exotic,US Dollar,Mozambican Metical
+USD/NAD,USD,NAD,Exotic,US Dollar,Namibian Dollar
+USD/NGN,USD,NGN,Exotic,US Dollar,Nigerian Naira
+USD/NIO,USD,NIO,Exotic,US Dollar,Nicaraguan Cordoba
+USD/NOK,USD,NOK,Exotic,US Dollar,Norwegian Krone
+USD/NPR,USD,NPR,Exotic,US Dollar,Nepalese Rupee
 USD/NZD,USD,NZD,Major,US Dollar,New Zealand Dollar
+USD/OMR,USD,OMR,Exotic,US Dollar,Omani Rial
+USD/PAB,USD,PAB,Exotic,US Dollar,Panamanian Balboa
+USD/PEN,USD,PEN,Exotic,US Dollar,Peru Sol
+USD/PGK,USD,PGK,Exotic,US Dollar,Papua New Guinean kina
+USD/PHP,USD,PHP,Exotic,US Dollar,Philippine Peso
+USD/PKR,USD,PKR,Exotic,US Dollar,Pakistani Rupee
+USD/PLN,USD,PLN,Exotic,US Dollar,Polish Zloty
+USD/PYG,USD,PYG,Exotic,US Dollar,Paraguayan Guarani
+USD/QAR,USD,QAR,Exotic,US Dollar,Qatari Riyal
+USD/RON,USD,RON,Exotic,US Dollar,Romanian Leu
+USD/RSD,USD,RSD,Exotic,US Dollar,Serbian Dinar
 USD/RUB,USD,RUB,Minor,US Dollar,Russian Ruble
+USD/RWF,USD,RWF,Exotic,US Dollar,Rwandan Franc
+USD/SAR,USD,SAR,Exotic,US Dollar,Saudi Riyal
 USD/SBD,USD,SBD,Major,US Dollar,Solomon Islands Dollar
+USD/SCR,USD,SCR,Exotic,US Dollar,Seychelles Rupee
+USD/SDG,USD,SDG,Exotic,US Dollar,Sudanese Pound
+USD/SEK,USD,SEK,Exotic,US Dollar,Swedish Krona
+USD/SGD,USD,SGD,Exotic,US Dollar,Singapore Dollar
 USD/SLE,USD,SLE,Major,US Dollar,Sierra Leonean Leone
+USD/SOS,USD,SOS,Exotic,US Dollar,Somali Shilling
 USD/SRD,USD,SRD,Major,US Dollar,Surinamese Dollar
 USD/STN,USD,STN,Major,US Dollar,São Tomé and Príncipe Dobra
+USD/SVC,USD,SVC,Exotic,US Dollar,El Salvador Colon
+USD/SYP,USD,SYP,Exotic,US Dollar,Syrian Pound
+USD/SZL,USD,SZL,Exotic,US Dollar,Swazi Lilangeni
+USD/THB,USD,THB,Exotic,US Dollar,Thai Baht
 USD/TJS,USD,TJS,Minor,US Dollar,Tajikistani somoni
 USD/TMT,USD,TMT,Minor,US Dollar,Turkmenistan manat
+USD/TND,USD,TND,Exotic,US Dollar,Tunisian Dinar
 USD/TOP,USD,TOP,Major,US Dollar,Tongan Pa'anga
+USD/TRY,USD,TRY,Exotic,US Dollar,Turkish Lira
+USD/TTD,USD,TTD,Exotic,US Dollar,Trinidad Dollar
+USD/TWD,USD,TWD,Exotic,US Dollar,Taiwan Dollar
+USD/TZS,USD,TZS,Exotic,US Dollar,Tanzanian Shilling
+USD/UAH,USD,UAH,Exotic,US Dollar,Ukrainian Hryvnia
+USD/UGX,USD,UGX,Exotic,US Dollar,Ugandan Shilling
+USD/UYU,USD,UYU,Exotic,US Dollar,Uruguayan Peso
+USD/UZS,USD,UZS,Exotic,US Dollar,Uzbekistani Sum
 USD/VES,USD,VES,Major,US Dollar,Venezuelan Bolívar Soberano
+USD/VND,USD,VND,Exotic,US Dollar,Vietnamese Dong
+USD/VUV,USD,VUV,Exotic,US Dollar,Vanuatu vatu
 USD/WST,USD,WST,Major,US Dollar,Samoan Tala
+USD/XAF,USD,XAF,Exotic,US Dollar,Central African CFA franc
+USD/XCD,USD,XCD,Exotic,US Dollar,East Caribbean Dollar
+USD/XOF,USD,XOF,Exotic,US Dollar,West African CFA franc
+USD/XPF,USD,XPF,Exotic,US Dollar,French Pacific Franc
+USD/YER,USD,YER,Exotic,US Dollar,Yemeni Rial
+USD/ZAR,USD,ZAR,Exotic,US Dollar,South African Rand
+USD/ZMW,USD,ZMW,Exotic,US Dollar,Zambia Kwacha
+UYU/USD,UYU,USD,Exotic,Uruguayan Peso,US Dollar
 VND/USD,VND,USD,Minor,Vietnamese Dong,US Dollar
 XDR/USD,XDR,USD,Major,Special Drawing Rights,US Dollar
+ZAR/USD,ZAR,USD,Exotic,South African Rand,US Dollar
