@@ -1,7 +1,6 @@
 # AbsCur3: Веб-платформа абсолютных валютных курсов
 
 [![GitHub Actions](https://img.shields.io/badge/Status-Active-success)](https://github.com/prog815/abscur3)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Статья на Хабре](https://img.shields.io/badge/Хабр-Статья-blue)](https://habr.com/ru/articles/983024/)
 [![Веб-интерфейс](https://img.shields.io/badge/Веб--интерфейс-abscur.ru-green)](https://www.abscur.ru)
 
