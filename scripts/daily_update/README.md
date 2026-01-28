@@ -176,9 +176,6 @@ python scripts/daily_update/incremental_updater.py
 
 ---
 
-**Дата создания документации**: 2026-01-29  
-**Статус**: Активная разработка  
-**Следующий этап**: Разработка скрипта `incremental_updater.py`
 
 [← Назад к корневому README.md](../../README.md)
 
