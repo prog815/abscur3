@@ -2,7 +2,7 @@
 
 # Система ежедневного инкрементального обновления данных AbsCur3
 
-[← Назад к корневому README.md](../README.md)
+[← Назад к корневому README.md](../../README.md)
 
 ## 📋 Обзор
 
@@ -76,21 +76,21 @@ else:
 
 ```mermaid
 gantt
-    title Распределение запросов во времени
+    title Распределение запросов (в часах:минутах)
     dateFormat  HH:mm
     axisFormat %H:%M
     
-    section Батч 1 (пары 1-7)
+    section Батч 1
     Запросы к API : 00:00, 1m
     Пауза : 00:01, 59s
     
-    section Батч 2 (пары 8-14)
-    Запросы к API : 01:00, 1m
-    Пауза : 01:01, 59s
+    section Батч 2
+    Запросы к API : 00:01, 1m
+    Пауза : 00:02, 59s
     
-    section Батч N (пары ...)
-    Запросы к API : 40:00, 1m
-    Пауза : 40:01, 59s
+    section Батч 41
+    Запросы к API : 00:40, 1m
+    Пауза : 00:41, 59s
 ```
 
 **Расчёт времени**: 287 пар ÷ 7 пар/мин = 41 минута (без учёта накладных расходов)
@@ -117,9 +117,10 @@ gantt
 ## ⚙️ Настройка и запуск
 
 ### Локальный запуск (для тестирования)
+Запуск должен производиться из **корневого каталога проекта** (`abscur3/`). Скрипт сам определит правильные пути.
 ```bash
-cd /scripts/daily_update
-python incremental_updater.py
+# Из корня репозитория
+python scripts/daily_update/incremental_updater.py
 ```
 
 ### Автоматический запуск
@@ -130,8 +131,8 @@ python incremental_updater.py
 
 ### Настройка окружения
 1. Установите зависимости: `pip install -r requirements.txt`
-2. Создайте файл `.env` с переменной `TWELVE_DATA_API_KEY`
-3. Для GitHub Actions добавьте секрет `TWELVE_DATA_API_KEY` в настройках репозитория
+2. Файл `.env` уже существует в корне репозитория и содержит переменную `TWELVE_DATA_API_KEY`. Убедитесь, что он присутствует.
+3. Для GitHub Actions добавьте секрет `TWELVE_DATA_API_KEY` в настройках репозитория (Settings → Secrets and variables → Actions)
 
 ## 🐛 Обработка ошибок
 
@@ -179,5 +180,5 @@ python incremental_updater.py
 **Статус**: Активная разработка  
 **Следующий этап**: Разработка скрипта `incremental_updater.py`
 
-[← Назад к корневому README.md](../README.md)
+[← Назад к корневому README.md](../../README.md)
 
