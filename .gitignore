@@ -19,3 +19,4 @@ develop-eggs/
 dist/
 data/research_results/
 scripts/initial_load/logs/
+.gitkeep
