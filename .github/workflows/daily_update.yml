@@ -1,0 +1,44 @@
+name: Daily Data Update
+
+on:
+  schedule:
+    # Запуск каждый день в 05:00 UTC (08:00 МСК)
+    - cron: '0 5 * * *'
+  workflow_dispatch:  # Ручной запуск
+
+jobs:
+  update-raw-pairs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55  # Ограничение времени выполнения
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Run incremental update
+      env:
+        TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
+      run: |
+        python scripts/daily_update/incremental_updater.py
+        
+    - name: Commit and push if changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/raw/twelve_data/pairs/*.csv
+        git add data/metadata/update_state.json
+        git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update: daily data refresh [skip ci]"
+        git push

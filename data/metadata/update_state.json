@@ -1,0 +1,98 @@
+{
+  "timestamp": "2026-01-29T21:53:50.210910",
+  "total_pairs": 10,
+  "total_api_requests": 10,
+  "yesterday_date": "2026-01-28",
+  "statistics": {
+    "updated": 9,
+    "already_current": 0,
+    "no_new_data": 0,
+    "failed": 1,
+    "no_local_data": 0,
+    "no_last_date": 0,
+    "total_new_rows": 181,
+    "total_existing_rows": 72689
+  },
+  "results": {
+    "IDR/CHF": {
+      "symbol": "IDR/CHF",
+      "status": "updated",
+      "existing_rows": 4629,
+      "new_rows": 23,
+      "last_date": "2025-12-29",
+      "range": "2025-12-29 - 2026-01-28"
+    },
+    "SDR/RUB": {
+      "symbol": "SDR/RUB",
+      "status": "updated",
+      "existing_rows": 4679,
+      "new_rows": 20,
+      "last_date": "2025-12-29",
+      "range": "2025-12-29 - 2026-01-28"
+    },
+    "USD/AED": {
+      "symbol": "USD/AED",
+      "status": "updated",
+      "existing_rows": 9077,
+      "new_rows": 23,
+      "last_date": "2025-12-29",
+      "range": "2025-12-29 - 2026-01-28"
+    },
+    "EUR/AZN": {
+      "symbol": "EUR/AZN",
+      "status": "updated",
+      "existing_rows": 6448,
+      "new_rows": 23,
+      "last_date": "2025-12-29",
+      "range": "2025-12-29 - 2026-01-28"
+    },
+    "NZD/USD": {
+      "symbol": "NZD/USD",
+      "status": "updated",
+      "existing_rows": 9958,
+      "new_rows": 0,
+      "last_date": "2026-01-22",
+      "range": "2026-01-22 - 2026-01-28"
+    },
+    "EUR/TJS": {
+      "symbol": "EUR/TJS",
+      "status": "updated",
+      "existing_rows": 4935,
+      "new_rows": 23,
+      "last_date": "2025-12-29",
+      "range": "2025-12-29 - 2026-01-28"
+    },
+    "USD/XPF": {
+      "symbol": "USD/XPF",
+      "status": "updated",
+      "existing_rows": 5774,
+      "new_rows": 23,
+      "last_date": "2025-12-29",
+      "range": "2025-12-29 - 2026-01-28"
+    },
+    "BHD/INR": {
+      "symbol": "BHD/INR",
+      "status": "failed",
+      "existing_rows": 8215,
+      "new_rows": 0,
+      "error": "Ошибка загрузки данных",
+      "range": "2025-12-29 - 2026-01-28"
+    },
+    "USD/MKD": {
+      "symbol": "USD/MKD",
+      "status": "updated",
+      "existing_rows": 6971,
+      "new_rows": 23,
+      "last_date": "2025-12-29",
+      "range": "2025-12-29 - 2026-01-28"
+    },
+    "GBP/CAD": {
+      "symbol": "GBP/CAD",
+      "status": "updated",
+      "existing_rows": 12003,
+      "new_rows": 23,
+      "last_date": "2025-12-29",
+      "range": "2025-12-29 - 2026-01-28"
+    }
+  }
+}
