@@ -106,8 +106,7 @@ logger = setup_logging()
 def load_currency_config():
     """
     Загружает список валютных пар из конфигурационного файла.
-    Возвращает список символов.
-    Для тестирования: возвращает случайные 10 пар из всех доступных.
+    Возвращает ВСЕ символы (296 пар).
     """
     config_file = os.path.join(PROJECT_ROOT, 'config', 'currencies.py')
     
@@ -127,24 +126,12 @@ def load_currency_config():
             all_symbols = currencies_module.ALL_SYMBOLS
             logger.info(f"Загружено {len(all_symbols)} пар из конфигурационного файла")
             
-            # ТЕСТОВЫЙ РЕЖИМ: выбираем случайные 10 пар
-            if all_symbols:
-                import random
-                # Фиксируем seed для воспроизводимости тестов
-                random.seed(42)  # Можно убрать для полностью случайного выбора
-                
-                # Проверяем, что пар достаточно для выборки
-                sample_size = min(10, len(all_symbols))
-                selected_pairs = random.sample(all_symbols, sample_size)
-                
-                logger.info(f"ТЕСТОВЫЙ РЕЖИМ: выбрано {len(selected_pairs)} случайных пар:")
-                for i, pair in enumerate(selected_pairs, 1):
-                    logger.info(f"  {i}. {pair}")
-                
-                return selected_pairs
-            else:
-                logger.error("Список пар пуст в конфигурационном файле")
-                return []
+            # ПРОДАКШЕН РЕЖИМ: возвращаем ВСЕ пары
+            # Убираем случайную выборку 10 пар
+            # selected_pairs = random.sample(all_symbols, sample_size)  # УДАЛИТЬ
+            # return selected_pairs  # УДАЛИТЬ
+            
+            return all_symbols  # ВОЗВРАЩАЕМ ВСЕ ПАРЫ
         else:
             logger.error("В конфигурационном файле не найден ALL_SYMBOLS")
             return []

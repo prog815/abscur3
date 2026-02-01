@@ -1,15 +1,17 @@
-name: Daily Data Update (Test Mode - 10 pairs)
+name: Daily Data Update
 
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: '0 5 * * *'  # Ежедневно в 05:00 UTC (08:00 МСК)
+  workflow_dispatch:      # Оставляем ручной запуск
 
 jobs:
   update-raw-pairs:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 55  # Увеличиваем для 296 пар
     
     permissions:
-      contents: write  # Явно даём права на запись
+      contents: write
     
     steps:
     - name: Checkout repository
@@ -37,5 +39,5 @@ jobs:
         git config --local user.email "github-actions@github.com"
         git config --local user.name "GitHub Actions"
         git add data/raw/twelve_data/pairs/*.csv data/metadata/update_state.json
-        git commit -m "Auto-update: daily data refresh (test mode) [skip ci]"
+        git commit -m "Auto-update: daily data refresh for 296 pairs [skip ci]"
         git push
