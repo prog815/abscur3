@@ -1,98 +1,98 @@
 {
-  "timestamp": "2026-01-29T21:53:50.210910",
+  "timestamp": "2026-02-01T09:43:01.061265",
   "total_pairs": 10,
   "total_api_requests": 10,
-  "yesterday_date": "2026-01-28",
+  "yesterday_date": "2026-01-31",
   "statistics": {
-    "updated": 9,
+    "updated": 10,
     "already_current": 0,
     "no_new_data": 0,
-    "failed": 1,
+    "failed": 0,
     "no_local_data": 0,
     "no_last_date": 0,
-    "total_new_rows": 181,
-    "total_existing_rows": 72689
+    "total_new_rows": 53,
+    "total_existing_rows": 72870
   },
   "results": {
     "IDR/CHF": {
       "symbol": "IDR/CHF",
       "status": "updated",
-      "existing_rows": 4629,
-      "new_rows": 23,
-      "last_date": "2025-12-29",
-      "range": "2025-12-29 - 2026-01-28"
+      "existing_rows": 4652,
+      "new_rows": 3,
+      "last_date": "2026-01-22",
+      "range": "2026-01-22 - 2026-01-31"
     },
     "SDR/RUB": {
       "symbol": "SDR/RUB",
       "status": "updated",
-      "existing_rows": 4679,
-      "new_rows": 20,
-      "last_date": "2025-12-29",
-      "range": "2025-12-29 - 2026-01-28"
+      "existing_rows": 4699,
+      "new_rows": 3,
+      "last_date": "2026-01-22",
+      "range": "2026-01-22 - 2026-01-31"
     },
     "USD/AED": {
       "symbol": "USD/AED",
       "status": "updated",
-      "existing_rows": 9077,
-      "new_rows": 23,
-      "last_date": "2025-12-29",
-      "range": "2025-12-29 - 2026-01-28"
+      "existing_rows": 9100,
+      "new_rows": 3,
+      "last_date": "2026-01-22",
+      "range": "2026-01-22 - 2026-01-31"
     },
     "EUR/AZN": {
       "symbol": "EUR/AZN",
       "status": "updated",
-      "existing_rows": 6448,
-      "new_rows": 23,
-      "last_date": "2025-12-29",
-      "range": "2025-12-29 - 2026-01-28"
+      "existing_rows": 6471,
+      "new_rows": 3,
+      "last_date": "2026-01-22",
+      "range": "2026-01-22 - 2026-01-31"
     },
     "NZD/USD": {
       "symbol": "NZD/USD",
       "status": "updated",
       "existing_rows": 9958,
-      "new_rows": 0,
+      "new_rows": 3,
       "last_date": "2026-01-22",
-      "range": "2026-01-22 - 2026-01-28"
+      "range": "2026-01-22 - 2026-01-31"
     },
     "EUR/TJS": {
       "symbol": "EUR/TJS",
       "status": "updated",
-      "existing_rows": 4935,
-      "new_rows": 23,
-      "last_date": "2025-12-29",
-      "range": "2025-12-29 - 2026-01-28"
+      "existing_rows": 4958,
+      "new_rows": 3,
+      "last_date": "2026-01-22",
+      "range": "2026-01-22 - 2026-01-31"
     },
     "USD/XPF": {
       "symbol": "USD/XPF",
       "status": "updated",
-      "existing_rows": 5774,
-      "new_rows": 23,
-      "last_date": "2025-12-29",
-      "range": "2025-12-29 - 2026-01-28"
+      "existing_rows": 5797,
+      "new_rows": 3,
+      "last_date": "2026-01-22",
+      "range": "2026-01-22 - 2026-01-31"
     },
     "BHD/INR": {
       "symbol": "BHD/INR",
-      "status": "failed",
+      "status": "updated",
       "existing_rows": 8215,
-      "new_rows": 0,
-      "error": "Ошибка загрузки данных",
-      "range": "2025-12-29 - 2026-01-28"
+      "new_rows": 26,
+      "last_date": "2025-12-29",
+      "range": "2025-12-29 - 2026-01-31"
     },
     "USD/MKD": {
       "symbol": "USD/MKD",
       "status": "updated",
-      "existing_rows": 6971,
-      "new_rows": 23,
-      "last_date": "2025-12-29",
-      "range": "2025-12-29 - 2026-01-28"
+      "existing_rows": 6994,
+      "new_rows": 3,
+      "last_date": "2026-01-22",
+      "range": "2026-01-22 - 2026-01-31"
     },
     "GBP/CAD": {
       "symbol": "GBP/CAD",
       "status": "updated",
-      "existing_rows": 12003,
-      "new_rows": 23,
-      "last_date": "2025-12-29",
-      "range": "2025-12-29 - 2026-01-28"
+      "existing_rows": 12026,
+      "new_rows": 3,
+      "last_date": "2026-01-22",
+      "range": "2026-01-22 - 2026-01-31"
     }
   }
 }
