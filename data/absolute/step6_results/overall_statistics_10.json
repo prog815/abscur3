@@ -1,0 +1,30 @@
+{
+  "total_dates_processed": 5,
+  "avg_avg_error": 0.07007978912326382,
+  "avg_max_error": 0.2253285188358869,
+  "avg_min_error": 2.692644526113474e-14,
+  "avg_num_pairs": 10.0,
+  "avg_num_currencies": 8.0,
+  "all_currencies_found": [
+    "AUD",
+    "CAD",
+    "CHF",
+    "EUR",
+    "GBP",
+    "JPY",
+    "NZD",
+    "USD"
+  ],
+  "all_pairs_found": [
+    "AUDUSD",
+    "EURGBP",
+    "EURJPY",
+    "EURUSD",
+    "GBPJPY",
+    "GBPUSD",
+    "NZDUSD",
+    "USDCAD",
+    "USDCHF",
+    "USDJPY"
+  ]
+}

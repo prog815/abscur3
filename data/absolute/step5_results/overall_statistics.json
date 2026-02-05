@@ -1,0 +1,17 @@
+{
+  "total_dates_processed": 5,
+  "overall_avg_error": 0.11692973209884287,
+  "overall_max_error": 0.18503900031979906,
+  "min_avg_error": 0.058194186034211726,
+  "max_avg_error": 0.18481115903745002,
+  "currencies_found": [
+    "EUR",
+    "JPY",
+    "USD"
+  ],
+  "pairs_found": [
+    "EURJPY",
+    "EURUSD",
+    "USDJPY"
+  ]
+}

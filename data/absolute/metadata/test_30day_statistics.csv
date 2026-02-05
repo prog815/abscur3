@@ -1,0 +1,17 @@
+metric,value
+total_days,30
+successful_days,21
+failed_days,9
+success_rate,70.0
+total_calculation_time_ms,27.662277221679688
+avg_calculation_time_ms,1.0261422111874534
+max_calculation_time_ms,4.963874816894531
+min_calculation_time_ms,0.0
+avg_error_overall,0.0706588607912192
+max_error_overall,0.5076598869419062
+min_error_overall,0.0
+avg_currencies_per_day,8.0
+avg_pairs_per_day,10.0
+date_range,"{'start': '2023-12-01', 'end': '2023-12-30', 'total_days': 30}"
+load_time_seconds,0.18
+num_pairs_loaded,10

@@ -1,0 +1,33 @@
+{
+  "generated_date": "2026-02-05 19:38:41",
+  "total_days": 5,
+  "total_currencies": 8,
+  "total_pairs": 10,
+  "avg_error_overall": 0.07007978912326301,
+  "max_error_overall": 0.3211710866121165,
+  "min_error_overall": 1.6641279942180868e-14,
+  "currencies_list": [
+    "AUD",
+    "CAD",
+    "CHF",
+    "EUR",
+    "GBP",
+    "JPY",
+    "NZD",
+    "USD"
+  ],
+  "date_range": {
+    "first": "2023-12-01",
+    "last": "2023-12-07"
+  },
+  "normalization_info": {
+    "type": "natural_log_mean_zero",
+    "description": "Абсолютные курсы нормированы так, что среднее логарифмов равно 0",
+    "mathematical_property": "Система инвариантна относительно умножения всех курсов на константу",
+    "practical_meaning": "Отношения абсолютных курсов дают парные курсы"
+  },
+  "source_data": {
+    "step": "6b",
+    "description": "Результаты получены в Шаге 6b (10 пар, без нормировки по USD)"
+  }
+}
