@@ -1,0 +1,19 @@
+{
+  "total_pairs": 287,
+  "major_pairs_count": 33,
+  "minor_pairs_count": 107,
+  "exotic_pairs_count": 147,
+  "pairs_sample": [
+    "AED_USD",
+    "AFN_USD",
+    "ARS_USD",
+    "AUD_CAD",
+    "AUD_CHF",
+    "AUD_EUR",
+    "AUD_GBP",
+    "AUD_JPY",
+    "AUD_NZD",
+    "AUD_USD"
+  ],
+  "created_at": "C:\\Users\\prog\\YandexDisk\\prog\\abscur3\\scripts\\create_currency_pairs_json.py"
+}

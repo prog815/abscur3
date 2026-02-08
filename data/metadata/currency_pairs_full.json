@@ -1,0 +1,2011 @@
+[
+  {
+    "symbol": "AED_USD",
+    "original_symbol": "AED/USD",
+    "currency_group": "Exotic",
+    "currency_base": "UAE Dirham",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "AFN_USD",
+    "original_symbol": "AFN/USD",
+    "currency_group": "Minor",
+    "currency_base": "Afghanistan Afghani",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "ARS_USD",
+    "original_symbol": "ARS/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Argentinian Peso",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "AUD_CAD",
+    "original_symbol": "AUD/CAD",
+    "currency_group": "Minor",
+    "currency_base": "Australian Dollar",
+    "currency_quote": "Canadian Dollar"
+  },
+  {
+    "symbol": "AUD_CHF",
+    "original_symbol": "AUD/CHF",
+    "currency_group": "Minor",
+    "currency_base": "Australian Dollar",
+    "currency_quote": "Swiss Franc"
+  },
+  {
+    "symbol": "AUD_EUR",
+    "original_symbol": "AUD/EUR",
+    "currency_group": "Minor",
+    "currency_base": "Australian Dollar",
+    "currency_quote": "Euro"
+  },
+  {
+    "symbol": "AUD_GBP",
+    "original_symbol": "AUD/GBP",
+    "currency_group": "Minor",
+    "currency_base": "Australian Dollar",
+    "currency_quote": "British Pound"
+  },
+  {
+    "symbol": "AUD_JPY",
+    "original_symbol": "AUD/JPY",
+    "currency_group": "Minor",
+    "currency_base": "Australian Dollar",
+    "currency_quote": "Japanese Yen"
+  },
+  {
+    "symbol": "AUD_NZD",
+    "original_symbol": "AUD/NZD",
+    "currency_group": "Minor",
+    "currency_base": "Australian Dollar",
+    "currency_quote": "New Zealand Dollar"
+  },
+  {
+    "symbol": "AUD_USD",
+    "original_symbol": "AUD/USD",
+    "currency_group": "Major",
+    "currency_base": "Australian Dollar",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "AZN_RUB",
+    "original_symbol": "AZN/RUB",
+    "currency_group": "Minor",
+    "currency_base": "Azerbaijani Manat",
+    "currency_quote": "Russian Ruble"
+  },
+  {
+    "symbol": "BGN_RUB",
+    "original_symbol": "BGN/RUB",
+    "currency_group": "Minor",
+    "currency_base": "Bulgarian Lev",
+    "currency_quote": "Russian Ruble"
+  },
+  {
+    "symbol": "BHD_INR",
+    "original_symbol": "BHD/INR",
+    "currency_group": "Minor",
+    "currency_base": "Baharain Dinar",
+    "currency_quote": "Indian Rupee"
+  },
+  {
+    "symbol": "BMD_USD",
+    "original_symbol": "BMD/USD",
+    "currency_group": "Major",
+    "currency_base": "Bermudian Dollar",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "BOB_USD",
+    "original_symbol": "BOB/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Bolivian Boliviano",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "BRL_USD",
+    "original_symbol": "BRL/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Brazil Real",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "BYN_USD",
+    "original_symbol": "BYN/USD",
+    "currency_group": "Minor",
+    "currency_base": "Belarusian Ruble",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "CAD_AUD",
+    "original_symbol": "CAD/AUD",
+    "currency_group": "Minor",
+    "currency_base": "Canadian Dollar",
+    "currency_quote": "Australian Dollar"
+  },
+  {
+    "symbol": "CAD_CHF",
+    "original_symbol": "CAD/CHF",
+    "currency_group": "Minor",
+    "currency_base": "Canadian Dollar",
+    "currency_quote": "Swiss Franc"
+  },
+  {
+    "symbol": "CAD_COP",
+    "original_symbol": "CAD/COP",
+    "currency_group": "Minor",
+    "currency_base": "Canadian Dollar",
+    "currency_quote": "Colombian Peso"
+  },
+  {
+    "symbol": "CAD_EUR",
+    "original_symbol": "CAD/EUR",
+    "currency_group": "Minor",
+    "currency_base": "Canadian Dollar",
+    "currency_quote": "Euro"
+  },
+  {
+    "symbol": "CAD_GBP",
+    "original_symbol": "CAD/GBP",
+    "currency_group": "Minor",
+    "currency_base": "Canadian Dollar",
+    "currency_quote": "British Pound"
+  },
+  {
+    "symbol": "CAD_JPY",
+    "original_symbol": "CAD/JPY",
+    "currency_group": "Minor",
+    "currency_base": "Canadian Dollar",
+    "currency_quote": "Japanese Yen"
+  },
+  {
+    "symbol": "CAD_NZD",
+    "original_symbol": "CAD/NZD",
+    "currency_group": "Minor",
+    "currency_base": "Canadian Dollar",
+    "currency_quote": "New Zealand Dollar"
+  },
+  {
+    "symbol": "CAD_USD",
+    "original_symbol": "CAD/USD",
+    "currency_group": "Major",
+    "currency_base": "Canadian Dollar",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "CHF_AUD",
+    "original_symbol": "CHF/AUD",
+    "currency_group": "Minor",
+    "currency_base": "Swiss Franc",
+    "currency_quote": "Australian Dollar"
+  },
+  {
+    "symbol": "CHF_CAD",
+    "original_symbol": "CHF/CAD",
+    "currency_group": "Minor",
+    "currency_base": "Swiss Franc",
+    "currency_quote": "Canadian Dollar"
+  },
+  {
+    "symbol": "CHF_EUR",
+    "original_symbol": "CHF/EUR",
+    "currency_group": "Minor",
+    "currency_base": "Swiss Franc",
+    "currency_quote": "Euro"
+  },
+  {
+    "symbol": "CHF_GBP",
+    "original_symbol": "CHF/GBP",
+    "currency_group": "Minor",
+    "currency_base": "Swiss Franc",
+    "currency_quote": "British Pound"
+  },
+  {
+    "symbol": "CHF_JPY",
+    "original_symbol": "CHF/JPY",
+    "currency_group": "Minor",
+    "currency_base": "Swiss Franc",
+    "currency_quote": "Japanese Yen"
+  },
+  {
+    "symbol": "CHF_NZD",
+    "original_symbol": "CHF/NZD",
+    "currency_group": "Minor",
+    "currency_base": "Swiss Franc",
+    "currency_quote": "New Zealand Dollar"
+  },
+  {
+    "symbol": "CHF_USD",
+    "original_symbol": "CHF/USD",
+    "currency_group": "Major",
+    "currency_base": "Swiss Franc",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "CLP_USD",
+    "original_symbol": "CLP/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Chilean Peso",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "CNY_CNH",
+    "original_symbol": "CNY/CNH",
+    "currency_group": "Minor",
+    "currency_base": "Chinese Yuan",
+    "currency_quote": "Chinese Yuan (Offshore)"
+  },
+  {
+    "symbol": "CNY_MNT",
+    "original_symbol": "CNY/MNT",
+    "currency_group": "Minor",
+    "currency_base": "Chinese Yuan",
+    "currency_quote": "Mongolian Tugrik"
+  },
+  {
+    "symbol": "CNY_USD",
+    "original_symbol": "CNY/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Chinese Yuan",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "COP_USD",
+    "original_symbol": "COP/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Colombian Peso",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "CZK_PLN",
+    "original_symbol": "CZK/PLN",
+    "currency_group": "Minor",
+    "currency_base": "Czech Koruna",
+    "currency_quote": "Polish Zloty"
+  },
+  {
+    "symbol": "CZK_USD",
+    "original_symbol": "CZK/USD",
+    "currency_group": "Minor",
+    "currency_base": "Czech Koruna",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "DKK_USD",
+    "original_symbol": "DKK/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Danish Krone",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "EGP_USD",
+    "original_symbol": "EGP/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Egyptian Pound",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "EUR_AMD",
+    "original_symbol": "EUR/AMD",
+    "currency_group": "Minor",
+    "currency_base": "Euro",
+    "currency_quote": "Armenian Dram"
+  },
+  {
+    "symbol": "EUR_AOA",
+    "original_symbol": "EUR/AOA",
+    "currency_group": "Minor",
+    "currency_base": "Euro",
+    "currency_quote": "Angolan kwanza"
+  },
+  {
+    "symbol": "EUR_AUD",
+    "original_symbol": "EUR/AUD",
+    "currency_group": "Minor",
+    "currency_base": "Euro",
+    "currency_quote": "Australian Dollar"
+  },
+  {
+    "symbol": "EUR_AZN",
+    "original_symbol": "EUR/AZN",
+    "currency_group": "Exotic",
+    "currency_base": "Euro",
+    "currency_quote": "Azerbaijani Manat"
+  },
+  {
+    "symbol": "EUR_CAD",
+    "original_symbol": "EUR/CAD",
+    "currency_group": "Minor",
+    "currency_base": "Euro",
+    "currency_quote": "Canadian Dollar"
+  },
+  {
+    "symbol": "EUR_CHF",
+    "original_symbol": "EUR/CHF",
+    "currency_group": "Minor",
+    "currency_base": "Euro",
+    "currency_quote": "Swiss Franc"
+  },
+  {
+    "symbol": "EUR_GBP",
+    "original_symbol": "EUR/GBP",
+    "currency_group": "Minor",
+    "currency_base": "Euro",
+    "currency_quote": "British Pound"
+  },
+  {
+    "symbol": "EUR_GEL",
+    "original_symbol": "EUR/GEL",
+    "currency_group": "Minor",
+    "currency_base": "Euro",
+    "currency_quote": "Georgian lari"
+  },
+  {
+    "symbol": "EUR_JPY",
+    "original_symbol": "EUR/JPY",
+    "currency_group": "Minor",
+    "currency_base": "Euro",
+    "currency_quote": "Japanese Yen"
+  },
+  {
+    "symbol": "EUR_MZN",
+    "original_symbol": "EUR/MZN",
+    "currency_group": "Exotic",
+    "currency_base": "Euro",
+    "currency_quote": "Mozambican Metical"
+  },
+  {
+    "symbol": "EUR_NZD",
+    "original_symbol": "EUR/NZD",
+    "currency_group": "Minor",
+    "currency_base": "Euro",
+    "currency_quote": "New Zealand Dollar"
+  },
+  {
+    "symbol": "EUR_TJS",
+    "original_symbol": "EUR/TJS",
+    "currency_group": "Minor",
+    "currency_base": "Euro",
+    "currency_quote": "Tajikistani somoni"
+  },
+  {
+    "symbol": "EUR_USD",
+    "original_symbol": "EUR/USD",
+    "currency_group": "Major",
+    "currency_base": "Euro",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "FJD_USD",
+    "original_symbol": "FJD/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Fiji Dollar",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "FKP_USD",
+    "original_symbol": "FKP/USD",
+    "currency_group": "Major",
+    "currency_base": "Falkland Islands Pound",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "GBP_AUD",
+    "original_symbol": "GBP/AUD",
+    "currency_group": "Minor",
+    "currency_base": "British Pound",
+    "currency_quote": "Australian Dollar"
+  },
+  {
+    "symbol": "GBP_CAD",
+    "original_symbol": "GBP/CAD",
+    "currency_group": "Minor",
+    "currency_base": "British Pound",
+    "currency_quote": "Canadian Dollar"
+  },
+  {
+    "symbol": "GBP_CHF",
+    "original_symbol": "GBP/CHF",
+    "currency_group": "Minor",
+    "currency_base": "British Pound",
+    "currency_quote": "Swiss Franc"
+  },
+  {
+    "symbol": "GBP_EUR",
+    "original_symbol": "GBP/EUR",
+    "currency_group": "Minor",
+    "currency_base": "British Pound",
+    "currency_quote": "Euro"
+  },
+  {
+    "symbol": "GBP_JPY",
+    "original_symbol": "GBP/JPY",
+    "currency_group": "Minor",
+    "currency_base": "British Pound",
+    "currency_quote": "Japanese Yen"
+  },
+  {
+    "symbol": "GBP_NPR",
+    "original_symbol": "GBP/NPR",
+    "currency_group": "Minor",
+    "currency_base": "British Pound",
+    "currency_quote": "Nepalese Rupee"
+  },
+  {
+    "symbol": "GBP_NZD",
+    "original_symbol": "GBP/NZD",
+    "currency_group": "Minor",
+    "currency_base": "British Pound",
+    "currency_quote": "New Zealand Dollar"
+  },
+  {
+    "symbol": "GBP_USD",
+    "original_symbol": "GBP/USD",
+    "currency_group": "Major",
+    "currency_base": "British Pound",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "GEL_RUB",
+    "original_symbol": "GEL/RUB",
+    "currency_group": "Minor",
+    "currency_base": "Georgian lari",
+    "currency_quote": "Russian Ruble"
+  },
+  {
+    "symbol": "GHS_USD",
+    "original_symbol": "GHS/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Ghanaian Cedi",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "GIP_USD",
+    "original_symbol": "GIP/USD",
+    "currency_group": "Major",
+    "currency_base": "Gibraltar Pound",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "HKD_USD",
+    "original_symbol": "HKD/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Hong Kong Dollar",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "HUF_EUR",
+    "original_symbol": "HUF/EUR",
+    "currency_group": "Minor",
+    "currency_base": "Hungarian Forint",
+    "currency_quote": "Euro"
+  },
+  {
+    "symbol": "HUF_USD",
+    "original_symbol": "HUF/USD",
+    "currency_group": "Minor",
+    "currency_base": "Hungarian Forint",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "IDR_AUD",
+    "original_symbol": "IDR/AUD",
+    "currency_group": "Minor",
+    "currency_base": "Indonesian Rupiah",
+    "currency_quote": "Australian Dollar"
+  },
+  {
+    "symbol": "IDR_CHF",
+    "original_symbol": "IDR/CHF",
+    "currency_group": "Minor",
+    "currency_base": "Indonesian Rupiah",
+    "currency_quote": "Swiss Franc"
+  },
+  {
+    "symbol": "IDR_EUR",
+    "original_symbol": "IDR/EUR",
+    "currency_group": "Minor",
+    "currency_base": "Indonesian Rupiah",
+    "currency_quote": "Euro"
+  },
+  {
+    "symbol": "IDR_GBP",
+    "original_symbol": "IDR/GBP",
+    "currency_group": "Minor",
+    "currency_base": "Indonesian Rupiah",
+    "currency_quote": "British Pound"
+  },
+  {
+    "symbol": "IDR_USD",
+    "original_symbol": "IDR/USD",
+    "currency_group": "Minor",
+    "currency_base": "Indonesian Rupiah",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "ILS_BGN",
+    "original_symbol": "ILS/BGN",
+    "currency_group": "Minor",
+    "currency_base": "Israeli Shekel",
+    "currency_quote": "Bulgarian Lev"
+  },
+  {
+    "symbol": "ILS_COP",
+    "original_symbol": "ILS/COP",
+    "currency_group": "Minor",
+    "currency_base": "Israeli Shekel",
+    "currency_quote": "Colombian Peso"
+  },
+  {
+    "symbol": "ILS_PEN",
+    "original_symbol": "ILS/PEN",
+    "currency_group": "Minor",
+    "currency_base": "Israeli Shekel",
+    "currency_quote": "Peru Sol"
+  },
+  {
+    "symbol": "ILS_UAH",
+    "original_symbol": "ILS/UAH",
+    "currency_group": "Minor",
+    "currency_base": "Israeli Shekel",
+    "currency_quote": "Ukrainian Hryvnia"
+  },
+  {
+    "symbol": "ILS_USD",
+    "original_symbol": "ILS/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Israeli Shekel",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "ILS_UYU",
+    "original_symbol": "ILS/UYU",
+    "currency_group": "Minor",
+    "currency_base": "Israeli Shekel",
+    "currency_quote": "Uruguayan Peso"
+  },
+  {
+    "symbol": "INR_BRL",
+    "original_symbol": "INR/BRL",
+    "currency_group": "Minor",
+    "currency_base": "Indian Rupee",
+    "currency_quote": "Brazil Real"
+  },
+  {
+    "symbol": "INR_USD",
+    "original_symbol": "INR/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Indian Rupee",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "IQD_USD",
+    "original_symbol": "IQD/USD",
+    "currency_group": "Minor",
+    "currency_base": "Iraqi Dinar",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "IRR_USD",
+    "original_symbol": "IRR/USD",
+    "currency_group": "Minor",
+    "currency_base": "Iranian Rial",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "JOD_EUR",
+    "original_symbol": "JOD/EUR",
+    "currency_group": "Minor",
+    "currency_base": "Jordan Dinar",
+    "currency_quote": "Euro"
+  },
+  {
+    "symbol": "JOD_GBP",
+    "original_symbol": "JOD/GBP",
+    "currency_group": "Minor",
+    "currency_base": "Jordan Dinar",
+    "currency_quote": "British Pound"
+  },
+  {
+    "symbol": "JOD_USD",
+    "original_symbol": "JOD/USD",
+    "currency_group": "Minor",
+    "currency_base": "Jordan Dinar",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "JPY_AUD",
+    "original_symbol": "JPY/AUD",
+    "currency_group": "Minor",
+    "currency_base": "Japanese Yen",
+    "currency_quote": "Australian Dollar"
+  },
+  {
+    "symbol": "JPY_CAD",
+    "original_symbol": "JPY/CAD",
+    "currency_group": "Minor",
+    "currency_base": "Japanese Yen",
+    "currency_quote": "Canadian Dollar"
+  },
+  {
+    "symbol": "JPY_CHF",
+    "original_symbol": "JPY/CHF",
+    "currency_group": "Minor",
+    "currency_base": "Japanese Yen",
+    "currency_quote": "Swiss Franc"
+  },
+  {
+    "symbol": "JPY_EUR",
+    "original_symbol": "JPY/EUR",
+    "currency_group": "Minor",
+    "currency_base": "Japanese Yen",
+    "currency_quote": "Euro"
+  },
+  {
+    "symbol": "JPY_GBP",
+    "original_symbol": "JPY/GBP",
+    "currency_group": "Minor",
+    "currency_base": "Japanese Yen",
+    "currency_quote": "British Pound"
+  },
+  {
+    "symbol": "JPY_NZD",
+    "original_symbol": "JPY/NZD",
+    "currency_group": "Minor",
+    "currency_base": "Japanese Yen",
+    "currency_quote": "New Zealand Dollar"
+  },
+  {
+    "symbol": "JPY_TRY",
+    "original_symbol": "JPY/TRY",
+    "currency_group": "Minor",
+    "currency_base": "Japanese Yen",
+    "currency_quote": "Turkish Lira"
+  },
+  {
+    "symbol": "JPY_USD",
+    "original_symbol": "JPY/USD",
+    "currency_group": "Major",
+    "currency_base": "Japanese Yen",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "KGS_RUB",
+    "original_symbol": "KGS/RUB",
+    "currency_group": "Minor",
+    "currency_base": "Kyrgyzstan som",
+    "currency_quote": "Russian Ruble"
+  },
+  {
+    "symbol": "KRW_USD",
+    "original_symbol": "KRW/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Korean Won",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "KWD_EUR",
+    "original_symbol": "KWD/EUR",
+    "currency_group": "Minor",
+    "currency_base": "Kuwaiti Dinar",
+    "currency_quote": "Euro"
+  },
+  {
+    "symbol": "KWD_MYR",
+    "original_symbol": "KWD/MYR",
+    "currency_group": "Minor",
+    "currency_base": "Kuwaiti Dinar",
+    "currency_quote": "Malaysian Ringgit"
+  },
+  {
+    "symbol": "KWD_SGD",
+    "original_symbol": "KWD/SGD",
+    "currency_group": "Minor",
+    "currency_base": "Kuwaiti Dinar",
+    "currency_quote": "Singapore Dollar"
+  },
+  {
+    "symbol": "KWD_USD",
+    "original_symbol": "KWD/USD",
+    "currency_group": "Minor",
+    "currency_base": "Kuwaiti Dinar",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "KYD_USD",
+    "original_symbol": "KYD/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Cayman Islands Dollar",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "MDL_RUB",
+    "original_symbol": "MDL/RUB",
+    "currency_group": "Minor",
+    "currency_base": "Moldovan Leu",
+    "currency_quote": "Russian Ruble"
+  },
+  {
+    "symbol": "MXN_USD",
+    "original_symbol": "MXN/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Mexican Peso",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "MYR_USD",
+    "original_symbol": "MYR/USD",
+    "currency_group": "Minor",
+    "currency_base": "Malaysian Ringgit",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "NIO_USD",
+    "original_symbol": "NIO/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Nicaraguan Cordoba",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "NOK_USD",
+    "original_symbol": "NOK/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Norwegian Krone",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "NZD_AUD",
+    "original_symbol": "NZD/AUD",
+    "currency_group": "Minor",
+    "currency_base": "New Zealand Dollar",
+    "currency_quote": "Australian Dollar"
+  },
+  {
+    "symbol": "NZD_CAD",
+    "original_symbol": "NZD/CAD",
+    "currency_group": "Minor",
+    "currency_base": "New Zealand Dollar",
+    "currency_quote": "Canadian Dollar"
+  },
+  {
+    "symbol": "NZD_CHF",
+    "original_symbol": "NZD/CHF",
+    "currency_group": "Minor",
+    "currency_base": "New Zealand Dollar",
+    "currency_quote": "Swiss Franc"
+  },
+  {
+    "symbol": "NZD_EUR",
+    "original_symbol": "NZD/EUR",
+    "currency_group": "Minor",
+    "currency_base": "New Zealand Dollar",
+    "currency_quote": "Euro"
+  },
+  {
+    "symbol": "NZD_GBP",
+    "original_symbol": "NZD/GBP",
+    "currency_group": "Minor",
+    "currency_base": "New Zealand Dollar",
+    "currency_quote": "British Pound"
+  },
+  {
+    "symbol": "NZD_JPY",
+    "original_symbol": "NZD/JPY",
+    "currency_group": "Minor",
+    "currency_base": "New Zealand Dollar",
+    "currency_quote": "Japanese Yen"
+  },
+  {
+    "symbol": "NZD_USD",
+    "original_symbol": "NZD/USD",
+    "currency_group": "Major",
+    "currency_base": "New Zealand Dollar",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "PEN_USD",
+    "original_symbol": "PEN/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Peru Sol",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "PHP_USD",
+    "original_symbol": "PHP/USD",
+    "currency_group": "Minor",
+    "currency_base": "Philippine Peso",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "PLN_UAH",
+    "original_symbol": "PLN/UAH",
+    "currency_group": "Minor",
+    "currency_base": "Polish Zloty",
+    "currency_quote": "Ukrainian Hryvnia"
+  },
+  {
+    "symbol": "PLN_USD",
+    "original_symbol": "PLN/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Polish Zloty",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "PYG_USD",
+    "original_symbol": "PYG/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Paraguayan Guarani",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "RUB_AMD",
+    "original_symbol": "RUB/AMD",
+    "currency_group": "Minor",
+    "currency_base": "Russian Ruble",
+    "currency_quote": "Armenian Dram"
+  },
+  {
+    "symbol": "RUB_BRL",
+    "original_symbol": "RUB/BRL",
+    "currency_group": "Minor",
+    "currency_base": "Russian Ruble",
+    "currency_quote": "Brazil Real"
+  },
+  {
+    "symbol": "RUB_USD",
+    "original_symbol": "RUB/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Russian Ruble",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "RUB_VND",
+    "original_symbol": "RUB/VND",
+    "currency_group": "Minor",
+    "currency_base": "Russian Ruble",
+    "currency_quote": "Vietnamese Dong"
+  },
+  {
+    "symbol": "SAR_USD",
+    "original_symbol": "SAR/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Saudi Riyal",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "SDR_RUB",
+    "original_symbol": "SDR/RUB",
+    "currency_group": "Minor",
+    "currency_base": "Special Drawing Rights",
+    "currency_quote": "Russian Ruble"
+  },
+  {
+    "symbol": "SDR_TRY",
+    "original_symbol": "SDR/TRY",
+    "currency_group": "Minor",
+    "currency_base": "Special Drawing Rights",
+    "currency_quote": "Turkish Lira"
+  },
+  {
+    "symbol": "SGD_KWD",
+    "original_symbol": "SGD/KWD",
+    "currency_group": "Minor",
+    "currency_base": "Singapore Dollar",
+    "currency_quote": "Kuwaiti Dinar"
+  },
+  {
+    "symbol": "SGD_USD",
+    "original_symbol": "SGD/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Singapore Dollar",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "SHP_USD",
+    "original_symbol": "SHP/USD",
+    "currency_group": "Major",
+    "currency_base": "Saint Helena Pound",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "SYP_USD",
+    "original_symbol": "SYP/USD",
+    "currency_group": "Minor",
+    "currency_base": "Syrian Pound",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "THB_GBP",
+    "original_symbol": "THB/GBP",
+    "currency_group": "Minor",
+    "currency_base": "Thai Baht",
+    "currency_quote": "British Pound"
+  },
+  {
+    "symbol": "THB_USD",
+    "original_symbol": "THB/USD",
+    "currency_group": "Minor",
+    "currency_base": "Thai Baht",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "TJS_RUB",
+    "original_symbol": "TJS/RUB",
+    "currency_group": "Minor",
+    "currency_base": "Tajikistani somoni",
+    "currency_quote": "Russian Ruble"
+  },
+  {
+    "symbol": "TRY_UAH",
+    "original_symbol": "TRY/UAH",
+    "currency_group": "Minor",
+    "currency_base": "Turkish Lira",
+    "currency_quote": "Ukrainian Hryvnia"
+  },
+  {
+    "symbol": "TRY_USD",
+    "original_symbol": "TRY/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Turkish Lira",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "TWD_USD",
+    "original_symbol": "TWD/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Taiwan Dollar",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "UAH_KZT",
+    "original_symbol": "UAH/KZT",
+    "currency_group": "Minor",
+    "currency_base": "Ukrainian Hryvnia",
+    "currency_quote": "Kazakh Tenge"
+  },
+  {
+    "symbol": "UAH_PLN",
+    "original_symbol": "UAH/PLN",
+    "currency_group": "Minor",
+    "currency_base": "Ukrainian Hryvnia",
+    "currency_quote": "Polish Zloty"
+  },
+  {
+    "symbol": "UAH_USD",
+    "original_symbol": "UAH/USD",
+    "currency_group": "Minor",
+    "currency_base": "Ukrainian Hryvnia",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "USD_AED",
+    "original_symbol": "USD/AED",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "UAE Dirham"
+  },
+  {
+    "symbol": "USD_AFN",
+    "original_symbol": "USD/AFN",
+    "currency_group": "Minor",
+    "currency_base": "US Dollar",
+    "currency_quote": "Afghanistan Afghani"
+  },
+  {
+    "symbol": "USD_ALL",
+    "original_symbol": "USD/ALL",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Albanian Lek"
+  },
+  {
+    "symbol": "USD_AMD",
+    "original_symbol": "USD/AMD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Armenian Dram"
+  },
+  {
+    "symbol": "USD_AOA",
+    "original_symbol": "USD/AOA",
+    "currency_group": "Minor",
+    "currency_base": "US Dollar",
+    "currency_quote": "Angolan kwanza"
+  },
+  {
+    "symbol": "USD_ARS",
+    "original_symbol": "USD/ARS",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Argentinian Peso"
+  },
+  {
+    "symbol": "USD_AUD",
+    "original_symbol": "USD/AUD",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "Australian Dollar"
+  },
+  {
+    "symbol": "USD_AWG",
+    "original_symbol": "USD/AWG",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "Aruban Florin"
+  },
+  {
+    "symbol": "USD_AZN",
+    "original_symbol": "USD/AZN",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Azerbaijani Manat"
+  },
+  {
+    "symbol": "USD_BAM",
+    "original_symbol": "USD/BAM",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Bosnian and Herzegovina Convertible Mark"
+  },
+  {
+    "symbol": "USD_BBD",
+    "original_symbol": "USD/BBD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Barbadian Dollar"
+  },
+  {
+    "symbol": "USD_BDT",
+    "original_symbol": "USD/BDT",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Bangladeshi Taka"
+  },
+  {
+    "symbol": "USD_BGN",
+    "original_symbol": "USD/BGN",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Bulgarian Lev"
+  },
+  {
+    "symbol": "USD_BHD",
+    "original_symbol": "USD/BHD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Baharain Dinar"
+  },
+  {
+    "symbol": "USD_BIF",
+    "original_symbol": "USD/BIF",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Burundian Franc"
+  },
+  {
+    "symbol": "USD_BND",
+    "original_symbol": "USD/BND",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Brunei Dollar"
+  },
+  {
+    "symbol": "USD_BOB",
+    "original_symbol": "USD/BOB",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Bolivian Boliviano"
+  },
+  {
+    "symbol": "USD_BRL",
+    "original_symbol": "USD/BRL",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Brazil Real"
+  },
+  {
+    "symbol": "USD_BSD",
+    "original_symbol": "USD/BSD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Bahamas Dollar"
+  },
+  {
+    "symbol": "USD_BTN",
+    "original_symbol": "USD/BTN",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "Bhutanese Ngultrum"
+  },
+  {
+    "symbol": "USD_BWP",
+    "original_symbol": "USD/BWP",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Botswana Pula"
+  },
+  {
+    "symbol": "USD_BZD",
+    "original_symbol": "USD/BZD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Belize Dollar"
+  },
+  {
+    "symbol": "USD_CAD",
+    "original_symbol": "USD/CAD",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "Canadian Dollar"
+  },
+  {
+    "symbol": "USD_CDF",
+    "original_symbol": "USD/CDF",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "Congolese Franc"
+  },
+  {
+    "symbol": "USD_CHF",
+    "original_symbol": "USD/CHF",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "Swiss Franc"
+  },
+  {
+    "symbol": "USD_CLP",
+    "original_symbol": "USD/CLP",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Chilean Peso"
+  },
+  {
+    "symbol": "USD_CNH",
+    "original_symbol": "USD/CNH",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Chinese Yuan (Offshore)"
+  },
+  {
+    "symbol": "USD_CNY",
+    "original_symbol": "USD/CNY",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Chinese Yuan"
+  },
+  {
+    "symbol": "USD_COP",
+    "original_symbol": "USD/COP",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Colombian Peso"
+  },
+  {
+    "symbol": "USD_CRC",
+    "original_symbol": "USD/CRC",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Costa Rican Colon"
+  },
+  {
+    "symbol": "USD_CUP",
+    "original_symbol": "USD/CUP",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Cuban Peso"
+  },
+  {
+    "symbol": "USD_CVE",
+    "original_symbol": "USD/CVE",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "Cape Verdean Escudo"
+  },
+  {
+    "symbol": "USD_CZK",
+    "original_symbol": "USD/CZK",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Czech Koruna"
+  },
+  {
+    "symbol": "USD_DJF",
+    "original_symbol": "USD/DJF",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Djiboutian Franc"
+  },
+  {
+    "symbol": "USD_DKK",
+    "original_symbol": "USD/DKK",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Danish Krone"
+  },
+  {
+    "symbol": "USD_DOP",
+    "original_symbol": "USD/DOP",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Dominican Peso"
+  },
+  {
+    "symbol": "USD_DZD",
+    "original_symbol": "USD/DZD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Algerian Dinar"
+  },
+  {
+    "symbol": "USD_EGP",
+    "original_symbol": "USD/EGP",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Egyptian Pound"
+  },
+  {
+    "symbol": "USD_ETB",
+    "original_symbol": "USD/ETB",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Ethiopian Birr"
+  },
+  {
+    "symbol": "USD_EUR",
+    "original_symbol": "USD/EUR",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "Euro"
+  },
+  {
+    "symbol": "USD_FJD",
+    "original_symbol": "USD/FJD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Fiji Dollar"
+  },
+  {
+    "symbol": "USD_GBP",
+    "original_symbol": "USD/GBP",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "British Pound"
+  },
+  {
+    "symbol": "USD_GEL",
+    "original_symbol": "USD/GEL",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Georgian lari"
+  },
+  {
+    "symbol": "USD_GHS",
+    "original_symbol": "USD/GHS",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Ghanaian Cedi"
+  },
+  {
+    "symbol": "USD_GMD",
+    "original_symbol": "USD/GMD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Gambian Dalasi"
+  },
+  {
+    "symbol": "USD_GNF",
+    "original_symbol": "USD/GNF",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Guinean Franc"
+  },
+  {
+    "symbol": "USD_GTQ",
+    "original_symbol": "USD/GTQ",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Guatemalan Quetzal"
+  },
+  {
+    "symbol": "USD_GYD",
+    "original_symbol": "USD/GYD",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "Guyanese Dollar"
+  },
+  {
+    "symbol": "USD_HKD",
+    "original_symbol": "USD/HKD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Hong Kong Dollar"
+  },
+  {
+    "symbol": "USD_HNL",
+    "original_symbol": "USD/HNL",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Honduran Lempira"
+  },
+  {
+    "symbol": "USD_HTG",
+    "original_symbol": "USD/HTG",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Haitian Gourde"
+  },
+  {
+    "symbol": "USD_HUF",
+    "original_symbol": "USD/HUF",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Hungarian Forint"
+  },
+  {
+    "symbol": "USD_IDR",
+    "original_symbol": "USD/IDR",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Indonesian Rupiah"
+  },
+  {
+    "symbol": "USD_ILS",
+    "original_symbol": "USD/ILS",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Israeli Shekel"
+  },
+  {
+    "symbol": "USD_INR",
+    "original_symbol": "USD/INR",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Indian Rupee"
+  },
+  {
+    "symbol": "USD_IQD",
+    "original_symbol": "USD/IQD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Iraqi Dinar"
+  },
+  {
+    "symbol": "USD_IRR",
+    "original_symbol": "USD/IRR",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Iranian Rial"
+  },
+  {
+    "symbol": "USD_ISK",
+    "original_symbol": "USD/ISK",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Icelandic Krona"
+  },
+  {
+    "symbol": "USD_JMD",
+    "original_symbol": "USD/JMD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Jamaican Dollar"
+  },
+  {
+    "symbol": "USD_JOD",
+    "original_symbol": "USD/JOD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Jordan Dinar"
+  },
+  {
+    "symbol": "USD_JPY",
+    "original_symbol": "USD/JPY",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "Japanese Yen"
+  },
+  {
+    "symbol": "USD_KES",
+    "original_symbol": "USD/KES",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Kenyan Shilling"
+  },
+  {
+    "symbol": "USD_KHR",
+    "original_symbol": "USD/KHR",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Cambodian Riel"
+  },
+  {
+    "symbol": "USD_KMF",
+    "original_symbol": "USD/KMF",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Comorian Franc"
+  },
+  {
+    "symbol": "USD_KRW",
+    "original_symbol": "USD/KRW",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Korean Won"
+  },
+  {
+    "symbol": "USD_KWD",
+    "original_symbol": "USD/KWD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Kuwaiti Dinar"
+  },
+  {
+    "symbol": "USD_KZT",
+    "original_symbol": "USD/KZT",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Kazakh Tenge"
+  },
+  {
+    "symbol": "USD_LAK",
+    "original_symbol": "USD/LAK",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Lao Kip"
+  },
+  {
+    "symbol": "USD_LBP",
+    "original_symbol": "USD/LBP",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Lebanese Pound"
+  },
+  {
+    "symbol": "USD_LKR",
+    "original_symbol": "USD/LKR",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Sri Lankan Rupee"
+  },
+  {
+    "symbol": "USD_LRD",
+    "original_symbol": "USD/LRD",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "Liberian Dollar"
+  },
+  {
+    "symbol": "USD_LSL",
+    "original_symbol": "USD/LSL",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Lesotho loti"
+  },
+  {
+    "symbol": "USD_LYD",
+    "original_symbol": "USD/LYD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Libyan Dinar"
+  },
+  {
+    "symbol": "USD_MAD",
+    "original_symbol": "USD/MAD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Moroccan Dirham"
+  },
+  {
+    "symbol": "USD_MDL",
+    "original_symbol": "USD/MDL",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Moldovan Leu"
+  },
+  {
+    "symbol": "USD_MGA",
+    "original_symbol": "USD/MGA",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Malagasy Ariary"
+  },
+  {
+    "symbol": "USD_MKD",
+    "original_symbol": "USD/MKD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Macedonian Denar"
+  },
+  {
+    "symbol": "USD_MMK",
+    "original_symbol": "USD/MMK",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Myanmar kyat"
+  },
+  {
+    "symbol": "USD_MNT",
+    "original_symbol": "USD/MNT",
+    "currency_group": "Minor",
+    "currency_base": "US Dollar",
+    "currency_quote": "Mongolian Tugrik"
+  },
+  {
+    "symbol": "USD_MOP",
+    "original_symbol": "USD/MOP",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Macanese Pataca"
+  },
+  {
+    "symbol": "USD_MRU",
+    "original_symbol": "USD/MRU",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "Mauritanian Ouguiya"
+  },
+  {
+    "symbol": "USD_MUR",
+    "original_symbol": "USD/MUR",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Mauritian Rupee"
+  },
+  {
+    "symbol": "USD_MVR",
+    "original_symbol": "USD/MVR",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Maldivian Rufiyaa"
+  },
+  {
+    "symbol": "USD_MWK",
+    "original_symbol": "USD/MWK",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Malawian Kwacha"
+  },
+  {
+    "symbol": "USD_MXN",
+    "original_symbol": "USD/MXN",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Mexican Peso"
+  },
+  {
+    "symbol": "USD_MYR",
+    "original_symbol": "USD/MYR",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Malaysian Ringgit"
+  },
+  {
+    "symbol": "USD_MZN",
+    "original_symbol": "USD/MZN",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Mozambican Metical"
+  },
+  {
+    "symbol": "USD_NAD",
+    "original_symbol": "USD/NAD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Namibian Dollar"
+  },
+  {
+    "symbol": "USD_NGN",
+    "original_symbol": "USD/NGN",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Nigerian Naira"
+  },
+  {
+    "symbol": "USD_NIO",
+    "original_symbol": "USD/NIO",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Nicaraguan Cordoba"
+  },
+  {
+    "symbol": "USD_NOK",
+    "original_symbol": "USD/NOK",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Norwegian Krone"
+  },
+  {
+    "symbol": "USD_NPR",
+    "original_symbol": "USD/NPR",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Nepalese Rupee"
+  },
+  {
+    "symbol": "USD_NZD",
+    "original_symbol": "USD/NZD",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "New Zealand Dollar"
+  },
+  {
+    "symbol": "USD_OMR",
+    "original_symbol": "USD/OMR",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Omani Rial"
+  },
+  {
+    "symbol": "USD_PAB",
+    "original_symbol": "USD/PAB",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Panamanian Balboa"
+  },
+  {
+    "symbol": "USD_PEN",
+    "original_symbol": "USD/PEN",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Peru Sol"
+  },
+  {
+    "symbol": "USD_PGK",
+    "original_symbol": "USD/PGK",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Papua New Guinean kina"
+  },
+  {
+    "symbol": "USD_PHP",
+    "original_symbol": "USD/PHP",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Philippine Peso"
+  },
+  {
+    "symbol": "USD_PKR",
+    "original_symbol": "USD/PKR",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Pakistani Rupee"
+  },
+  {
+    "symbol": "USD_PLN",
+    "original_symbol": "USD/PLN",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Polish Zloty"
+  },
+  {
+    "symbol": "USD_PYG",
+    "original_symbol": "USD/PYG",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Paraguayan Guarani"
+  },
+  {
+    "symbol": "USD_QAR",
+    "original_symbol": "USD/QAR",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Qatari Riyal"
+  },
+  {
+    "symbol": "USD_RON",
+    "original_symbol": "USD/RON",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Romanian Leu"
+  },
+  {
+    "symbol": "USD_RSD",
+    "original_symbol": "USD/RSD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Serbian Dinar"
+  },
+  {
+    "symbol": "USD_RUB",
+    "original_symbol": "USD/RUB",
+    "currency_group": "Minor",
+    "currency_base": "US Dollar",
+    "currency_quote": "Russian Ruble"
+  },
+  {
+    "symbol": "USD_RWF",
+    "original_symbol": "USD/RWF",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Rwandan Franc"
+  },
+  {
+    "symbol": "USD_SAR",
+    "original_symbol": "USD/SAR",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Saudi Riyal"
+  },
+  {
+    "symbol": "USD_SBD",
+    "original_symbol": "USD/SBD",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "Solomon Islands Dollar"
+  },
+  {
+    "symbol": "USD_SCR",
+    "original_symbol": "USD/SCR",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Seychelles Rupee"
+  },
+  {
+    "symbol": "USD_SDG",
+    "original_symbol": "USD/SDG",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Sudanese Pound"
+  },
+  {
+    "symbol": "USD_SEK",
+    "original_symbol": "USD/SEK",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Swedish Krona"
+  },
+  {
+    "symbol": "USD_SGD",
+    "original_symbol": "USD/SGD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Singapore Dollar"
+  },
+  {
+    "symbol": "USD_SLE",
+    "original_symbol": "USD/SLE",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "Sierra Leonean Leone"
+  },
+  {
+    "symbol": "USD_SOS",
+    "original_symbol": "USD/SOS",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Somali Shilling"
+  },
+  {
+    "symbol": "USD_SRD",
+    "original_symbol": "USD/SRD",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "Surinamese Dollar"
+  },
+  {
+    "symbol": "USD_STN",
+    "original_symbol": "USD/STN",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "São Tomé and Príncipe Dobra"
+  },
+  {
+    "symbol": "USD_SVC",
+    "original_symbol": "USD/SVC",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "El Salvador Colon"
+  },
+  {
+    "symbol": "USD_SYP",
+    "original_symbol": "USD/SYP",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Syrian Pound"
+  },
+  {
+    "symbol": "USD_SZL",
+    "original_symbol": "USD/SZL",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Swazi Lilangeni"
+  },
+  {
+    "symbol": "USD_THB",
+    "original_symbol": "USD/THB",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Thai Baht"
+  },
+  {
+    "symbol": "USD_TJS",
+    "original_symbol": "USD/TJS",
+    "currency_group": "Minor",
+    "currency_base": "US Dollar",
+    "currency_quote": "Tajikistani somoni"
+  },
+  {
+    "symbol": "USD_TMT",
+    "original_symbol": "USD/TMT",
+    "currency_group": "Minor",
+    "currency_base": "US Dollar",
+    "currency_quote": "Turkmenistan manat"
+  },
+  {
+    "symbol": "USD_TND",
+    "original_symbol": "USD/TND",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Tunisian Dinar"
+  },
+  {
+    "symbol": "USD_TOP",
+    "original_symbol": "USD/TOP",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "Tongan Pa'anga"
+  },
+  {
+    "symbol": "USD_TRY",
+    "original_symbol": "USD/TRY",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Turkish Lira"
+  },
+  {
+    "symbol": "USD_TTD",
+    "original_symbol": "USD/TTD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Trinidad Dollar"
+  },
+  {
+    "symbol": "USD_TWD",
+    "original_symbol": "USD/TWD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Taiwan Dollar"
+  },
+  {
+    "symbol": "USD_TZS",
+    "original_symbol": "USD/TZS",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Tanzanian Shilling"
+  },
+  {
+    "symbol": "USD_UAH",
+    "original_symbol": "USD/UAH",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Ukrainian Hryvnia"
+  },
+  {
+    "symbol": "USD_UGX",
+    "original_symbol": "USD/UGX",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Ugandan Shilling"
+  },
+  {
+    "symbol": "USD_UYU",
+    "original_symbol": "USD/UYU",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Uruguayan Peso"
+  },
+  {
+    "symbol": "USD_UZS",
+    "original_symbol": "USD/UZS",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Uzbekistani Sum"
+  },
+  {
+    "symbol": "USD_VES",
+    "original_symbol": "USD/VES",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "Venezuelan Bolívar Soberano"
+  },
+  {
+    "symbol": "USD_VND",
+    "original_symbol": "USD/VND",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Vietnamese Dong"
+  },
+  {
+    "symbol": "USD_VUV",
+    "original_symbol": "USD/VUV",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Vanuatu vatu"
+  },
+  {
+    "symbol": "USD_WST",
+    "original_symbol": "USD/WST",
+    "currency_group": "Major",
+    "currency_base": "US Dollar",
+    "currency_quote": "Samoan Tala"
+  },
+  {
+    "symbol": "USD_XAF",
+    "original_symbol": "USD/XAF",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Central African CFA franc"
+  },
+  {
+    "symbol": "USD_XCD",
+    "original_symbol": "USD/XCD",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "East Caribbean Dollar"
+  },
+  {
+    "symbol": "USD_XOF",
+    "original_symbol": "USD/XOF",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "West African CFA franc"
+  },
+  {
+    "symbol": "USD_XPF",
+    "original_symbol": "USD/XPF",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "French Pacific Franc"
+  },
+  {
+    "symbol": "USD_YER",
+    "original_symbol": "USD/YER",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Yemeni Rial"
+  },
+  {
+    "symbol": "USD_ZAR",
+    "original_symbol": "USD/ZAR",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "South African Rand"
+  },
+  {
+    "symbol": "USD_ZMW",
+    "original_symbol": "USD/ZMW",
+    "currency_group": "Exotic",
+    "currency_base": "US Dollar",
+    "currency_quote": "Zambia Kwacha"
+  },
+  {
+    "symbol": "UYU_USD",
+    "original_symbol": "UYU/USD",
+    "currency_group": "Exotic",
+    "currency_base": "Uruguayan Peso",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "VND_USD",
+    "original_symbol": "VND/USD",
+    "currency_group": "Minor",
+    "currency_base": "Vietnamese Dong",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "XDR_USD",
+    "original_symbol": "XDR/USD",
+    "currency_group": "Major",
+    "currency_base": "Special Drawing Rights",
+    "currency_quote": "US Dollar"
+  },
+  {
+    "symbol": "ZAR_USD",
+    "original_symbol": "ZAR/USD",
+    "currency_group": "Exotic",
+    "currency_base": "South African Rand",
+    "currency_quote": "US Dollar"
+  }
+]
