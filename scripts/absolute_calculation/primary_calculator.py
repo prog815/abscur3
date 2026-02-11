@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-primary_calculator.py – Шаги 2.1–2.4
-- Загрузка данных, заполнение пропусков, матрица доступности, поиск T_start
+primary_calculator.py – Первичный расчёт абсолютных курсов AbsCur3
+Финальная версия с шагом 2.5a:
+- Загрузка и заполнение всех 287 пар
+- Построение availability_df, поиск T_start = 1979-12-24
+- Формирование списка ВСЕХ дат для расчёта (без фильтрации)
+- Подготовка к шагу 2.6 (ядро МНК)
 """
 
 import json
@@ -22,6 +26,8 @@ except ImportError:
 PAIRS_JSON = Path("data/metadata/currency_pairs.json")
 DATA_DIR = Path("data/raw/twelve_data/pairs")
 CORE_CURRENCIES = {'USD', 'EUR', 'GBP', 'JPY', 'CHF', 'CAD', 'AUD'}
+METADATA_DIR = Path("data/absolute/metadata")
+METADATA_DIR.mkdir(parents=True, exist_ok=True)
 
 # ---------- Кеш для загруженных данных ----------
 _DATA_CACHE = {}
@@ -136,7 +142,7 @@ def demo_fill_missing():
     print(f"\n📦 Словарь filled_prices_dict содержит {len(filled_prices_dict)} пар: {list(filled_prices_dict.keys())}")
     return filled_prices_dict
 
-# ---------- Построение матрицы доступности (оптимизированная) ----------
+# ---------- Построение матрицы доступности (шаг 2.4, оптимизированная) ----------
 def build_availability_matrix(filled_dict, global_dates):
     """Строит DataFrame доступности (без PerformanceWarning)."""
     global_dates = pd.DatetimeIndex(sorted(global_dates))
@@ -158,13 +164,11 @@ def extract_currencies_from_pair(pair):
     base, quote = pair.split('_')
     return {base, quote}
 
-# ---------- ПОИСК T_START (ДОБАВЛЕНА НЕДОСТАЮЩАЯ ФУНКЦИЯ) ----------
 def find_t_start(availability_df, pairs_list, core_currencies):
     """
     Находит первую дату, на которую доступны все валюты из core_currencies.
     Возвращает (t_start_date, stats_df).
     """
-    # Множества валют для каждой пары (кэшируем)
     pair_currencies = {pair: extract_currencies_from_pair(pair)
                        for pair in pairs_list if pair in availability_df.columns}
 
@@ -194,7 +198,6 @@ def find_t_start(availability_df, pairs_list, core_currencies):
     stats_df = pd.DataFrame(stats)
     return t_start, stats_df
 
-# ---------- Загрузка всех пар с заполнением ----------
 def load_all_pairs_filled(pairs_list, lookback=30):
     """Загружает все пары, заполняет пропуски, возвращает filled_dict и множество всех дат."""
     filled_dict = {}
@@ -218,7 +221,6 @@ def load_all_pairs_filled(pairs_list, lookback=30):
 
     return filled_dict, all_dates
 
-# ---------- Демонстрация шага 2.4 ----------
 def demo_availability_and_tstart():
     """Загружает все пары, строит матрицу доступности, ищет T_start."""
     print("\n" + "=" * 60)
@@ -270,6 +272,59 @@ def demo_availability_and_tstart():
     print(f"📌 Процент дней с ядром (от всего периода): {core_days_count/len(stats_df)*100:.1f}%")
 
     return t_start, availability_df, stats_df
+
+# ---------- ШАГ 2.5a – Формирование списка всех дат для расчёта (без фильтрации) ----------
+def get_all_calculation_dates(availability_df, t_start_date):
+    """
+    Возвращает все даты из availability_df, начиная с t_start_date,
+    с ненулевым количеством доступных пар.
+    """
+    # Обрезаем по T_start
+    mask = availability_df.index >= pd.Timestamp(t_start_date)
+    dates_idx = availability_df.index[mask]
+    
+    # Проверяем, что на каждой дате есть хотя бы одна пара
+    k_series = availability_df.sum(axis=1)
+    k_series = k_series[mask]
+    valid_mask = k_series > 0
+    valid_dates = dates_idx[valid_mask]
+    
+    calculation_dates = [d.date() for d in valid_dates]
+    
+    print("\n" + "=" * 60)
+    print(" ШАГ 2.5a – Формирование списка дат для расчёта (без фильтрации)")
+    print("=" * 60)
+    print(f"\n📅 Всего дат для расчёта (начиная с {t_start_date}): {len(calculation_dates)}")
+    print(f"   Первая дата: {calculation_dates[0]}")
+    print(f"   Последняя дата: {calculation_dates[-1]}")
+    print(f"   Минимальное кол-во пар: {k_series[valid_mask].min()}")
+    print(f"   Среднее кол-во пар: {k_series[valid_mask].mean():.1f}")
+    print(f"   Максимальное кол-во пар: {k_series[valid_mask].max()}")
+    
+    # Сохраняем метаданные
+    metadata = {
+        "t_start": str(t_start_date),
+        "total_dates": len(calculation_dates),
+        "first_date": str(calculation_dates[0]),
+        "last_date": str(calculation_dates[-1]),
+        "min_pairs": int(k_series[valid_mask].min()),
+        "avg_pairs": float(round(k_series[valid_mask].mean(), 1)),
+        "max_pairs": int(k_series[valid_mask].max()),
+        "description": "Все даты от T_start до последней доступной даты с наличием хотя бы одной заполненной пары"
+    }
+    
+    metadata_path = METADATA_DIR / "calculation_dates_info.json"
+    with open(metadata_path, "w", encoding="utf-8") as f:
+        json.dump(metadata, f, indent=2, ensure_ascii=False)
+    print(f"\n💾 Метаданные сохранены: {metadata_path}")
+    
+    return calculation_dates
+
+def demo_calculation_dates(availability_df, t_start):
+    """Демонстрация шага 2.5a (обёртка для вызова)."""
+    calculation_dates = get_all_calculation_dates(availability_df, t_start)
+    print(f"\n✅ Шаг 2.5a завершён. Подготовлено {len(calculation_dates)} дат для расчёта.")
+    return calculation_dates
 
 # ---------- Вспомогательные функции (шаг 2.1) ----------
 def load_pairs_list():
@@ -382,9 +437,17 @@ def main():
 
     # Шаг 2.4
     t_start, availability_df, stats_df = demo_availability_and_tstart()
+    print(f"\n✅ Шаг 2.4 завершён. T_start = {t_start}")
 
-    print("\n✅ Шаг 2.4 завершён.")
-    print(f"📌 Результат: T_start = {t_start}")
+    # Шаг 2.5a – ВСЕ ДАТЫ (без фильтрации)
+    calculation_dates = demo_calculation_dates(availability_df, t_start)
 
+    print("\n" + "=" * 60)
+    print(" ПОДГОТОВКА ДАННЫХ ЗАВЕРШЕНА")
+    print("=" * 60)
+    print(f"\n🎯 Стартовая дата расчёта (T_start): {t_start}")
+    print(f"📅 Всего дат для расчёта: {len(calculation_dates)}")
+    print(f"🔄 Следующий шаг: 2.6 – Интеграция ядра расчёта МНК")
+    
 if __name__ == "__main__":
     main()
