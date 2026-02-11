@@ -1,0 +1,10 @@
+{
+  "test_mode": true,
+  "dates_processed": 200,
+  "dates_failed": 0,
+  "mean_error": -0.003262361817908078,
+  "median_error": 1.1910200906720496e-12,
+  "max_error": 0.7523415598566613,
+  "mean_currencies": 78.77,
+  "mean_pairs": 145.125
+}
