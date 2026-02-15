@@ -1,0 +1,126 @@
+{
+  "timestamp": "2026-02-15T11:53:25.431713",
+  "primary_report_summary": {
+    "total_dates": 16850,
+    "median_error": 1.628251384248209e-13
+  },
+  "outlier_analysis": {
+    "total_outliers": 6182,
+    "outliers_by_year": {
+      "2004": 2,
+      "2006": 4,
+      "2008": 2,
+      "2010": 6,
+      "2013": 34,
+      "2014": 32,
+      "2015": 27,
+      "2016": 22,
+      "2017": 350,
+      "2018": 734,
+      "2019": 730,
+      "2020": 748,
+      "2021": 912,
+      "2022": 751,
+      "2023": 30,
+      "2024": 3,
+      "2025": 1795
+    },
+    "top10_outlier_pairs": [
+      [
+        "IQD_USD",
+        2008
+      ],
+      [
+        "USD_IQD",
+        2008
+      ],
+      [
+        "IDR_USD",
+        113
+      ],
+      [
+        "IDR_CHF",
+        102
+      ],
+      [
+        "IDR_AUD",
+        101
+      ],
+      [
+        "USD_IDR",
+        101
+      ],
+      [
+        "EUR_USD",
+        49
+      ],
+      [
+        "JPY_USD",
+        49
+      ],
+      [
+        "USD_NZD",
+        49
+      ],
+      [
+        "AUD_CAD",
+        48
+      ]
+    ]
+  },
+  "critical_pairs_check": {
+    "critical_pairs_excluded": true,
+    "found_in_errors": []
+  },
+  "major_pairs_accuracy": {
+    "EUR_USD": {
+      "status": "FAIL",
+      "count": 8107,
+      "mean_abs_error": 0.3269183596664254,
+      "median_error": -0.001525730407122,
+      "max_abs_error": 13.166190723736484,
+      "threshold": 0.01
+    },
+    "USD_JPY": {
+      "status": "FAIL",
+      "count": 13858,
+      "mean_abs_error": 0.18337610439376514,
+      "median_error": 0.020452090741715,
+      "max_abs_error": 12.716544157286217,
+      "threshold": 0.01
+    },
+    "GBP_USD": {
+      "status": "FAIL",
+      "count": 8107,
+      "mean_abs_error": 0.331891726909805,
+      "median_error": -0.0117011354710862,
+      "max_abs_error": 14.577630992150926,
+      "threshold": 0.01
+    },
+    "AUD_USD": {
+      "status": "FAIL",
+      "count": 16850,
+      "mean_abs_error": 0.18155509650673018,
+      "median_error": -0.02430538632440565,
+      "max_abs_error": 27.36853254452428,
+      "threshold": 0.01
+    },
+    "USD_CHF": {
+      "status": "FAIL",
+      "count": 13858,
+      "mean_abs_error": 0.18556750088223795,
+      "median_error": 0.02271582813256065,
+      "max_abs_error": 21.481507525225595,
+      "threshold": 0.01
+    },
+    "USD_CAD": {
+      "status": "FAIL",
+      "count": 16108,
+      "mean_abs_error": 0.13412543158834936,
+      "median_error": 0.02631474867846325,
+      "max_abs_error": 12.676018450712297,
+      "threshold": 0.01
+    }
+  },
+  "overall_status": "FAIL"
+}
