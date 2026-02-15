@@ -1,10 +1,10 @@
 {
-  "test_mode": true,
-  "dates_processed": 200,
+  "test_mode": false,
+  "dates_processed": 16850,
   "dates_failed": 0,
-  "mean_error": -0.003262361817908078,
-  "median_error": 1.1910200906720496e-12,
-  "max_error": 0.7523415598566613,
-  "mean_currencies": 78.77,
-  "mean_pairs": 145.125
+  "mean_error": 0.09676184069384411,
+  "median_error": 1.628251384248209e-13,
+  "max_error": 99.36903348032689,
+  "mean_currencies": 85.43721068249258,
+  "mean_pairs": 153.32421364985163
 }
