@@ -2,13 +2,16 @@
 # -*- coding: utf-8 -*-
 """
 primary_calculator.py – Первичный расчёт абсолютных курсов AbsCur3
-Версия с шагом 2.6: интеграция ядра МНК, фильтрация проблемных пар.
+Версия с шагом 2.7: сохранение результатов и метаданных.
 """
 
 import json
 from pathlib import Path
 import pandas as pd
 import numpy as np
+from collections import defaultdict
+import datetime
+import csv
 
 # ---------- tqdm для прогресс-баров ----------
 try:
@@ -35,8 +38,11 @@ CRITICAL_PAIRS = {
 # ---------- РЕЖИМ ТЕСТИРОВАНИЯ ----------
 # True  – обработать только первые 100 и последние 100 дат (для отладки)
 # False – обработать все 16850 дат (полный расчёт)
-TEST_MODE = False
+TEST_MODE = False   # после успешного теста переключите на False для полного расчёта
 TEST_DATES_LIMIT = 100
+
+# ---------- Параметры сохранения ----------
+OUTLIER_THRESHOLD = 10.0   # порог для выбросов (в процентах)
 
 # ---------- Кеш для загруженных данных ----------
 _DATA_CACHE = {}
@@ -280,33 +286,13 @@ def calculate_absolute_rates_for_date(
 ):
     """
     Вычисляет абсолютные курсы для одной даты.
-    
-    Параметры:
-        date (datetime.date): дата расчёта.
-        availability_df: DataFrame с булевыми значениями доступности.
-        filled_dict: словарь {pair: pd.Series} заполненных цен (индекс DatetimeIndex).
-        critical_pairs: множество критических пар для исключения.
-        exclude_critical: если True, исключать критические пары.
-        verbose: печатать детали.
-    
-    Возвращает:
-        dict или None: словарь с результатами:
-            - 'date': date
-            - 'currencies': список валют (в порядке столбцов матрицы)
-            - 'absolute_rates': dict {currency: value}
-            - 'errors': dict {pair: error_percent}
-            - 'n_currencies': int
-            - 'n_pairs': int
-            - 'success': bool
-            - 'message': str
+    Возвращает словарь с результатами или None.
     """
-    # 1. Получить доступные пары на эту дату
     date_ts = pd.Timestamp(date)
     if date_ts not in availability_df.index:
         return None
     available_pairs = availability_df.columns[availability_df.loc[date_ts]].tolist()
     
-    # 2. Фильтрация критических пар
     if exclude_critical:
         filtered_pairs = [p for p in available_pairs if p not in critical_pairs]
     else:
@@ -315,7 +301,6 @@ def calculate_absolute_rates_for_date(
     if len(filtered_pairs) == 0:
         return None
     
-    # 3. Собрать валюты, участвующие в отфильтрованных парах
     currencies_set = set()
     pair_currencies = {}
     for pair in filtered_pairs:
@@ -328,12 +313,10 @@ def calculate_absolute_rates_for_date(
     if n_currencies < 5:
         return None
     
-    # 4. Построить отображение валюта -> индекс
     currency_to_idx = {c: i for i, c in enumerate(sorted(currencies_set))}
     n = len(currency_to_idx)
     m = len(filtered_pairs)
     
-    # 5. Построить матрицу M (m x n) и вектор p (длина m)
     M = np.zeros((m, n))
     p = np.zeros(m)
     
@@ -344,29 +327,20 @@ def calculate_absolute_rates_for_date(
         M[i, base_idx] = 1
         M[i, quote_idx] = -1
         
-        # Получить цену из заполненного ряда
         try:
             rate = filled_dict[pair].loc[date_ts]
         except (KeyError, IndexError):
-            # Если нет данных (не должно случаться), пропускаем пару
-            if verbose:
-                print(f"   ⚠️  Нет цены для {pair} на {date}")
             continue
         p[i] = np.log(rate)
     
-    # 6. Решение МНК
     try:
         a, residuals, rank, s = np.linalg.lstsq(M, p, rcond=None)
     except np.linalg.LinAlgError:
         return None
     
-    # 7. Нормировка: среднее значение логарифмов = 0
     a -= np.mean(a)
-    
-    # 8. Абсолютные курсы
     absolute_rates = {currency: np.exp(a[idx]) for currency, idx in currency_to_idx.items()}
     
-    # 9. Вычисление погрешностей для каждой пары
     errors = {}
     for pair in filtered_pairs:
         base, quote = pair_currencies[pair]
@@ -382,13 +356,11 @@ def calculate_absolute_rates_for_date(
     
     return {
         'date': date,
-        'currencies': list(currency_to_idx.keys()),
         'absolute_rates': absolute_rates,
         'errors': errors,
         'n_currencies': n_currencies,
         'n_pairs': m,
-        'success': True,
-        'message': ''
+        'success': True
     }
 
 def demo_calculation_loop(
@@ -400,10 +372,6 @@ def demo_calculation_loop(
     test_mode=True,
     test_limit=100
 ):
-    """
-    Основной цикл расчёта по списку дат.
-    При test_mode=True обрабатывает только первые test_limit и последние test_limit дат.
-    """
     print("\n" + "=" * 60)
     print(" ШАГ 2.6 – Интеграция ядра расчёта МНК")
     print("=" * 60)
@@ -413,7 +381,6 @@ def demo_calculation_loop(
     else:
         print("🔍 Используем все доступные пары (без фильтрации)")
     
-    # Формируем список дат для обработки
     if test_mode and len(calculation_dates) > 2 * test_limit:
         dates_to_process = calculation_dates[:test_limit] + calculation_dates[-test_limit:]
         print(f"\n🧪 ТЕСТОВЫЙ РЕЖИМ: обрабатываем {len(dates_to_process)} дат")
@@ -423,10 +390,8 @@ def demo_calculation_loop(
         print(f"\n📅 Полный расчёт: {len(dates_to_process)} дат")
     
     results = []
-    error_stats = []  # список всех погрешностей для агрегации
-    n_currencies_list = []
-    n_pairs_list = []
     failed_dates = []
+    all_errors = []
     
     iterator = dates_to_process
     if TQDM_AVAILABLE:
@@ -445,54 +410,49 @@ def demo_calculation_loop(
             failed_dates.append(date)
         else:
             results.append(res)
-            n_currencies_list.append(res['n_currencies'])
-            n_pairs_list.append(res['n_pairs'])
-            error_stats.extend(list(res['errors'].values()))
+            all_errors.extend(res['errors'].values())
     
-    # Статистика
     print(f"\n📊 Статистика расчёта:")
     print(f"   ✅ Успешно обработано дат: {len(results)}")
     print(f"   ❌ Пропущено дат: {len(failed_dates)}")
-    if len(failed_dates) > 0:
-        print(f"      Первые 5 пропущенных: {failed_dates[:5]}")
     
-    if len(error_stats) > 0:
-        error_stats = np.array(error_stats)
+    if all_errors:
+        all_errors = np.array(all_errors)
         print(f"\n📈 Погрешности (ε, %):")
-        print(f"   Среднее: {np.mean(error_stats):.6f}%")
-        print(f"   Медиана: {np.median(error_stats):.6f}%")
-        print(f"   Std:     {np.std(error_stats):.6f}%")
-        print(f"   Мин:     {np.min(error_stats):.6f}%")
-        print(f"   Макс:    {np.max(error_stats):.6f}%")
-        
-        # Квантили
-        q = np.percentile(error_stats, [25, 50, 75, 95, 99])
+        print(f"   Среднее: {np.mean(all_errors):.6f}%")
+        print(f"   Медиана: {np.median(all_errors):.6f}%")
+        print(f"   Std:     {np.std(all_errors):.6f}%")
+        print(f"   Мин:     {np.min(all_errors):.6f}%")
+        print(f"   Макс:    {np.max(all_errors):.6f}%")
+        q = np.percentile(all_errors, [25, 50, 75, 95, 99])
         print(f"   25%:     {q[0]:.6f}%")
         print(f"   50%:     {q[1]:.6f}%")
         print(f"   75%:     {q[2]:.6f}%")
         print(f"   95%:     {q[3]:.6f}%")
         print(f"   99%:     {q[4]:.6f}%")
     
-    if len(n_currencies_list) > 0:
+    # Статистика по количеству валют и пар
+    n_currencies_list = [r['n_currencies'] for r in results]
+    n_pairs_list = [r['n_pairs'] for r in results]
+    if n_currencies_list:
         print(f"\n💰 Количество валют на дату:")
         print(f"   Среднее: {np.mean(n_currencies_list):.1f}")
         print(f"   Мин:     {np.min(n_currencies_list)}")
         print(f"   Макс:    {np.max(n_currencies_list)}")
-    
-    if len(n_pairs_list) > 0:
+    if n_pairs_list:
         print(f"\n🔗 Количество пар на дату:")
         print(f"   Среднее: {np.mean(n_pairs_list):.1f}")
         print(f"   Мин:     {np.min(n_pairs_list)}")
         print(f"   Макс:    {np.max(n_pairs_list)}")
     
-    # Сохраняем сырые результаты в метаданные (опционально)
+    # Сохраняем сводку
     summary = {
         'test_mode': test_mode,
         'dates_processed': len(results),
         'dates_failed': len(failed_dates),
-        'mean_error': float(np.mean(error_stats)) if len(error_stats) > 0 else None,
-        'median_error': float(np.median(error_stats)) if len(error_stats) > 0 else None,
-        'max_error': float(np.max(error_stats)) if len(error_stats) > 0 else None,
+        'mean_error': float(np.mean(all_errors)) if len(all_errors) > 0 else None,
+        'median_error': float(np.median(all_errors)) if len(all_errors) > 0 else None,
+        'max_error': float(np.max(all_errors)) if len(all_errors) > 0 else None,
         'mean_currencies': float(np.mean(n_currencies_list)) if n_currencies_list else None,
         'mean_pairs': float(np.mean(n_pairs_list)) if n_pairs_list else None,
     }
@@ -502,6 +462,143 @@ def demo_calculation_loop(
     print(f"\n💾 Сводка сохранена: {summary_path}")
     
     return results, failed_dates
+
+# ========== ШАГ 2.7 – Сохранение результатов и метаданных ==========
+def save_results_step27(results, failed_dates, t_start, critical_pairs, outlier_threshold=10.0):
+    """Сохраняет все результаты в структуру каталогов, генерирует метаданные."""
+    
+    # Создаём директории
+    DAILY_DIR = Path("data/absolute/daily")
+    CURRENCIES_DIR = Path("data/absolute/currencies")
+    ERRORS_DIR = Path("data/absolute/errors")
+    METADATA_DIR = Path("data/absolute/metadata")
+    
+    for d in [DAILY_DIR, CURRENCIES_DIR, ERRORS_DIR, METADATA_DIR]:
+        d.mkdir(parents=True, exist_ok=True)
+    
+    # Накопители
+    currency_accumulator = defaultdict(list)   # {currency: [(date, value), ...]}
+    outliers = []                               # список выбросов
+    pair_stats = defaultdict(lambda: {'count': 0, 'sum_abs_error': 0.0})
+    all_errors = []                              # для общей статистики
+    
+    print("\n" + "="*60)
+    print(" ШАГ 2.7 – Сохранение результатов и метаданных")
+    print("="*60)
+    
+    iterator = results
+    if TQDM_AVAILABLE:
+        iterator = tqdm(results, desc="Сохранение результатов")
+    
+    for res in iterator:
+        date = res['date']
+        abs_rates = res['absolute_rates']
+        errors = res['errors']
+        
+        # 1. Daily файл
+        daily_file = DAILY_DIR / f"{date.isoformat()}.csv"
+        with open(daily_file, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow(['currency', 'absolute_value'])
+            for currency, value in sorted(abs_rates.items()):
+                writer.writerow([currency, value])
+        
+        # 2. Накопление для валют
+        for currency, value in abs_rates.items():
+            currency_accumulator[currency].append((date, value))
+        
+        # 3. Errors файл
+        errors_file = ERRORS_DIR / f"{date.isoformat()}.csv"
+        with open(errors_file, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow(['pair', 'error_percent'])
+            for pair, err in sorted(errors.items()):
+                writer.writerow([pair, err])
+                # Обновляем статистику по парам
+                pair_stats[pair]['count'] += 1
+                pair_stats[pair]['sum_abs_error'] += abs(err)
+                all_errors.append(err)
+                # Проверка на выброс
+                if abs(err) > outlier_threshold:
+                    outliers.append({
+                        'date': date.isoformat(),
+                        'pair': pair,
+                        'error': err
+                    })
+    
+    # Сохраняем файлы по валютам
+    print("\n📈 Сохранение файлов по валютам...")
+    curr_iterator = currency_accumulator.items()
+    if TQDM_AVAILABLE:
+        curr_iterator = tqdm(currency_accumulator.items(), desc="Валюты")
+    
+    for currency, records in curr_iterator:
+        records.sort(key=lambda x: x[0])  # по дате
+        curr_file = CURRENCIES_DIR / f"{currency}.csv"
+        with open(curr_file, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow(['date', 'absolute_value'])
+            for date, value in records:
+                writer.writerow([date.isoformat(), value])
+    
+    # ---- Метаданные ----
+    
+    # 1. Общий отчёт
+    all_errors_arr = np.array(all_errors)
+    report = {
+        'calculation_date': datetime.datetime.now().isoformat(),
+        't_start': str(t_start),
+        'total_dates_processed': len(results),
+        'total_dates_failed': len(failed_dates),
+        'total_pairs_used': len(pair_stats),
+        'outlier_threshold': outlier_threshold,
+        'critical_pairs_excluded': list(critical_pairs),
+        'error_stats': {
+            'mean': float(np.mean(all_errors_arr)),
+            'median': float(np.median(all_errors_arr)),
+            'std': float(np.std(all_errors_arr)),
+            'min': float(np.min(all_errors_arr)),
+            'max': float(np.max(all_errors_arr)),
+            'percentiles': {
+                '25': float(np.percentile(all_errors_arr, 25)),
+                '50': float(np.percentile(all_errors_arr, 50)),
+                '75': float(np.percentile(all_errors_arr, 75)),
+                '95': float(np.percentile(all_errors_arr, 95)),
+                '99': float(np.percentile(all_errors_arr, 99))
+            }
+        }
+    }
+    
+    report_file = METADATA_DIR / "primary_calculation_report.json"
+    with open(report_file, 'w', encoding='utf-8') as f:
+        json.dump(report, f, indent=2, ensure_ascii=False)
+    print(f"💾 Отчёт сохранён: {report_file}")
+    
+    # 2. Выбросы
+    outliers_file = METADATA_DIR / "outliers.json"
+    with open(outliers_file, 'w', encoding='utf-8') as f:
+        json.dump(outliers, f, indent=2, ensure_ascii=False)
+    print(f"💾 Выбросы сохранены: {outliers_file} (всего {len(outliers)})")
+    
+    # 3. Статистика по парам (топ по средней абсолютной ошибке)
+    pair_stats_list = []
+    for pair, st in pair_stats.items():
+        avg_abs_error = st['sum_abs_error'] / st['count']
+        pair_stats_list.append({
+            'pair': pair,
+            'count': st['count'],
+            'avg_abs_error': avg_abs_error
+        })
+    pair_stats_list.sort(key=lambda x: x['avg_abs_error'], reverse=True)
+    
+    pair_stats_file = METADATA_DIR / "pair_error_stats.json"
+    with open(pair_stats_file, 'w', encoding='utf-8') as f:
+        json.dump(pair_stats_list[:100], f, indent=2)  # топ-100
+    print(f"💾 Статистика по парам (топ-100) сохранена: {pair_stats_file}")
+    
+    print("\n✅ Шаг 2.7 завершён. Все результаты сохранены.")
+    
+    return report
 
 # ========== ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ ==========
 def load_pairs_list():
@@ -605,7 +702,7 @@ def main():
     # Шаг 2.3
     demo_fill_missing()
 
-    # Шаг 2.4 – теперь возвращаем filled_dict
+    # Шаг 2.4
     t_start, availability_df, stats_df, filled_dict = demo_availability_and_tstart()
     print(f"\n✅ Шаг 2.4 завершён. T_start = {t_start}")
 
@@ -623,13 +720,17 @@ def main():
         test_limit=TEST_DATES_LIMIT
     )
 
+    # Шаг 2.7 – сохранение результатов
+    save_results_step27(results, failed_dates, t_start, CRITICAL_PAIRS, outlier_threshold=OUTLIER_THRESHOLD)
+
     print("\n" + "=" * 60)
-    print(" ПОДГОТОВКА ДАННЫХ ЗАВЕРШЕНА")
+    print(" ПЕРВИЧНЫЙ РАСЧЁТ ЗАВЕРШЁН")
     print("=" * 60)
     print(f"\n🎯 Стартовая дата расчёта (T_start): {t_start}")
     print(f"📅 Всего дат для расчёта: {len(calculation_dates)}")
-    print(f"✅ Успешно обработано дат (тестовый режим): {len(results)}")
-    print(f"🔄 Следующий шаг: 2.7 – Сохранение результатов и метаданных")
+    print(f"✅ Успешно обработано дат: {len(results)}")
+    print(f"📁 Результаты сохранены в data/absolute/")
+    print(f"📊 Отчёт: data/absolute/metadata/primary_calculation_report.json")
 
 if __name__ == "__main__":
     main()

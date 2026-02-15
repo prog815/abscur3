@@ -1,0 +1,502 @@
+[
+  {
+    "pair": "IQD_USD",
+    "count": 3129,
+    "avg_abs_error": 43.915161904134095
+  },
+  {
+    "pair": "USD_IQD",
+    "count": 8107,
+    "avg_abs_error": 16.949616578023846
+  },
+  {
+    "pair": "IDR_CHF",
+    "count": 6584,
+    "avg_abs_error": 3.4255785217999875
+  },
+  {
+    "pair": "IDR_AUD",
+    "count": 6828,
+    "avg_abs_error": 3.294396008229551
+  },
+  {
+    "pair": "JPY_TRY",
+    "count": 369,
+    "avg_abs_error": 1.4314694216971757
+  },
+  {
+    "pair": "IDR_USD",
+    "count": 8810,
+    "avg_abs_error": 1.010215007101191
+  },
+  {
+    "pair": "PYG_USD",
+    "count": 8107,
+    "avg_abs_error": 0.9993702812824711
+  },
+  {
+    "pair": "EUR_GEL",
+    "count": 367,
+    "avg_abs_error": 0.9493874718881726
+  },
+  {
+    "pair": "USD_UAH",
+    "count": 8200,
+    "avg_abs_error": 0.9298594617087517
+  },
+  {
+    "pair": "EUR_AOA",
+    "count": 365,
+    "avg_abs_error": 0.7869280855966121
+  },
+  {
+    "pair": "EUR_MZN",
+    "count": 365,
+    "avg_abs_error": 0.7631782691435284
+  },
+  {
+    "pair": "USD_GEL",
+    "count": 367,
+    "avg_abs_error": 0.6355660600497989
+  },
+  {
+    "pair": "COP_USD",
+    "count": 8169,
+    "avg_abs_error": 0.635255837433067
+  },
+  {
+    "pair": "USD_PYG",
+    "count": 12867,
+    "avg_abs_error": 0.6296646359191908
+  },
+  {
+    "pair": "USD_AOA",
+    "count": 441,
+    "avg_abs_error": 0.6221371390291284
+  },
+  {
+    "pair": "USD_IDR",
+    "count": 13575,
+    "avg_abs_error": 0.5667706483412592
+  },
+  {
+    "pair": "IRR_USD",
+    "count": 7035,
+    "avg_abs_error": 0.5439425931378877
+  },
+  {
+    "pair": "EUR_AMD",
+    "count": 7057,
+    "avg_abs_error": 0.4848457177267501
+  },
+  {
+    "pair": "SDR_TRY",
+    "count": 3253,
+    "avg_abs_error": 0.48302984664009385
+  },
+  {
+    "pair": "USD_RUB",
+    "count": 7907,
+    "avg_abs_error": 0.482100604823204
+  },
+  {
+    "pair": "PEN_USD",
+    "count": 6581,
+    "avg_abs_error": 0.47863000917456183
+  },
+  {
+    "pair": "USD_PEN",
+    "count": 9021,
+    "avg_abs_error": 0.42685397811629866
+  },
+  {
+    "pair": "UAH_PLN",
+    "count": 8254,
+    "avg_abs_error": 0.4252119096645169
+  },
+  {
+    "pair": "CLP_USD",
+    "count": 6581,
+    "avg_abs_error": 0.4248513832229547
+  },
+  {
+    "pair": "USD_EUR",
+    "count": 16850,
+    "avg_abs_error": 0.4203326878370648
+  },
+  {
+    "pair": "USD_IRR",
+    "count": 9541,
+    "avg_abs_error": 0.40107285847693674
+  },
+  {
+    "pair": "UAH_USD",
+    "count": 6564,
+    "avg_abs_error": 0.39753004945980963
+  },
+  {
+    "pair": "THB_GBP",
+    "count": 8107,
+    "avg_abs_error": 0.3924706287553842
+  },
+  {
+    "pair": "RUB_AMD",
+    "count": 6406,
+    "avg_abs_error": 0.3453371952428207
+  },
+  {
+    "pair": "JPY_AUD",
+    "count": 8107,
+    "avg_abs_error": 0.34424151799048686
+  },
+  {
+    "pair": "GBP_USD",
+    "count": 8107,
+    "avg_abs_error": 0.33189172690980473
+  },
+  {
+    "pair": "EUR_USD",
+    "count": 8107,
+    "avg_abs_error": 0.32691835966642485
+  },
+  {
+    "pair": "FJD_USD",
+    "count": 7404,
+    "avg_abs_error": 0.32128983532632904
+  },
+  {
+    "pair": "JPY_NZD",
+    "count": 8107,
+    "avg_abs_error": 0.2949717275856313
+  },
+  {
+    "pair": "HUF_USD",
+    "count": 8107,
+    "avg_abs_error": 0.28793791623478887
+  },
+  {
+    "pair": "TRY_UAH",
+    "count": 2812,
+    "avg_abs_error": 0.28230776890102205
+  },
+  {
+    "pair": "HUF_EUR",
+    "count": 6326,
+    "avg_abs_error": 0.2803214207442195
+  },
+  {
+    "pair": "THB_USD",
+    "count": 7825,
+    "avg_abs_error": 0.27765681633384637
+  },
+  {
+    "pair": "EUR_TJS",
+    "count": 6907,
+    "avg_abs_error": 0.27722683456890646
+  },
+  {
+    "pair": "JPY_GBP",
+    "count": 8107,
+    "avg_abs_error": 0.27672553158561636
+  },
+  {
+    "pair": "TJS_RUB",
+    "count": 3546,
+    "avg_abs_error": 0.26112485470415187
+  },
+  {
+    "pair": "EUR_CAD",
+    "count": 8107,
+    "avg_abs_error": 0.2570330883089643
+  },
+  {
+    "pair": "SDR_RUB",
+    "count": 7180,
+    "avg_abs_error": 0.25366834739373934
+  },
+  {
+    "pair": "JPY_EUR",
+    "count": 7452,
+    "avg_abs_error": 0.25300886457473265
+  },
+  {
+    "pair": "JPY_USD",
+    "count": 10695,
+    "avg_abs_error": 0.25142416251231514
+  },
+  {
+    "pair": "KWD_SGD",
+    "count": 365,
+    "avg_abs_error": 0.24984346729640375
+  },
+  {
+    "pair": "MDL_RUB",
+    "count": 3527,
+    "avg_abs_error": 0.24943363398339163
+  },
+  {
+    "pair": "ILS_PEN",
+    "count": 3882,
+    "avg_abs_error": 0.24634719293506932
+  },
+  {
+    "pair": "JPY_CAD",
+    "count": 8107,
+    "avg_abs_error": 0.24452559019794107
+  },
+  {
+    "pair": "USD_TJS",
+    "count": 6907,
+    "avg_abs_error": 0.24358128943705598
+  },
+  {
+    "pair": "USD_AMD",
+    "count": 9045,
+    "avg_abs_error": 0.24180180611548988
+  },
+  {
+    "pair": "JPY_CHF",
+    "count": 8107,
+    "avg_abs_error": 0.23749066607557817
+  },
+  {
+    "pair": "CAD_COP",
+    "count": 13243,
+    "avg_abs_error": 0.2305572100110982
+  },
+  {
+    "pair": "USD_COP",
+    "count": 13243,
+    "avg_abs_error": 0.22077809038142207
+  },
+  {
+    "pair": "USD_AZN",
+    "count": 7343,
+    "avg_abs_error": 0.2202961065200615
+  },
+  {
+    "pair": "EGP_USD",
+    "count": 8835,
+    "avg_abs_error": 0.21746889199160596
+  },
+  {
+    "pair": "USD_CLP",
+    "count": 12867,
+    "avg_abs_error": 0.2172959472289285
+  },
+  {
+    "pair": "USD_FJD",
+    "count": 10997,
+    "avg_abs_error": 0.21631626268652618
+  },
+  {
+    "pair": "USD_THB",
+    "count": 8916,
+    "avg_abs_error": 0.21393520709164013
+  },
+  {
+    "pair": "SGD_KWD",
+    "count": 365,
+    "avg_abs_error": 0.20962036638949288
+  },
+  {
+    "pair": "KWD_EUR",
+    "count": 4186,
+    "avg_abs_error": 0.20878687392924727
+  },
+  {
+    "pair": "CHF_USD",
+    "count": 13266,
+    "avg_abs_error": 0.20402649659172153
+  },
+  {
+    "pair": "USD_HUF",
+    "count": 11928,
+    "avg_abs_error": 0.20021034402242502
+  },
+  {
+    "pair": "USD_ILS",
+    "count": 8107,
+    "avg_abs_error": 0.19430187348433117
+  },
+  {
+    "pair": "ILS_COP",
+    "count": 3889,
+    "avg_abs_error": 0.1926480028476183
+  },
+  {
+    "pair": "RUB_USD",
+    "count": 10994,
+    "avg_abs_error": 0.19099152527085156
+  },
+  {
+    "pair": "GBP_NPR",
+    "count": 3115,
+    "avg_abs_error": 0.18736816511742183
+  },
+  {
+    "pair": "USD_CHF",
+    "count": 13858,
+    "avg_abs_error": 0.1855675008822384
+  },
+  {
+    "pair": "RUB_BRL",
+    "count": 4235,
+    "avg_abs_error": 0.1841997765788506
+  },
+  {
+    "pair": "USD_JPY",
+    "count": 13858,
+    "avg_abs_error": 0.18337610439376614
+  },
+  {
+    "pair": "USD_AUD",
+    "count": 16850,
+    "avg_abs_error": 0.18294450709159477
+  },
+  {
+    "pair": "AUD_USD",
+    "count": 16850,
+    "avg_abs_error": 0.18155509650673024
+  },
+  {
+    "pair": "EUR_AZN",
+    "count": 9045,
+    "avg_abs_error": 0.18033915110471846
+  },
+  {
+    "pair": "JOD_GBP",
+    "count": 4192,
+    "avg_abs_error": 0.1721751430287509
+  },
+  {
+    "pair": "UAH_KZT",
+    "count": 4988,
+    "avg_abs_error": 0.16814649188615893
+  },
+  {
+    "pair": "USD_GBP",
+    "count": 16850,
+    "avg_abs_error": 0.1670733022963851
+  },
+  {
+    "pair": "RUB_VND",
+    "count": 4988,
+    "avg_abs_error": 0.1665860936184975
+  },
+  {
+    "pair": "JOD_EUR",
+    "count": 4183,
+    "avg_abs_error": 0.16327361006087981
+  },
+  {
+    "pair": "NZD_USD",
+    "count": 13860,
+    "avg_abs_error": 0.16040178118295884
+  },
+  {
+    "pair": "USD_NZD",
+    "count": 16850,
+    "avg_abs_error": 0.15655734201807764
+  },
+  {
+    "pair": "ILS_UAH",
+    "count": 3900,
+    "avg_abs_error": 0.15644185127165627
+  },
+  {
+    "pair": "ILS_USD",
+    "count": 6564,
+    "avg_abs_error": 0.15299046818199763
+  },
+  {
+    "pair": "INR_USD",
+    "count": 8107,
+    "avg_abs_error": 0.15219555387045958
+  },
+  {
+    "pair": "USD_EGP",
+    "count": 12713,
+    "avg_abs_error": 0.15113172821168663
+  },
+  {
+    "pair": "CAD_USD",
+    "count": 13266,
+    "avg_abs_error": 0.1467992064809743
+  },
+  {
+    "pair": "PLN_USD",
+    "count": 11928,
+    "avg_abs_error": 0.13854421049622145
+  },
+  {
+    "pair": "AUD_EUR",
+    "count": 14524,
+    "avg_abs_error": 0.13445211141916716
+  },
+  {
+    "pair": "USD_CAD",
+    "count": 16108,
+    "avg_abs_error": 0.13412543158834933
+  },
+  {
+    "pair": "PLN_UAH",
+    "count": 3682,
+    "avg_abs_error": 0.1298342035480004
+  },
+  {
+    "pair": "CHF_EUR",
+    "count": 14524,
+    "avg_abs_error": 0.12908266204102375
+  },
+  {
+    "pair": "EUR_AUD",
+    "count": 14524,
+    "avg_abs_error": 0.12908120302394696
+  },
+  {
+    "pair": "USD_PLN",
+    "count": 11928,
+    "avg_abs_error": 0.1282433035663433
+  },
+  {
+    "pair": "INR_BRL",
+    "count": 365,
+    "avg_abs_error": 0.12616544105132949
+  },
+  {
+    "pair": "EUR_JPY",
+    "count": 16850,
+    "avg_abs_error": 0.12605674116877427
+  },
+  {
+    "pair": "AUD_JPY",
+    "count": 16850,
+    "avg_abs_error": 0.12165205491902295
+  },
+  {
+    "pair": "JOD_USD",
+    "count": 6564,
+    "avg_abs_error": 0.11474781060903554
+  },
+  {
+    "pair": "EUR_CHF",
+    "count": 16850,
+    "avg_abs_error": 0.11375692366426672
+  },
+  {
+    "pair": "CHF_JPY",
+    "count": 16108,
+    "avg_abs_error": 0.11225205610656165
+  },
+  {
+    "pair": "ILS_UYU",
+    "count": 3865,
+    "avg_abs_error": 0.10442443779344814
+  },
+  {
+    "pair": "CAD_EUR",
+    "count": 14524,
+    "avg_abs_error": 0.1020079018391158
+  }
+]

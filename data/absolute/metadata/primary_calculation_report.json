@@ -1,0 +1,42 @@
+{
+  "calculation_date": "2026-02-15T11:27:36.137347",
+  "t_start": "1979-12-24",
+  "total_dates_processed": 16850,
+  "total_dates_failed": 0,
+  "total_pairs_used": 269,
+  "outlier_threshold": 10.0,
+  "critical_pairs_excluded": [
+    "IDR_EUR",
+    "BOB_USD",
+    "USD_AWG",
+    "BRL_USD",
+    "SYP_USD",
+    "AFN_USD",
+    "USD_GYD",
+    "USD_PAB",
+    "BGN_RUB",
+    "USD_BTN",
+    "VND_USD",
+    "SHP_USD",
+    "USD_AED",
+    "IDR_GBP",
+    "ARS_USD",
+    "AED_USD",
+    "AZN_RUB",
+    "BMD_USD"
+  ],
+  "error_stats": {
+    "mean": 0.09676184069384411,
+    "median": 1.628251384248209e-13,
+    "std": 3.712362579943738,
+    "min": -401.1909839951162,
+    "max": 99.36903348032689,
+    "percentiles": {
+      "25": -0.008388002319815327,
+      "50": 1.628251384248209e-13,
+      "75": 0.006600956353707214,
+      "95": 0.22214083834431242,
+      "99": 1.0240604889178981
+    }
+  }
+}
