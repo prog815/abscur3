@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-06-07T09:08:13.510061",
+  "timestamp": "2026-06-08T10:33:09.495646",
   "total_pairs": 287,
   "total_api_requests": 287,
-  "yesterday_date": "2026-06-06",
+  "yesterday_date": "2026-06-07",
   "statistics": {
     "updated": 285,
     "already_current": 0,
@@ -11,2000 +11,128 @@
     "no_local_data": 0,
     "no_last_date": 0,
     "total_new_rows": 285,
-    "total_existing_rows": 1965964
+    "total_existing_rows": 1966249
   },
   "results": {
-    "USD/BAM": {
-      "symbol": "USD/BAM",
-      "status": "updated",
-      "existing_rows": 388,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/SRD": {
-      "symbol": "USD/SRD",
-      "status": "updated",
-      "existing_rows": 178,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "EUR/TJS": {
-      "symbol": "EUR/TJS",
-      "status": "updated",
-      "existing_rows": 5086,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/GHS": {
-      "symbol": "USD/GHS",
-      "status": "updated",
-      "existing_rows": 9010,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/KZT": {
-      "symbol": "USD/KZT",
-      "status": "updated",
-      "existing_rows": 8124,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/MNT": {
-      "symbol": "USD/MNT",
-      "status": "updated",
-      "existing_rows": 8289,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "NZD/AUD": {
-      "symbol": "NZD/AUD",
-      "status": "updated",
-      "existing_rows": 11636,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/MRU": {
-      "symbol": "USD/MRU",
-      "status": "updated",
-      "existing_rows": 2020,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/BWP": {
-      "symbol": "USD/BWP",
-      "status": "updated",
-      "existing_rows": 5793,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/LKR": {
-      "symbol": "USD/LKR",
-      "status": "updated",
-      "existing_rows": 11629,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/KWD": {
-      "symbol": "USD/KWD",
-      "status": "updated",
-      "existing_rows": 12221,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/KMF": {
-      "symbol": "USD/KMF",
-      "status": "updated",
-      "existing_rows": 5460,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "NZD/CHF": {
-      "symbol": "NZD/CHF",
-      "status": "updated",
-      "existing_rows": 12146,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/CLP": {
-      "symbol": "USD/CLP",
-      "status": "updated",
-      "existing_rows": 9339,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/UYU": {
-      "symbol": "USD/UYU",
-      "status": "updated",
-      "existing_rows": 9053,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "EUR/MZN": {
-      "symbol": "EUR/MZN",
-      "status": "updated",
-      "existing_rows": 419,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/MWK": {
-      "symbol": "USD/MWK",
-      "status": "updated",
-      "existing_rows": 5928,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "CHF/AUD": {
-      "symbol": "CHF/AUD",
-      "status": "updated",
-      "existing_rows": 9663,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "JPY/TRY": {
-      "symbol": "JPY/TRY",
-      "status": "updated",
-      "existing_rows": 435,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/GTQ": {
-      "symbol": "USD/GTQ",
-      "status": "updated",
-      "existing_rows": 9317,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "VND/USD": {
-      "symbol": "VND/USD",
-      "status": "updated",
-      "existing_rows": 5893,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/OMR": {
-      "symbol": "USD/OMR",
-      "status": "updated",
-      "existing_rows": 10340,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "JPY/NZD": {
-      "symbol": "JPY/NZD",
-      "status": "updated",
-      "existing_rows": 5946,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "EUR/AOA": {
-      "symbol": "EUR/AOA",
-      "status": "updated",
-      "existing_rows": 394,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/SLE": {
-      "symbol": "USD/SLE",
-      "status": "updated",
-      "existing_rows": 178,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "UAH/KZT": {
-      "symbol": "UAH/KZT",
-      "status": "updated",
-      "existing_rows": 3731,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "INR/USD": {
-      "symbol": "INR/USD",
-      "status": "updated",
-      "existing_rows": 5927,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/THB": {
-      "symbol": "USD/THB",
-      "status": "updated",
-      "existing_rows": 6554,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/CVE": {
-      "symbol": "USD/CVE",
-      "status": "updated",
-      "existing_rows": 5882,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "BHD/INR": {
-      "symbol": "BHD/INR",
-      "status": "updated",
-      "existing_rows": 8366,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/JMD": {
-      "symbol": "USD/JMD",
-      "status": "updated",
-      "existing_rows": 12119,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "AED/USD": {
-      "symbol": "AED/USD",
-      "status": "updated",
-      "existing_rows": 4907,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "CHF/GBP": {
-      "symbol": "CHF/GBP",
-      "status": "updated",
-      "existing_rows": 11642,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "HUF/USD": {
-      "symbol": "HUF/USD",
-      "status": "updated",
-      "existing_rows": 5927,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "EUR/AMD": {
-      "symbol": "EUR/AMD",
-      "status": "updated",
-      "existing_rows": 5194,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/SCR": {
-      "symbol": "USD/SCR",
-      "status": "updated",
-      "existing_rows": 8557,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/CRC": {
-      "symbol": "USD/CRC",
-      "status": "updated",
-      "existing_rows": 8380,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/NZD": {
-      "symbol": "USD/NZD",
-      "status": "updated",
-      "existing_rows": 12110,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/PLN": {
-      "symbol": "USD/PLN",
-      "status": "updated",
-      "existing_rows": 8702,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "FKP/USD": {
-      "symbol": "FKP/USD",
-      "status": "updated",
-      "existing_rows": 178,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/TZS": {
-      "symbol": "USD/TZS",
-      "status": "updated",
-      "existing_rows": 8173,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "DKK/USD": {
-      "symbol": "DKK/USD",
-      "status": "updated",
-      "existing_rows": 9647,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/AED": {
-      "symbol": "USD/AED",
-      "status": "updated",
-      "existing_rows": 9228,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/NIO": {
-      "symbol": "USD/NIO",
-      "status": "updated",
-      "existing_rows": 5912,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "EUR/NZD": {
-      "symbol": "EUR/NZD",
-      "status": "updated",
-      "existing_rows": 10547,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "GEL/RUB": {
-      "symbol": "GEL/RUB",
-      "status": "updated",
-      "existing_rows": 3123,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/DOP": {
-      "symbol": "USD/DOP",
-      "status": "updated",
-      "existing_rows": 8371,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "GBP/NPR": {
-      "symbol": "GBP/NPR",
-      "status": "updated",
-      "existing_rows": 2668,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "ILS/UAH": {
-      "symbol": "ILS/UAH",
-      "status": "updated",
-      "existing_rows": 2995,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "COP/USD": {
-      "symbol": "COP/USD",
-      "status": "updated",
-      "existing_rows": 5907,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/XAF": {
-      "symbol": "USD/XAF",
-      "status": "updated",
-      "existing_rows": 5916,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "JPY/USD": {
-      "symbol": "JPY/USD",
-      "status": "updated",
-      "existing_rows": 7740,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "JOD/GBP": {
-      "symbol": "JOD/GBP",
-      "status": "updated",
-      "existing_rows": 3183,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/MOP": {
-      "symbol": "USD/MOP",
-      "status": "updated",
-      "existing_rows": 7748,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/SZL": {
-      "symbol": "USD/SZL",
-      "status": "updated",
-      "existing_rows": 5915,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/AMD": {
-      "symbol": "USD/AMD",
-      "status": "updated",
-      "existing_rows": 6606,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "PHP/USD": {
-      "symbol": "PHP/USD",
-      "status": "updated",
-      "existing_rows": 5891,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/ZMW": {
-      "symbol": "USD/ZMW",
-      "status": "updated",
-      "existing_rows": 3974,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/MXN": {
-      "symbol": "USD/MXN",
-      "status": "updated",
-      "existing_rows": 9632,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "CHF/JPY": {
-      "symbol": "CHF/JPY",
-      "status": "updated",
-      "existing_rows": 11645,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/TND": {
-      "symbol": "USD/TND",
-      "status": "updated",
-      "existing_rows": 5912,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "HUF/EUR": {
-      "symbol": "HUF/EUR",
-      "status": "updated",
-      "existing_rows": 4682,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/BRL": {
-      "symbol": "USD/BRL",
-      "status": "updated",
-      "existing_rows": 9344,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "NZD/EUR": {
-      "symbol": "NZD/EUR",
-      "status": "updated",
-      "existing_rows": 10547,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "CAD/CHF": {
-      "symbol": "CAD/CHF",
-      "status": "updated",
-      "existing_rows": 11644,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/ISK": {
-      "symbol": "USD/ISK",
-      "status": "updated",
-      "existing_rows": 8950,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "TRY/UAH": {
-      "symbol": "TRY/UAH",
-      "status": "updated",
-      "existing_rows": 2416,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "CNY/MNT": {
-      "symbol": "CNY/MNT",
-      "status": "updated",
-      "existing_rows": 2416,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
     "USD/ARS": {
       "symbol": "USD/ARS",
       "status": "updated",
-      "existing_rows": 9332,
+      "existing_rows": 9333,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "GBP/CAD": {
-      "symbol": "GBP/CAD",
-      "status": "updated",
-      "existing_rows": 12154,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "CZK/PLN": {
-      "symbol": "CZK/PLN",
-      "status": "updated",
-      "existing_rows": 7538,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/ALL": {
-      "symbol": "USD/ALL",
-      "status": "updated",
-      "existing_rows": 5900,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/UZS": {
-      "symbol": "USD/UZS",
-      "status": "updated",
-      "existing_rows": 5538,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/GEL": {
-      "symbol": "USD/GEL",
-      "status": "updated",
-      "existing_rows": 413,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "CHF/USD": {
-      "symbol": "CHF/USD",
-      "status": "updated",
-      "existing_rows": 9648,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "RUB/VND": {
-      "symbol": "RUB/VND",
-      "status": "updated",
-      "existing_rows": 3734,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "EGP/USD": {
-      "symbol": "EGP/USD",
-      "status": "updated",
-      "existing_rows": 6354,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "JPY/CHF": {
-      "symbol": "JPY/CHF",
-      "status": "updated",
-      "existing_rows": 5948,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/SEK": {
-      "symbol": "USD/SEK",
-      "status": "updated",
-      "existing_rows": 10070,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/BND": {
-      "symbol": "USD/BND",
-      "status": "updated",
-      "existing_rows": 8382,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/KES": {
-      "symbol": "USD/KES",
-      "status": "updated",
-      "existing_rows": 5937,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "KWD/MYR": {
-      "symbol": "KWD/MYR",
-      "status": "updated",
-      "existing_rows": 2973,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "MDL/RUB": {
-      "symbol": "MDL/RUB",
-      "status": "updated",
-      "existing_rows": 2666,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "JPY/AUD": {
-      "symbol": "JPY/AUD",
-      "status": "updated",
-      "existing_rows": 5942,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/EGP": {
-      "symbol": "USD/EGP",
-      "status": "updated",
-      "existing_rows": 10670,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/BGN": {
-      "symbol": "USD/BGN",
-      "status": "updated",
-      "existing_rows": 8625,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/IQD": {
-      "symbol": "USD/IQD",
-      "status": "updated",
-      "existing_rows": 5886,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/YER": {
-      "symbol": "USD/YER",
-      "status": "updated",
-      "existing_rows": 5681,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/CZK": {
-      "symbol": "USD/CZK",
-      "status": "updated",
-      "existing_rows": 8740,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/PGK": {
-      "symbol": "USD/PGK",
-      "status": "updated",
-      "existing_rows": 5868,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "CZK/USD": {
-      "symbol": "CZK/USD",
-      "status": "updated",
-      "existing_rows": 1692,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "AUD/CAD": {
-      "symbol": "AUD/CAD",
-      "status": "updated",
-      "existing_rows": 12133,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/ILS": {
-      "symbol": "USD/ILS",
-      "status": "updated",
-      "existing_rows": 5926,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "JOD/USD": {
-      "symbol": "JOD/USD",
-      "status": "updated",
-      "existing_rows": 4881,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "CAD/GBP": {
-      "symbol": "CAD/GBP",
-      "status": "updated",
-      "existing_rows": 11644,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/AWG": {
-      "symbol": "USD/AWG",
-      "status": "updated",
-      "existing_rows": 4583,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/TMT": {
-      "symbol": "USD/TMT",
-      "status": "updated",
-      "existing_rows": 2946,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/COP": {
-      "symbol": "USD/COP",
-      "status": "updated",
-      "existing_rows": 9571,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "IQD/USD": {
-      "symbol": "IQD/USD",
-      "status": "updated",
-      "existing_rows": 2403,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "CNY/USD": {
-      "symbol": "CNY/USD",
-      "status": "updated",
-      "existing_rows": 6330,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/KRW": {
-      "symbol": "USD/KRW",
-      "status": "updated",
-      "existing_rows": 5926,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "CHF/CAD": {
-      "symbol": "CHF/CAD",
-      "status": "updated",
-      "existing_rows": 11644,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/TWD": {
-      "symbol": "USD/TWD",
-      "status": "updated",
-      "existing_rows": 11010,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "CNY/CNH": {
-      "symbol": "CNY/CNH",
-      "status": "updated",
-      "existing_rows": 403,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "JOD/EUR": {
-      "symbol": "JOD/EUR",
-      "status": "updated",
-      "existing_rows": 3172,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "BMD/USD": {
-      "symbol": "BMD/USD",
-      "status": "updated",
-      "existing_rows": 5142,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "JPY/GBP": {
-      "symbol": "JPY/GBP",
-      "status": "updated",
-      "existing_rows": 5906,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/FJD": {
-      "symbol": "USD/FJD",
-      "status": "updated",
-      "existing_rows": 7920,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/KHR": {
-      "symbol": "USD/KHR",
-      "status": "updated",
-      "existing_rows": 5881,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/GMD": {
-      "symbol": "USD/GMD",
-      "status": "updated",
-      "existing_rows": 8608,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/RUB": {
-      "symbol": "USD/RUB",
-      "status": "updated",
-      "existing_rows": 5737,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/BIF": {
-      "symbol": "USD/BIF",
-      "status": "updated",
-      "existing_rows": 5877,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "SGD/KWD": {
-      "symbol": "SGD/KWD",
-      "status": "updated",
-      "existing_rows": 419,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "EUR/USD": {
-      "symbol": "EUR/USD",
-      "status": "updated",
-      "existing_rows": 5909,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "KWD/SGD": {
-      "symbol": "KWD/SGD",
-      "status": "updated",
-      "existing_rows": 419,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/LBP": {
-      "symbol": "USD/LBP",
-      "status": "updated",
-      "existing_rows": 5894,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/XOF": {
-      "symbol": "USD/XOF",
-      "status": "updated",
-      "existing_rows": 5931,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/CAD": {
-      "symbol": "USD/CAD",
-      "status": "updated",
-      "existing_rows": 11647,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/AZN": {
-      "symbol": "USD/AZN",
-      "status": "updated",
-      "existing_rows": 5400,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "IDR/CHF": {
-      "symbol": "IDR/CHF",
-      "status": "updated",
-      "existing_rows": 4780,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "MXN/USD": {
-      "symbol": "MXN/USD",
-      "status": "updated",
-      "existing_rows": 9497,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "JPY/EUR": {
-      "symbol": "JPY/EUR",
-      "status": "updated",
-      "existing_rows": 5458,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/MAD": {
-      "symbol": "USD/MAD",
-      "status": "updated",
-      "existing_rows": 9246,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/IRR": {
-      "symbol": "USD/IRR",
-      "status": "updated",
-      "existing_rows": 7852,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/STN": {
-      "symbol": "USD/STN",
-      "status": "updated",
-      "existing_rows": 178,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "TJS/RUB": {
-      "symbol": "TJS/RUB",
-      "status": "updated",
-      "existing_rows": 2678,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "KWD/EUR": {
-      "symbol": "KWD/EUR",
-      "status": "updated",
-      "existing_rows": 3171,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "EUR/GBP": {
-      "symbol": "EUR/GBP",
-      "status": "updated",
-      "existing_rows": 10557,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "NIO/USD": {
-      "symbol": "NIO/USD",
-      "status": "updated",
-      "existing_rows": 5917,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "CAD/AUD": {
-      "symbol": "CAD/AUD",
-      "status": "updated",
-      "existing_rows": 11638,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "NZD/GBP": {
-      "symbol": "NZD/GBP",
-      "status": "updated",
-      "existing_rows": 11633,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/PHP": {
-      "symbol": "USD/PHP",
-      "status": "updated",
-      "existing_rows": 5921,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "IDR/USD": {
-      "symbol": "IDR/USD",
-      "status": "updated",
-      "existing_rows": 6348,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "GBP/AUD": {
-      "symbol": "GBP/AUD",
-      "status": "updated",
-      "existing_rows": 12146,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "RUB/BRL": {
-      "symbol": "RUB/BRL",
-      "status": "updated",
-      "existing_rows": 3223,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "NOK/USD": {
-      "symbol": "NOK/USD",
-      "status": "updated",
-      "existing_rows": 9655,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/CNY": {
-      "symbol": "USD/CNY",
-      "status": "updated",
-      "existing_rows": 11820,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "KRW/USD": {
-      "symbol": "KRW/USD",
-      "status": "updated",
-      "existing_rows": 5896,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/SBD": {
-      "symbol": "USD/SBD",
-      "status": "updated",
-      "existing_rows": 178,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "FJD/USD": {
-      "symbol": "FJD/USD",
-      "status": "updated",
-      "existing_rows": 5294,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "EUR/GEL": {
-      "symbol": "EUR/GEL",
-      "status": "updated",
-      "existing_rows": 394,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/LSL": {
-      "symbol": "USD/LSL",
-      "status": "updated",
-      "existing_rows": 5857,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/PKR": {
-      "symbol": "USD/PKR",
-      "status": "updated",
-      "existing_rows": 5905,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/GNF": {
-      "symbol": "USD/GNF",
-      "status": "updated",
-      "existing_rows": 5897,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/AFN": {
-      "symbol": "USD/AFN",
-      "status": "updated",
-      "existing_rows": 8094,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/DJF": {
-      "symbol": "USD/DJF",
-      "status": "updated",
-      "existing_rows": 9391,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "RUB/AMD": {
-      "symbol": "RUB/AMD",
-      "status": "updated",
-      "existing_rows": 4734,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/PEN": {
-      "symbol": "USD/PEN",
-      "status": "updated",
-      "existing_rows": 6596,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "UYU/USD": {
-      "symbol": "UYU/USD",
-      "status": "updated",
-      "existing_rows": 4877,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "NZD/USD": {
-      "symbol": "NZD/USD",
-      "status": "updated",
-      "existing_rows": 10086,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "SYP/USD": {
-      "symbol": "SYP/USD",
-      "status": "updated",
-      "existing_rows": 2305,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "AFN/USD": {
-      "symbol": "AFN/USD",
-      "status": "updated",
-      "existing_rows": 2405,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/CDF": {
-      "symbol": "USD/CDF",
-      "status": "updated",
-      "existing_rows": 4769,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/MMK": {
-      "symbol": "USD/MMK",
-      "status": "updated",
-      "existing_rows": 5918,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/EUR": {
-      "symbol": "USD/EUR",
-      "status": "updated",
-      "existing_rows": 12074,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "KYD/USD": {
-      "symbol": "KYD/USD",
-      "status": "updated",
-      "existing_rows": 7433,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "UAH/USD": {
-      "symbol": "UAH/USD",
-      "status": "updated",
-      "existing_rows": 4875,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/HNL": {
-      "symbol": "USD/HNL",
-      "status": "updated",
-      "existing_rows": 5927,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "IDR/EUR": {
-      "symbol": "IDR/EUR",
-      "status": "updated",
-      "existing_rows": 4754,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "ZAR/USD": {
-      "symbol": "ZAR/USD",
-      "status": "updated",
-      "existing_rows": 9653,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/SVC": {
-      "symbol": "USD/SVC",
-      "status": "updated",
-      "existing_rows": 8384,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "PYG/USD": {
-      "symbol": "PYG/USD",
-      "status": "updated",
-      "existing_rows": 5916,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/BOB": {
-      "symbol": "USD/BOB",
-      "status": "updated",
-      "existing_rows": 8056,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "THB/GBP": {
-      "symbol": "THB/GBP",
-      "status": "updated",
-      "existing_rows": 5926,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "PLN/USD": {
-      "symbol": "PLN/USD",
-      "status": "updated",
-      "existing_rows": 8702,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/TTD": {
-      "symbol": "USD/TTD",
-      "status": "updated",
-      "existing_rows": 7926,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "AZN/RUB": {
-      "symbol": "AZN/RUB",
-      "status": "updated",
-      "existing_rows": 3086,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/MKD": {
-      "symbol": "USD/MKD",
-      "status": "updated",
-      "existing_rows": 7122,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "TRY/USD": {
-      "symbol": "TRY/USD",
-      "status": "updated",
-      "existing_rows": 9481,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/LAK": {
-      "symbol": "USD/LAK",
-      "status": "updated",
-      "existing_rows": 5890,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/SOS": {
-      "symbol": "USD/SOS",
-      "status": "updated",
-      "existing_rows": 5801,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "AUD/USD": {
-      "symbol": "AUD/USD",
-      "status": "updated",
-      "existing_rows": 12152,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "SDR/RUB": {
-      "symbol": "SDR/RUB",
-      "status": "failed",
-      "existing_rows": 4753,
-      "new_rows": 0,
-      "error": "Ошибка загрузки данных",
-      "range": "2026-03-26 - 2026-06-06"
-    },
-    "AUD/EUR": {
-      "symbol": "AUD/EUR",
-      "status": "updated",
-      "existing_rows": 10550,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "PEN/USD": {
-      "symbol": "PEN/USD",
-      "status": "updated",
-      "existing_rows": 4893,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/CHF": {
-      "symbol": "USD/CHF",
-      "status": "updated",
-      "existing_rows": 10071,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "CAD/NZD": {
-      "symbol": "CAD/NZD",
-      "status": "updated",
-      "existing_rows": 11636,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "TWD/USD": {
-      "symbol": "TWD/USD",
-      "status": "updated",
-      "existing_rows": 5538,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/BTN": {
-      "symbol": "USD/BTN",
-      "status": "updated",
-      "existing_rows": 179,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "AUD/GBP": {
-      "symbol": "AUD/GBP",
-      "status": "updated",
-      "existing_rows": 11636,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "CAD/EUR": {
-      "symbol": "CAD/EUR",
-      "status": "updated",
-      "existing_rows": 10556,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "EUR/CHF": {
-      "symbol": "EUR/CHF",
-      "status": "updated",
-      "existing_rows": 12129,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/TRY": {
-      "symbol": "USD/TRY",
-      "status": "updated",
-      "existing_rows": 9617,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/IDR": {
-      "symbol": "USD/IDR",
-      "status": "updated",
-      "existing_rows": 9804,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "GBP/EUR": {
-      "symbol": "GBP/EUR",
-      "status": "updated",
-      "existing_rows": 10557,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/ETB": {
-      "symbol": "USD/ETB",
-      "status": "updated",
-      "existing_rows": 5848,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/BDT": {
-      "symbol": "USD/BDT",
-      "status": "updated",
-      "existing_rows": 5936,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/SAR": {
-      "symbol": "USD/SAR",
-      "status": "updated",
-      "existing_rows": 13730,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/LRD": {
-      "symbol": "USD/LRD",
-      "status": "updated",
-      "existing_rows": 4207,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "EUR/AUD": {
-      "symbol": "EUR/AUD",
-      "status": "updated",
-      "existing_rows": 10550,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "IDR/GBP": {
-      "symbol": "IDR/GBP",
-      "status": "updated",
-      "existing_rows": 4790,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/LYD": {
-      "symbol": "USD/LYD",
-      "status": "updated",
-      "existing_rows": 9053,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "NZD/JPY": {
-      "symbol": "NZD/JPY",
-      "status": "updated",
-      "existing_rows": 12146,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "RUB/USD": {
-      "symbol": "RUB/USD",
-      "status": "updated",
-      "existing_rows": 8043,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/HUF": {
-      "symbol": "USD/HUF",
-      "status": "updated",
-      "existing_rows": 8706,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/SGD": {
-      "symbol": "USD/SGD",
-      "status": "updated",
-      "existing_rows": 10085,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/BHD": {
-      "symbol": "USD/BHD",
-      "status": "updated",
-      "existing_rows": 10379,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/INR": {
-      "symbol": "USD/INR",
-      "status": "updated",
-      "existing_rows": 12115,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/MZN": {
-      "symbol": "USD/MZN",
-      "status": "updated",
-      "existing_rows": 8952,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/MDL": {
-      "symbol": "USD/MDL",
-      "status": "updated",
-      "existing_rows": 8063,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "INR/BRL": {
-      "symbol": "INR/BRL",
-      "status": "updated",
-      "existing_rows": 431,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "EUR/CAD": {
-      "symbol": "EUR/CAD",
-      "status": "updated",
-      "existing_rows": 5913,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "ILS/PEN": {
-      "symbol": "ILS/PEN",
-      "status": "updated",
-      "existing_rows": 2977,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "BYN/USD": {
-      "symbol": "BYN/USD",
-      "status": "updated",
-      "existing_rows": 2771,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/MVR": {
-      "symbol": "USD/MVR",
-      "status": "updated",
-      "existing_rows": 5526,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "CAD/COP": {
-      "symbol": "CAD/COP",
-      "status": "updated",
-      "existing_rows": 9571,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "GBP/NZD": {
-      "symbol": "GBP/NZD",
-      "status": "updated",
-      "existing_rows": 12143,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
     "IDR/AUD": {
       "symbol": "IDR/AUD",
       "status": "updated",
-      "existing_rows": 4850,
+      "existing_rows": 4851,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "CAD/USD": {
-      "symbol": "CAD/USD",
-      "status": "updated",
-      "existing_rows": 9661,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "UAH/PLN": {
-      "symbol": "UAH/PLN",
-      "status": "updated",
-      "existing_rows": 6074,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "ILS/BGN": {
-      "symbol": "ILS/BGN",
-      "status": "updated",
-      "existing_rows": 2950,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "NZD/CAD": {
-      "symbol": "NZD/CAD",
-      "status": "updated",
-      "existing_rows": 12131,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/GYD": {
-      "symbol": "USD/GYD",
-      "status": "updated",
-      "existing_rows": 3671,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "BOB/USD": {
-      "symbol": "BOB/USD",
-      "status": "updated",
-      "existing_rows": 4881,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/NPR": {
-      "symbol": "USD/NPR",
-      "status": "updated",
-      "existing_rows": 4676,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/JPY": {
-      "symbol": "USD/JPY",
-      "status": "updated",
-      "existing_rows": 10065,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/DZD": {
-      "symbol": "USD/DZD",
-      "status": "updated",
-      "existing_rows": 9031,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/AOA": {
-      "symbol": "USD/AOA",
-      "status": "updated",
-      "existing_rows": 461,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "CHF/NZD": {
-      "symbol": "CHF/NZD",
-      "status": "updated",
-      "existing_rows": 9661,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/XPF": {
-      "symbol": "USD/XPF",
-      "status": "updated",
-      "existing_rows": 5925,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "GBP/JPY": {
-      "symbol": "GBP/JPY",
-      "status": "updated",
-      "existing_rows": 12154,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/VND": {
-      "symbol": "USD/VND",
-      "status": "updated",
-      "existing_rows": 8144,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/MUR": {
-      "symbol": "USD/MUR",
-      "status": "updated",
-      "existing_rows": 8200,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "BRL/USD": {
-      "symbol": "BRL/USD",
-      "status": "updated",
-      "existing_rows": 5514,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/DKK": {
-      "symbol": "USD/DKK",
-      "status": "updated",
-      "existing_rows": 10068,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/ZAR": {
-      "symbol": "USD/ZAR",
-      "status": "updated",
-      "existing_rows": 10082,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "XDR/USD": {
-      "symbol": "XDR/USD",
-      "status": "updated",
-      "existing_rows": 178,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "CLP/USD": {
-      "symbol": "CLP/USD",
-      "status": "updated",
-      "existing_rows": 4897,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/QAR": {
-      "symbol": "USD/QAR",
-      "status": "updated",
-      "existing_rows": 10372,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/WST": {
-      "symbol": "USD/WST",
-      "status": "updated",
-      "existing_rows": 178,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "ILS/UYU": {
-      "symbol": "ILS/UYU",
-      "status": "updated",
-      "existing_rows": 2967,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/MGA": {
-      "symbol": "USD/MGA",
-      "status": "updated",
-      "existing_rows": 5730,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/XCD": {
-      "symbol": "USD/XCD",
-      "status": "updated",
-      "existing_rows": 7546,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
     "THB/USD": {
       "symbol": "THB/USD",
       "status": "updated",
-      "existing_rows": 5777,
+      "existing_rows": 5778,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
-    "USD/HTG": {
-      "symbol": "USD/HTG",
-      "status": "updated",
-      "existing_rows": 8334,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "GHS/USD": {
-      "symbol": "GHS/USD",
-      "status": "updated",
-      "existing_rows": 4861,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "GBP/USD": {
-      "symbol": "GBP/USD",
+    "USD/XOF": {
+      "symbol": "USD/XOF",
       "status": "updated",
       "existing_rows": 5932,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
-    "USD/UAH": {
-      "symbol": "USD/UAH",
+    "USD/BND": {
+      "symbol": "USD/BND",
       "status": "updated",
-      "existing_rows": 5954,
+      "existing_rows": 8383,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
-    "USD/AUD": {
-      "symbol": "USD/AUD",
+    "USD/THB": {
+      "symbol": "USD/THB",
       "status": "updated",
-      "existing_rows": 12058,
+      "existing_rows": 6555,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
-    "USD/RON": {
-      "symbol": "USD/RON",
+    "VND/USD": {
+      "symbol": "VND/USD",
       "status": "updated",
-      "existing_rows": 8372,
+      "existing_rows": 5894,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
-    "USD/NOK": {
-      "symbol": "USD/NOK",
+    "USD/VND": {
+      "symbol": "USD/VND",
       "status": "updated",
-      "existing_rows": 12142,
+      "existing_rows": 8145,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
-    "MYR/USD": {
-      "symbol": "MYR/USD",
+    "USD/STN": {
+      "symbol": "USD/STN",
       "status": "updated",
-      "existing_rows": 5734,
+      "existing_rows": 179,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
-    "SGD/USD": {
-      "symbol": "SGD/USD",
+    "IQD/USD": {
+      "symbol": "IQD/USD",
       "status": "updated",
-      "existing_rows": 9652,
+      "existing_rows": 2404,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
-    "USD/PAB": {
-      "symbol": "USD/PAB",
+    "CHF/EUR": {
+      "symbol": "CHF/EUR",
       "status": "updated",
-      "existing_rows": 3433,
+      "existing_rows": 10556,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
-    "USD/VES": {
-      "symbol": "USD/VES",
+    "USD/AZN": {
+      "symbol": "USD/AZN",
       "status": "updated",
-      "existing_rows": 2218,
+      "existing_rows": 5401,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
-    "ARS/USD": {
-      "symbol": "ARS/USD",
+    "USD/MNT": {
+      "symbol": "USD/MNT",
       "status": "updated",
-      "existing_rows": 5748,
+      "existing_rows": 8290,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
-    "ILS/USD": {
-      "symbol": "ILS/USD",
+    "EGP/USD": {
+      "symbol": "EGP/USD",
       "status": "updated",
-      "existing_rows": 4882,
+      "existing_rows": 6355,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
-    "EUR/AZN": {
-      "symbol": "EUR/AZN",
+    "UAH/USD": {
+      "symbol": "UAH/USD",
       "status": "updated",
-      "existing_rows": 6599,
+      "existing_rows": 4876,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "IRR/USD": {
-      "symbol": "IRR/USD",
-      "status": "updated",
-      "existing_rows": 5075,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
     "SDR/TRY": {
       "symbol": "SDR/TRY",
@@ -2012,303 +140,2175 @@
       "existing_rows": 2474,
       "new_rows": 0,
       "error": "Ошибка загрузки данных",
-      "range": "2026-03-26 - 2026-06-06"
+      "range": "2026-03-26 - 2026-06-07"
     },
-    "USD/BZD": {
-      "symbol": "USD/BZD",
+    "USD/TRY": {
+      "symbol": "USD/TRY",
       "status": "updated",
-      "existing_rows": 8050,
+      "existing_rows": 9618,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
-    "USD/SYP": {
-      "symbol": "USD/SYP",
+    "GBP/JPY": {
+      "symbol": "GBP/JPY",
       "status": "updated",
-      "existing_rows": 7550,
+      "existing_rows": 12155,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/HKD": {
-      "symbol": "USD/HKD",
-      "status": "updated",
-      "existing_rows": 12126,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "ILS/COP": {
-      "symbol": "ILS/COP",
-      "status": "updated",
-      "existing_rows": 2983,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/VUV": {
-      "symbol": "USD/VUV",
-      "status": "updated",
-      "existing_rows": 7779,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/UGX": {
-      "symbol": "USD/UGX",
-      "status": "updated",
-      "existing_rows": 8185,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/NAD": {
-      "symbol": "USD/NAD",
-      "status": "updated",
-      "existing_rows": 5937,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "EUR/JPY": {
-      "symbol": "EUR/JPY",
-      "status": "updated",
-      "existing_rows": 12162,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/PYG": {
-      "symbol": "USD/PYG",
-      "status": "updated",
-      "existing_rows": 9356,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/MYR": {
-      "symbol": "USD/MYR",
-      "status": "updated",
-      "existing_rows": 12050,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/BSD": {
-      "symbol": "USD/BSD",
-      "status": "updated",
-      "existing_rows": 7528,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "AUD/JPY": {
-      "symbol": "AUD/JPY",
-      "status": "updated",
-      "existing_rows": 12134,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/RWF": {
-      "symbol": "USD/RWF",
-      "status": "updated",
-      "existing_rows": 5908,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "GIP/USD": {
-      "symbol": "GIP/USD",
-      "status": "updated",
-      "existing_rows": 178,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "BGN/RUB": {
-      "symbol": "BGN/RUB",
-      "status": "updated",
-      "existing_rows": 2684,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/CUP": {
-      "symbol": "USD/CUP",
-      "status": "updated",
-      "existing_rows": 7230,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/JOD": {
-      "symbol": "USD/JOD",
-      "status": "updated",
-      "existing_rows": 10019,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/GBP": {
-      "symbol": "USD/GBP",
-      "status": "updated",
-      "existing_rows": 12061,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
     "HKD/USD": {
       "symbol": "HKD/USD",
       "status": "updated",
-      "existing_rows": 9658,
+      "existing_rows": 9659,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
-    "USD/TJS": {
-      "symbol": "USD/TJS",
+    "USD/MVR": {
+      "symbol": "USD/MVR",
       "status": "updated",
-      "existing_rows": 5044,
+      "existing_rows": 5527,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
-    "SAR/USD": {
-      "symbol": "SAR/USD",
+    "USD/BIF": {
+      "symbol": "USD/BIF",
       "status": "updated",
-      "existing_rows": 7519,
+      "existing_rows": 5878,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
-    "AUD/CHF": {
-      "symbol": "AUD/CHF",
+    "GEL/RUB": {
+      "symbol": "GEL/RUB",
       "status": "updated",
-      "existing_rows": 12149,
+      "existing_rows": 3124,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "AUD/NZD": {
-      "symbol": "AUD/NZD",
-      "status": "updated",
-      "existing_rows": 11636,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
     "GBP/CHF": {
       "symbol": "GBP/CHF",
       "status": "updated",
-      "existing_rows": 12151,
+      "existing_rows": 12152,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "KWD/USD": {
-      "symbol": "KWD/USD",
-      "status": "updated",
-      "existing_rows": 3169,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/SDG": {
-      "symbol": "USD/SDG",
-      "status": "updated",
-      "existing_rows": 4883,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/CNH": {
-      "symbol": "USD/CNH",
-      "status": "updated",
-      "existing_rows": 3455,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/BBD": {
-      "symbol": "USD/BBD",
-      "status": "updated",
-      "existing_rows": 8060,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "SHP/USD": {
-      "symbol": "SHP/USD",
-      "status": "updated",
-      "existing_rows": 2122,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "USD/RSD": {
-      "symbol": "USD/RSD",
-      "status": "updated",
-      "existing_rows": 5057,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "PLN/UAH": {
-      "symbol": "PLN/UAH",
-      "status": "updated",
-      "existing_rows": 2809,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
-    },
-    "CHF/EUR": {
-      "symbol": "CHF/EUR",
-      "status": "updated",
-      "existing_rows": 10555,
-      "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
     "KGS/RUB": {
       "symbol": "KGS/RUB",
       "status": "updated",
-      "existing_rows": 2708,
+      "existing_rows": 2709,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
-    "USD/NGN": {
-      "symbol": "USD/NGN",
+    "UAH/PLN": {
+      "symbol": "UAH/PLN",
       "status": "updated",
-      "existing_rows": 5920,
+      "existing_rows": 6075,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "JPY/EUR": {
+      "symbol": "JPY/EUR",
+      "status": "updated",
+      "existing_rows": 5459,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
     "JPY/CAD": {
       "symbol": "JPY/CAD",
       "status": "updated",
-      "existing_rows": 5941,
+      "existing_rows": 5942,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
-    "USD/TOP": {
-      "symbol": "USD/TOP",
+    "INR/USD": {
+      "symbol": "INR/USD",
       "status": "updated",
-      "existing_rows": 178,
+      "existing_rows": 5928,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/BSD": {
+      "symbol": "USD/BSD",
+      "status": "updated",
+      "existing_rows": 7529,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "ILS/BGN": {
+      "symbol": "ILS/BGN",
+      "status": "updated",
+      "existing_rows": 2951,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "GBP/USD": {
+      "symbol": "GBP/USD",
+      "status": "updated",
+      "existing_rows": 5933,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "NOK/USD": {
+      "symbol": "NOK/USD",
+      "status": "updated",
+      "existing_rows": 9656,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "JPY/NZD": {
+      "symbol": "JPY/NZD",
+      "status": "updated",
+      "existing_rows": 5947,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "ILS/UAH": {
+      "symbol": "ILS/UAH",
+      "status": "updated",
+      "existing_rows": 2996,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "CAD/EUR": {
+      "symbol": "CAD/EUR",
+      "status": "updated",
+      "existing_rows": 10557,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/YER": {
+      "symbol": "USD/YER",
+      "status": "updated",
+      "existing_rows": 5682,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "CHF/NZD": {
+      "symbol": "CHF/NZD",
+      "status": "updated",
+      "existing_rows": 9662,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "ILS/UYU": {
+      "symbol": "ILS/UYU",
+      "status": "updated",
+      "existing_rows": 2968,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/SDG": {
+      "symbol": "USD/SDG",
+      "status": "updated",
+      "existing_rows": 4884,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/XPF": {
+      "symbol": "USD/XPF",
+      "status": "updated",
+      "existing_rows": 5926,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "BGN/RUB": {
+      "symbol": "BGN/RUB",
+      "status": "updated",
+      "existing_rows": 2685,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "TWD/USD": {
+      "symbol": "TWD/USD",
+      "status": "updated",
+      "existing_rows": 5539,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "UYU/USD": {
+      "symbol": "UYU/USD",
+      "status": "updated",
+      "existing_rows": 4878,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/MRU": {
+      "symbol": "USD/MRU",
+      "status": "updated",
+      "existing_rows": 2021,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/KMF": {
+      "symbol": "USD/KMF",
+      "status": "updated",
+      "existing_rows": 5461,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/UGX": {
+      "symbol": "USD/UGX",
+      "status": "updated",
+      "existing_rows": 8186,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "ILS/PEN": {
+      "symbol": "ILS/PEN",
+      "status": "updated",
+      "existing_rows": 2978,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "BOB/USD": {
+      "symbol": "BOB/USD",
+      "status": "updated",
+      "existing_rows": 4882,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/KHR": {
+      "symbol": "USD/KHR",
+      "status": "updated",
+      "existing_rows": 5882,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "AUD/JPY": {
+      "symbol": "AUD/JPY",
+      "status": "updated",
+      "existing_rows": 12135,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/GTQ": {
+      "symbol": "USD/GTQ",
+      "status": "updated",
+      "existing_rows": 9318,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/VUV": {
+      "symbol": "USD/VUV",
+      "status": "updated",
+      "existing_rows": 7780,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/TWD": {
+      "symbol": "USD/TWD",
+      "status": "updated",
+      "existing_rows": 11011,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/AUD": {
+      "symbol": "USD/AUD",
+      "status": "updated",
+      "existing_rows": 12059,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "PEN/USD": {
+      "symbol": "PEN/USD",
+      "status": "updated",
+      "existing_rows": 4894,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/CRC": {
+      "symbol": "USD/CRC",
+      "status": "updated",
+      "existing_rows": 8381,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/OMR": {
+      "symbol": "USD/OMR",
+      "status": "updated",
+      "existing_rows": 10341,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/UZS": {
+      "symbol": "USD/UZS",
+      "status": "updated",
+      "existing_rows": 5539,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "HUF/EUR": {
+      "symbol": "HUF/EUR",
+      "status": "updated",
+      "existing_rows": 4683,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/ALL": {
+      "symbol": "USD/ALL",
+      "status": "updated",
+      "existing_rows": 5901,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "KWD/SGD": {
+      "symbol": "KWD/SGD",
+      "status": "updated",
+      "existing_rows": 420,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/TZS": {
+      "symbol": "USD/TZS",
+      "status": "updated",
+      "existing_rows": 8174,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "ARS/USD": {
+      "symbol": "ARS/USD",
+      "status": "updated",
+      "existing_rows": 5749,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/PEN": {
+      "symbol": "USD/PEN",
+      "status": "updated",
+      "existing_rows": 6597,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "EUR/AMD": {
+      "symbol": "EUR/AMD",
+      "status": "updated",
+      "existing_rows": 5195,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "INR/BRL": {
+      "symbol": "INR/BRL",
+      "status": "updated",
+      "existing_rows": 432,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "ILS/COP": {
+      "symbol": "ILS/COP",
+      "status": "updated",
+      "existing_rows": 2984,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/BWP": {
+      "symbol": "USD/BWP",
+      "status": "updated",
+      "existing_rows": 5794,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "AUD/EUR": {
+      "symbol": "AUD/EUR",
+      "status": "updated",
+      "existing_rows": 10551,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/VES": {
+      "symbol": "USD/VES",
+      "status": "updated",
+      "existing_rows": 2219,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "JPY/TRY": {
+      "symbol": "JPY/TRY",
+      "status": "updated",
+      "existing_rows": 436,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "GBP/NZD": {
+      "symbol": "GBP/NZD",
+      "status": "updated",
+      "existing_rows": 12144,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "BMD/USD": {
+      "symbol": "BMD/USD",
+      "status": "updated",
+      "existing_rows": 5143,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "EUR/USD": {
+      "symbol": "EUR/USD",
+      "status": "updated",
+      "existing_rows": 5910,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/BAM": {
+      "symbol": "USD/BAM",
+      "status": "updated",
+      "existing_rows": 389,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/TMT": {
+      "symbol": "USD/TMT",
+      "status": "updated",
+      "existing_rows": 2947,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "SDR/RUB": {
+      "symbol": "SDR/RUB",
+      "status": "failed",
+      "existing_rows": 4753,
+      "new_rows": 0,
+      "error": "Ошибка загрузки данных",
+      "range": "2026-03-26 - 2026-06-07"
+    },
+    "AUD/CHF": {
+      "symbol": "AUD/CHF",
+      "status": "updated",
+      "existing_rows": 12150,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/NPR": {
+      "symbol": "USD/NPR",
+      "status": "updated",
+      "existing_rows": 4677,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/EUR": {
+      "symbol": "USD/EUR",
+      "status": "updated",
+      "existing_rows": 12075,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "CAD/CHF": {
+      "symbol": "CAD/CHF",
+      "status": "updated",
+      "existing_rows": 11645,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "CLP/USD": {
+      "symbol": "CLP/USD",
+      "status": "updated",
+      "existing_rows": 4898,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/DJF": {
+      "symbol": "USD/DJF",
+      "status": "updated",
+      "existing_rows": 9392,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/KES": {
+      "symbol": "USD/KES",
+      "status": "updated",
+      "existing_rows": 5938,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "SGD/KWD": {
+      "symbol": "SGD/KWD",
+      "status": "updated",
+      "existing_rows": 420,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "GBP/AUD": {
+      "symbol": "GBP/AUD",
+      "status": "updated",
+      "existing_rows": 12147,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/CLP": {
+      "symbol": "USD/CLP",
+      "status": "updated",
+      "existing_rows": 9340,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "CAD/NZD": {
+      "symbol": "CAD/NZD",
+      "status": "updated",
+      "existing_rows": 11637,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "JPY/GBP": {
+      "symbol": "JPY/GBP",
+      "status": "updated",
+      "existing_rows": 5907,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/SZL": {
+      "symbol": "USD/SZL",
+      "status": "updated",
+      "existing_rows": 5916,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "JPY/CHF": {
+      "symbol": "JPY/CHF",
+      "status": "updated",
+      "existing_rows": 5949,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/QAR": {
+      "symbol": "USD/QAR",
+      "status": "updated",
+      "existing_rows": 10373,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/RON": {
+      "symbol": "USD/RON",
+      "status": "updated",
+      "existing_rows": 8373,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/LSL": {
+      "symbol": "USD/LSL",
+      "status": "updated",
+      "existing_rows": 5858,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/ILS": {
+      "symbol": "USD/ILS",
+      "status": "updated",
+      "existing_rows": 5927,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/MMK": {
+      "symbol": "USD/MMK",
+      "status": "updated",
+      "existing_rows": 5919,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/LKR": {
+      "symbol": "USD/LKR",
+      "status": "updated",
+      "existing_rows": 11630,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/ZAR": {
+      "symbol": "USD/ZAR",
+      "status": "updated",
+      "existing_rows": 10083,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "IRR/USD": {
+      "symbol": "IRR/USD",
+      "status": "updated",
+      "existing_rows": 5076,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "CZK/PLN": {
+      "symbol": "CZK/PLN",
+      "status": "updated",
+      "existing_rows": 7539,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "ILS/USD": {
+      "symbol": "ILS/USD",
+      "status": "updated",
+      "existing_rows": 4883,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "UAH/KZT": {
+      "symbol": "UAH/KZT",
+      "status": "updated",
+      "existing_rows": 3732,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "NZD/EUR": {
+      "symbol": "NZD/EUR",
+      "status": "updated",
+      "existing_rows": 10548,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "AFN/USD": {
+      "symbol": "AFN/USD",
+      "status": "updated",
+      "existing_rows": 2406,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "EUR/AUD": {
+      "symbol": "EUR/AUD",
+      "status": "updated",
+      "existing_rows": 10551,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "NZD/CHF": {
+      "symbol": "NZD/CHF",
+      "status": "updated",
+      "existing_rows": 12147,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "EUR/GBP": {
+      "symbol": "EUR/GBP",
+      "status": "updated",
+      "existing_rows": 10558,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "TJS/RUB": {
+      "symbol": "TJS/RUB",
+      "status": "updated",
+      "existing_rows": 2679,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "JPY/USD": {
+      "symbol": "JPY/USD",
+      "status": "updated",
+      "existing_rows": 7741,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/BRL": {
+      "symbol": "USD/BRL",
+      "status": "updated",
+      "existing_rows": 9345,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/MWK": {
+      "symbol": "USD/MWK",
+      "status": "updated",
+      "existing_rows": 5929,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/SBD": {
+      "symbol": "USD/SBD",
+      "status": "updated",
+      "existing_rows": 179,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/AED": {
+      "symbol": "USD/AED",
+      "status": "updated",
+      "existing_rows": 9229,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/SCR": {
+      "symbol": "USD/SCR",
+      "status": "updated",
+      "existing_rows": 8558,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "AUD/CAD": {
+      "symbol": "AUD/CAD",
+      "status": "updated",
+      "existing_rows": 12134,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "IDR/EUR": {
+      "symbol": "IDR/EUR",
+      "status": "updated",
+      "existing_rows": 4755,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "KYD/USD": {
+      "symbol": "KYD/USD",
+      "status": "updated",
+      "existing_rows": 7434,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/PGK": {
+      "symbol": "USD/PGK",
+      "status": "updated",
+      "existing_rows": 5869,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "EUR/CHF": {
+      "symbol": "EUR/CHF",
+      "status": "updated",
+      "existing_rows": 12130,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/CDF": {
+      "symbol": "USD/CDF",
+      "status": "updated",
+      "existing_rows": 4770,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "BYN/USD": {
+      "symbol": "BYN/USD",
+      "status": "updated",
+      "existing_rows": 2772,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "JOD/GBP": {
+      "symbol": "JOD/GBP",
+      "status": "updated",
+      "existing_rows": 3184,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/GMD": {
+      "symbol": "USD/GMD",
+      "status": "updated",
+      "existing_rows": 8609,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "SHP/USD": {
+      "symbol": "SHP/USD",
+      "status": "updated",
+      "existing_rows": 2123,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "GBP/CAD": {
+      "symbol": "GBP/CAD",
+      "status": "updated",
+      "existing_rows": 12155,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "BRL/USD": {
+      "symbol": "BRL/USD",
+      "status": "updated",
+      "existing_rows": 5515,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/GNF": {
+      "symbol": "USD/GNF",
+      "status": "updated",
+      "existing_rows": 5898,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "NZD/JPY": {
+      "symbol": "NZD/JPY",
+      "status": "updated",
+      "existing_rows": 12147,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/DOP": {
+      "symbol": "USD/DOP",
+      "status": "updated",
+      "existing_rows": 8372,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/INR": {
+      "symbol": "USD/INR",
+      "status": "updated",
+      "existing_rows": 12116,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/AMD": {
+      "symbol": "USD/AMD",
+      "status": "updated",
+      "existing_rows": 6607,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/PYG": {
+      "symbol": "USD/PYG",
+      "status": "updated",
+      "existing_rows": 9357,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/NOK": {
+      "symbol": "USD/NOK",
+      "status": "updated",
+      "existing_rows": 12143,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "NZD/AUD": {
+      "symbol": "NZD/AUD",
+      "status": "updated",
+      "existing_rows": 11637,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/PHP": {
+      "symbol": "USD/PHP",
+      "status": "updated",
+      "existing_rows": 5922,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "NZD/GBP": {
+      "symbol": "NZD/GBP",
+      "status": "updated",
+      "existing_rows": 11634,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/CAD": {
+      "symbol": "USD/CAD",
+      "status": "updated",
+      "existing_rows": 11648,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/MKD": {
+      "symbol": "USD/MKD",
+      "status": "updated",
+      "existing_rows": 7123,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/SRD": {
+      "symbol": "USD/SRD",
+      "status": "updated",
+      "existing_rows": 179,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "KWD/USD": {
+      "symbol": "KWD/USD",
+      "status": "updated",
+      "existing_rows": 3170,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/KZT": {
+      "symbol": "USD/KZT",
+      "status": "updated",
+      "existing_rows": 8125,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "GHS/USD": {
+      "symbol": "GHS/USD",
+      "status": "updated",
+      "existing_rows": 4862,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/ISK": {
+      "symbol": "USD/ISK",
+      "status": "updated",
+      "existing_rows": 8951,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "PYG/USD": {
+      "symbol": "PYG/USD",
+      "status": "updated",
+      "existing_rows": 5917,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "CHF/JPY": {
+      "symbol": "CHF/JPY",
+      "status": "updated",
+      "existing_rows": 11646,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/HNL": {
+      "symbol": "USD/HNL",
+      "status": "updated",
+      "existing_rows": 5928,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/SAR": {
+      "symbol": "USD/SAR",
+      "status": "updated",
+      "existing_rows": 13731,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/FJD": {
+      "symbol": "USD/FJD",
+      "status": "updated",
+      "existing_rows": 7921,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "CAD/USD": {
+      "symbol": "CAD/USD",
+      "status": "updated",
+      "existing_rows": 9662,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "AUD/USD": {
+      "symbol": "AUD/USD",
+      "status": "updated",
+      "existing_rows": 12153,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/DKK": {
+      "symbol": "USD/DKK",
+      "status": "updated",
+      "existing_rows": 10069,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/BGN": {
+      "symbol": "USD/BGN",
+      "status": "updated",
+      "existing_rows": 8626,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "GBP/NPR": {
+      "symbol": "GBP/NPR",
+      "status": "updated",
+      "existing_rows": 2669,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/UYU": {
+      "symbol": "USD/UYU",
+      "status": "updated",
+      "existing_rows": 9054,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/EGP": {
+      "symbol": "USD/EGP",
+      "status": "updated",
+      "existing_rows": 10671,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/UAH": {
+      "symbol": "USD/UAH",
+      "status": "updated",
+      "existing_rows": 5955,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/NIO": {
+      "symbol": "USD/NIO",
+      "status": "updated",
+      "existing_rows": 5913,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "BHD/INR": {
+      "symbol": "BHD/INR",
+      "status": "updated",
+      "existing_rows": 8367,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "TRY/UAH": {
+      "symbol": "TRY/UAH",
+      "status": "updated",
+      "existing_rows": 2417,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "EUR/TJS": {
+      "symbol": "EUR/TJS",
+      "status": "updated",
+      "existing_rows": 5087,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/TTD": {
+      "symbol": "USD/TTD",
+      "status": "updated",
+      "existing_rows": 7927,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "EUR/GEL": {
+      "symbol": "EUR/GEL",
+      "status": "updated",
+      "existing_rows": 395,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "CNY/MNT": {
+      "symbol": "CNY/MNT",
+      "status": "updated",
+      "existing_rows": 2417,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "KRW/USD": {
+      "symbol": "KRW/USD",
+      "status": "updated",
+      "existing_rows": 5897,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/MYR": {
+      "symbol": "USD/MYR",
+      "status": "updated",
+      "existing_rows": 12051,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "CHF/CAD": {
+      "symbol": "CHF/CAD",
+      "status": "updated",
+      "existing_rows": 11645,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/CNY": {
+      "symbol": "USD/CNY",
+      "status": "updated",
+      "existing_rows": 11821,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/WST": {
+      "symbol": "USD/WST",
+      "status": "updated",
+      "existing_rows": 179,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/TJS": {
+      "symbol": "USD/TJS",
+      "status": "updated",
+      "existing_rows": 5045,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "FJD/USD": {
+      "symbol": "FJD/USD",
+      "status": "updated",
+      "existing_rows": 5295,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "MDL/RUB": {
+      "symbol": "MDL/RUB",
+      "status": "updated",
+      "existing_rows": 2667,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "IDR/GBP": {
+      "symbol": "IDR/GBP",
+      "status": "updated",
+      "existing_rows": 4791,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "CNY/CNH": {
+      "symbol": "CNY/CNH",
+      "status": "updated",
+      "existing_rows": 404,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/CUP": {
+      "symbol": "USD/CUP",
+      "status": "updated",
+      "existing_rows": 7231,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "THB/GBP": {
+      "symbol": "THB/GBP",
+      "status": "updated",
+      "existing_rows": 5927,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "SGD/USD": {
+      "symbol": "SGD/USD",
+      "status": "updated",
+      "existing_rows": 9653,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/NAD": {
+      "symbol": "USD/NAD",
+      "status": "updated",
+      "existing_rows": 5938,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/SGD": {
+      "symbol": "USD/SGD",
+      "status": "updated",
+      "existing_rows": 10086,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/HKD": {
+      "symbol": "USD/HKD",
+      "status": "updated",
+      "existing_rows": 12127,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/BDT": {
+      "symbol": "USD/BDT",
+      "status": "updated",
+      "existing_rows": 5937,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/RWF": {
+      "symbol": "USD/RWF",
+      "status": "updated",
+      "existing_rows": 5909,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/CNH": {
+      "symbol": "USD/CNH",
+      "status": "updated",
+      "existing_rows": 3456,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/AFN": {
+      "symbol": "USD/AFN",
+      "status": "updated",
+      "existing_rows": 8095,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/GHS": {
+      "symbol": "USD/GHS",
+      "status": "updated",
+      "existing_rows": 9011,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "MXN/USD": {
+      "symbol": "MXN/USD",
+      "status": "updated",
+      "existing_rows": 9498,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/MOP": {
+      "symbol": "USD/MOP",
+      "status": "updated",
+      "existing_rows": 7749,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "JOD/USD": {
+      "symbol": "JOD/USD",
+      "status": "updated",
+      "existing_rows": 4882,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "IDR/USD": {
+      "symbol": "IDR/USD",
+      "status": "updated",
+      "existing_rows": 6349,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "ZAR/USD": {
+      "symbol": "ZAR/USD",
+      "status": "updated",
+      "existing_rows": 9654,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "NZD/CAD": {
+      "symbol": "NZD/CAD",
+      "status": "updated",
+      "existing_rows": 12132,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "SYP/USD": {
+      "symbol": "SYP/USD",
+      "status": "updated",
+      "existing_rows": 2306,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/TND": {
+      "symbol": "USD/TND",
+      "status": "updated",
+      "existing_rows": 5913,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/BOB": {
+      "symbol": "USD/BOB",
+      "status": "updated",
+      "existing_rows": 8057,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "GBP/EUR": {
+      "symbol": "GBP/EUR",
+      "status": "updated",
+      "existing_rows": 10558,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/BBD": {
+      "symbol": "USD/BBD",
+      "status": "updated",
+      "existing_rows": 8061,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     },
     "CAD/JPY": {
       "symbol": "CAD/JPY",
       "status": "updated",
-      "existing_rows": 11646,
+      "existing_rows": 11647,
       "new_rows": 1,
-      "last_date": "2026-05-30",
-      "range": "2026-05-30 - 2026-06-06"
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "PHP/USD": {
+      "symbol": "PHP/USD",
+      "status": "updated",
+      "existing_rows": 5892,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "PLN/USD": {
+      "symbol": "PLN/USD",
+      "status": "updated",
+      "existing_rows": 8703,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/PLN": {
+      "symbol": "USD/PLN",
+      "status": "updated",
+      "existing_rows": 8703,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/IQD": {
+      "symbol": "USD/IQD",
+      "status": "updated",
+      "existing_rows": 5887,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "KWD/EUR": {
+      "symbol": "KWD/EUR",
+      "status": "updated",
+      "existing_rows": 3172,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "CNY/USD": {
+      "symbol": "CNY/USD",
+      "status": "updated",
+      "existing_rows": 6331,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "EUR/CAD": {
+      "symbol": "EUR/CAD",
+      "status": "updated",
+      "existing_rows": 5914,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/BZD": {
+      "symbol": "USD/BZD",
+      "status": "updated",
+      "existing_rows": 8051,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "EUR/JPY": {
+      "symbol": "EUR/JPY",
+      "status": "updated",
+      "existing_rows": 12163,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/MUR": {
+      "symbol": "USD/MUR",
+      "status": "updated",
+      "existing_rows": 8201,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/ETB": {
+      "symbol": "USD/ETB",
+      "status": "updated",
+      "existing_rows": 5849,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/HTG": {
+      "symbol": "USD/HTG",
+      "status": "updated",
+      "existing_rows": 8335,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/IDR": {
+      "symbol": "USD/IDR",
+      "status": "updated",
+      "existing_rows": 9805,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "TRY/USD": {
+      "symbol": "TRY/USD",
+      "status": "updated",
+      "existing_rows": 9482,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/COP": {
+      "symbol": "USD/COP",
+      "status": "updated",
+      "existing_rows": 9572,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "RUB/USD": {
+      "symbol": "RUB/USD",
+      "status": "updated",
+      "existing_rows": 8044,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/ZMW": {
+      "symbol": "USD/ZMW",
+      "status": "updated",
+      "existing_rows": 3975,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/DZD": {
+      "symbol": "USD/DZD",
+      "status": "updated",
+      "existing_rows": 9032,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "CHF/USD": {
+      "symbol": "CHF/USD",
+      "status": "updated",
+      "existing_rows": 9649,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/SYP": {
+      "symbol": "USD/SYP",
+      "status": "updated",
+      "existing_rows": 7551,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/JOD": {
+      "symbol": "USD/JOD",
+      "status": "updated",
+      "existing_rows": 10020,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "KWD/MYR": {
+      "symbol": "KWD/MYR",
+      "status": "updated",
+      "existing_rows": 2974,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "MYR/USD": {
+      "symbol": "MYR/USD",
+      "status": "updated",
+      "existing_rows": 5735,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/RSD": {
+      "symbol": "USD/RSD",
+      "status": "updated",
+      "existing_rows": 5058,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/MZN": {
+      "symbol": "USD/MZN",
+      "status": "updated",
+      "existing_rows": 8953,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "EUR/AOA": {
+      "symbol": "EUR/AOA",
+      "status": "updated",
+      "existing_rows": 395,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/LRD": {
+      "symbol": "USD/LRD",
+      "status": "updated",
+      "existing_rows": 4208,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/GEL": {
+      "symbol": "USD/GEL",
+      "status": "updated",
+      "existing_rows": 414,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/PKR": {
+      "symbol": "USD/PKR",
+      "status": "updated",
+      "existing_rows": 5906,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/SVC": {
+      "symbol": "USD/SVC",
+      "status": "updated",
+      "existing_rows": 8385,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "NZD/USD": {
+      "symbol": "NZD/USD",
+      "status": "updated",
+      "existing_rows": 10087,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/GBP": {
+      "symbol": "USD/GBP",
+      "status": "updated",
+      "existing_rows": 12062,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "EUR/MZN": {
+      "symbol": "EUR/MZN",
+      "status": "updated",
+      "existing_rows": 420,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "GIP/USD": {
+      "symbol": "GIP/USD",
+      "status": "updated",
+      "existing_rows": 179,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "CHF/GBP": {
+      "symbol": "CHF/GBP",
+      "status": "updated",
+      "existing_rows": 11643,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/JMD": {
+      "symbol": "USD/JMD",
+      "status": "updated",
+      "existing_rows": 12120,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/LYD": {
+      "symbol": "USD/LYD",
+      "status": "updated",
+      "existing_rows": 9054,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "FKP/USD": {
+      "symbol": "FKP/USD",
+      "status": "updated",
+      "existing_rows": 179,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/MDL": {
+      "symbol": "USD/MDL",
+      "status": "updated",
+      "existing_rows": 8064,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "EUR/NZD": {
+      "symbol": "EUR/NZD",
+      "status": "updated",
+      "existing_rows": 10548,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/PAB": {
+      "symbol": "USD/PAB",
+      "status": "updated",
+      "existing_rows": 3434,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/IRR": {
+      "symbol": "USD/IRR",
+      "status": "updated",
+      "existing_rows": 7853,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/HUF": {
+      "symbol": "USD/HUF",
+      "status": "updated",
+      "existing_rows": 8707,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/BHD": {
+      "symbol": "USD/BHD",
+      "status": "updated",
+      "existing_rows": 10380,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/GYD": {
+      "symbol": "USD/GYD",
+      "status": "updated",
+      "existing_rows": 3672,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "JPY/AUD": {
+      "symbol": "JPY/AUD",
+      "status": "updated",
+      "existing_rows": 5943,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "CZK/USD": {
+      "symbol": "CZK/USD",
+      "status": "updated",
+      "existing_rows": 1693,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "CAD/COP": {
+      "symbol": "CAD/COP",
+      "status": "updated",
+      "existing_rows": 9572,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/NGN": {
+      "symbol": "USD/NGN",
+      "status": "updated",
+      "existing_rows": 5921,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "EUR/AZN": {
+      "symbol": "EUR/AZN",
+      "status": "updated",
+      "existing_rows": 6600,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/MGA": {
+      "symbol": "USD/MGA",
+      "status": "updated",
+      "existing_rows": 5731,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/XAF": {
+      "symbol": "USD/XAF",
+      "status": "updated",
+      "existing_rows": 5917,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "CAD/GBP": {
+      "symbol": "CAD/GBP",
+      "status": "updated",
+      "existing_rows": 11645,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/KWD": {
+      "symbol": "USD/KWD",
+      "status": "updated",
+      "existing_rows": 12222,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/KRW": {
+      "symbol": "USD/KRW",
+      "status": "updated",
+      "existing_rows": 5927,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "CAD/AUD": {
+      "symbol": "CAD/AUD",
+      "status": "updated",
+      "existing_rows": 11639,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/AOA": {
+      "symbol": "USD/AOA",
+      "status": "updated",
+      "existing_rows": 462,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/MAD": {
+      "symbol": "USD/MAD",
+      "status": "updated",
+      "existing_rows": 9247,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/NZD": {
+      "symbol": "USD/NZD",
+      "status": "updated",
+      "existing_rows": 12111,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/JPY": {
+      "symbol": "USD/JPY",
+      "status": "updated",
+      "existing_rows": 10066,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "AUD/NZD": {
+      "symbol": "AUD/NZD",
+      "status": "updated",
+      "existing_rows": 11637,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "CHF/AUD": {
+      "symbol": "CHF/AUD",
+      "status": "updated",
+      "existing_rows": 9664,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/TOP": {
+      "symbol": "USD/TOP",
+      "status": "updated",
+      "existing_rows": 179,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "AUD/GBP": {
+      "symbol": "AUD/GBP",
+      "status": "updated",
+      "existing_rows": 11637,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "COP/USD": {
+      "symbol": "COP/USD",
+      "status": "updated",
+      "existing_rows": 5908,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/LAK": {
+      "symbol": "USD/LAK",
+      "status": "updated",
+      "existing_rows": 5891,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "HUF/USD": {
+      "symbol": "HUF/USD",
+      "status": "updated",
+      "existing_rows": 5928,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "NIO/USD": {
+      "symbol": "NIO/USD",
+      "status": "updated",
+      "existing_rows": 5918,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/MXN": {
+      "symbol": "USD/MXN",
+      "status": "updated",
+      "existing_rows": 9633,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "SAR/USD": {
+      "symbol": "SAR/USD",
+      "status": "updated",
+      "existing_rows": 7520,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/LBP": {
+      "symbol": "USD/LBP",
+      "status": "updated",
+      "existing_rows": 5895,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "DKK/USD": {
+      "symbol": "DKK/USD",
+      "status": "updated",
+      "existing_rows": 9648,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/SOS": {
+      "symbol": "USD/SOS",
+      "status": "updated",
+      "existing_rows": 5802,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/CVE": {
+      "symbol": "USD/CVE",
+      "status": "updated",
+      "existing_rows": 5883,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/CHF": {
+      "symbol": "USD/CHF",
+      "status": "updated",
+      "existing_rows": 10072,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/AWG": {
+      "symbol": "USD/AWG",
+      "status": "updated",
+      "existing_rows": 4584,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "AZN/RUB": {
+      "symbol": "AZN/RUB",
+      "status": "updated",
+      "existing_rows": 3087,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "IDR/CHF": {
+      "symbol": "IDR/CHF",
+      "status": "updated",
+      "existing_rows": 4781,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/RUB": {
+      "symbol": "USD/RUB",
+      "status": "updated",
+      "existing_rows": 5738,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "JOD/EUR": {
+      "symbol": "JOD/EUR",
+      "status": "updated",
+      "existing_rows": 3173,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/SEK": {
+      "symbol": "USD/SEK",
+      "status": "updated",
+      "existing_rows": 10071,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/XCD": {
+      "symbol": "USD/XCD",
+      "status": "updated",
+      "existing_rows": 7547,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/BTN": {
+      "symbol": "USD/BTN",
+      "status": "updated",
+      "existing_rows": 180,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "RUB/AMD": {
+      "symbol": "RUB/AMD",
+      "status": "updated",
+      "existing_rows": 4735,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "RUB/VND": {
+      "symbol": "RUB/VND",
+      "status": "updated",
+      "existing_rows": 3735,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/SLE": {
+      "symbol": "USD/SLE",
+      "status": "updated",
+      "existing_rows": 179,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "USD/CZK": {
+      "symbol": "USD/CZK",
+      "status": "updated",
+      "existing_rows": 8741,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "PLN/UAH": {
+      "symbol": "PLN/UAH",
+      "status": "updated",
+      "existing_rows": 2810,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "XDR/USD": {
+      "symbol": "XDR/USD",
+      "status": "updated",
+      "existing_rows": 179,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "AED/USD": {
+      "symbol": "AED/USD",
+      "status": "updated",
+      "existing_rows": 4908,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
+    },
+    "RUB/BRL": {
+      "symbol": "RUB/BRL",
+      "status": "updated",
+      "existing_rows": 3224,
+      "new_rows": 1,
+      "last_date": "2026-05-31",
+      "range": "2026-05-31 - 2026-06-07"
     }
   }
 }
